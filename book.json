@@ -1,0 +1,10 @@
+{
+    "gitbook": ">=2.0.0",
+    "title": "AP Computer Science in Java",
+    "description": "Learn the fundamentals of computer science and programming and prepare for the AP exam",
+    "plugins": [
+        "exercises",
+        "quizzes"
+    ],
+    "pluginsConfig": {}
+}
