@@ -30,19 +30,19 @@ exercise:
 
 Define an integer `x` equal to 10.
 
-```java
+```js
 int x =
 ```
 
-```java
+```js
 int x = 10;
 ```
 
-```java
+```js
 assert(x == 10);
 ```
 
-```java
+```js
 
 // This is context code available everywhere
 // The user will be able to call magicFunc in his code
