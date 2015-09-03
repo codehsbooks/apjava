@@ -11,11 +11,11 @@ Test quiz!
 | Do you like to code? | (x)  | ( ) |
 > coding, hooray!
 
-What languages does CodeHS teach?
-- [x] JS
-- [ ] COBOL
-- [x] SQL
-- [ ] FORTRAN
+Java with Karel?
+- [x] Yes
+- [x] Very Yes
+- [x] Such Yes
+- [ ] No
 
 
 > Yeah, hooray.
@@ -28,24 +28,26 @@ exercise:
 
 ---
 
-Define a variable `x` equal to 10.
+Define an integer `x` equal to 10.
 
-```js
-var x =
+```java
+int x =
 ```
 
-```js
-var x = 10;
+```java
+int x = 10;
 ```
 
-```js
+```java
 assert(x == 10);
 ```
 
-```js
+```java
+
 // This is context code available everywhere
 // The user will be able to call magicFunc in his code
-function magicFunc() {
+function magicFunc()
+{
     return 3;
 }
 ```
