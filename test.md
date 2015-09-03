@@ -45,7 +45,7 @@ assert(x == 10);
 ```js
 
 // This is context code available everywhere
-// The user will be able to call magicFunc in his code
+// The user will be able to call magicFunc in the code
 function magicFunc()
 {
     return 3;
