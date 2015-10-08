@@ -1,1 +1,1 @@
-# Using a CLass as a Client
+# Using a Class as a Client
