@@ -40,7 +40,7 @@ Notice that Karel's commands look a little different from plain English words. T
 
 * You need to write the command exactly as it appears in the list above.  
 
-* You need to match the exact capitalization. For example, `turnleft();` should be `turnLeft();` with an uppercase L.
+* You need to match the exact capitalization. For example, `turnleft();` is incorrect. It should be written as `turnLeft();` with an uppercase `L`.
 
 * Make sure to end every command with a `();`
 
@@ -63,11 +63,3 @@ putBall();
 move();
 move();
 ```
-
-
-
-
-
-
-
-
