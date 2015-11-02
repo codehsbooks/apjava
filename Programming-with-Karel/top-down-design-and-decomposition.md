@@ -21,7 +21,7 @@ When you write your program, you first want to consider the big picture - what i
 ## Making a Movie
 As an analogy, think about making a movie.  The biggest problem that needs to be solved is that we want a feature length movie that will have the biggest names in Hollywood with awesome special effects and will entertain everyone who sees it.  You can see that this is a very large problem.  So let's break it down, as shown in the picture below.
 
-![Movie Subproblems](../static/karel/movie_diagram.png "Karel is Stuck")
+![Movie Subproblems](../static/karel/movie_diagram.png "Making a Movie")
 
 The big problem is shown at the top.  Then it is broken down into 4 subproblems.  We need to entertain everyone, so we need a good script.  We want the biggest names in Hollywood, so we need to solve the cast and crew problem.  Then we want awesome sound effects, so we need to edit the movie.  We actually need to have footage, so we need to film the movie.
 
@@ -45,43 +45,51 @@ What are the next smaller goals?
 3. After the last hurdle, Karel needs to go to the end of the street
 
 
-What tasks should be accomplished in functions?
+What tasks should be accomplished in methods?
 1. Karel should go to the next hurdle
 2. Karel should jump over the hurdle
 3. Karel should stop at the wall at the end of the street
 
-See how each function is reusable?  We will need to use the first function 3 times and the second function 2 times.
+See how each method is reusable?  We will need to use the first method 3 times and the second method 2 times.
 
 Finally, we can outline the code we need to write.
 
 ```
-function start(){
-    runToHurdle();
-    jumpHurdle();
-	runToHurdle();
-	jumpHurdle();
-	runToFinish();
+public class HurdleJumpingKarel extends Karel
+{
+
+	public void run()
+	{
+		runToHurdle();
+    		jumpHurdle();
+		runToHurdle();
+		jumpHurdle();
+		runToFinish();
+	}
+	
+	private void jumpHurdle()
+	{
+		// Make Karel jump over a hurdle
+	}
+
+	private void runToHurdle()
+	{
+  		// make Karel go to the next hurdle
+	}
+
+	private void runToFinish()
+	{
+    		// make Karel go to the end of the street
+	}
 }
 
-function jumpHurdle(){
-  // Make Karel jump over a hurdle
-
-}
-
-function runToHurdle(){
-  // make Karel go to the next hurdle
-}
-
-function runToFinish(){
-    // make Karel go to the end of the street
-}
 ```
 
-For the sake of space, not all of the functions have been fully implemented.  However, notice how the use of functions makes the program's goal obvious.  You can read through the start function like it is telling a story.  Each function accomplishes a specific, small part of the problem.
+For the sake of space, not all of the methods have been fully implemented.  However, notice how the use of methods makes the program's goal obvious.  You can read through the run method like it is telling a story.  Each helper method accomplishes a specific, small part of the problem.
 
 
 ##Summary
-Let's do a brief recap of all of the information we've learned.  Programs are made up of functions, which are made up of commands.  We need to build our program using functions to make our code readable and to break down the problem.  The program's problem, or goal, should be broken down into single sentence goals.  Each of these small goals gets its own function.
+Programs are made up of methods, which are made up of commands.  We need to build our program using methods to make our code readable and to break down the problem into smaller, more manageable tasks.  The program's problem, or goal, should be broken down into single sentence goals.  Each of these small goals gets its own method.
 
 
 
