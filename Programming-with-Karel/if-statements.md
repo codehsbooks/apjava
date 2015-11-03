@@ -1,6 +1,6 @@
 # If Statements and Conditionals
 
-Now that Karel can understand and learn new commands, it is time to write programs that have Karel adapt to different situations. Like functions, these new additions to Karel's language will allow us to write code that can be used in many different situations.
+Now that Karel can understand and learn new commands, it is time to write programs that have Karel adapt to different situations. Like methods, these new additions to Karel's language will allow us to write code that can be used in many different situations.
 
 ## Asking Questions about Karel's World
 
@@ -14,7 +14,7 @@ Given these changing conditions, there are many questions that would be useful f
 
 ## Introducing Conditions
 
-These types of questions can be asked using **conditions**. Conditions are very simple functions that look at the state of Karel's world and return a true or false answer. Here is a list of the conditions that Karel can check:
+These types of questions can be asked using **conditions**. Conditions are very simple methods that look at the state of Karel's world and return a true or false answer. Here is a list of the conditions that Karel can check:
 
 |    .|  .  |
 | -------------- | ---------------- |
