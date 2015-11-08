@@ -29,7 +29,10 @@ From the name of our method, ```buildPyramid()```, it is very clear what the met
 * The name should describe *what* this function does.
 * The name should start with an action verb, and sound like a command. 
 
+---
 
+<p> Quiz information </p>
+- [ ] fdsf
 
 
 ## Defining a method vs. calling a method
