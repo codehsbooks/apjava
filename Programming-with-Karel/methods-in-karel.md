@@ -31,8 +31,14 @@ From the name of our method, ```buildPyramid()```, it is very clear what the met
 
 ---
 
-<p> Quiz information </p>
-- [ ] fdsf
+Quiz information
+
+- [ ] fmdfdlksfmdf
+- 
+
+
+
+---
 
 
 ## Defining a method vs. calling a method
