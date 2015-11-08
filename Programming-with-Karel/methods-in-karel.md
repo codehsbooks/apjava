@@ -23,7 +23,13 @@ Here is another example:
         /* code goes here */
     }
 
-From the name of our method, ```buildPyramid()```, it is very clear what the method does. Be sure to name your methods descriptively. 
+From the name of our method, ```buildPyramid()```, it is very clear what the method does. There are a few rules for how you name your methods: 
+* Method name should start with a letter, and cannot have any spaces.
+* Every new word in the name starts with an uppercase letter.
+* The name should describe *what* this function does.
+* The name should start with an action verb, and sound like a command. 
+
+
 
 ## Defining a method vs. calling a method
 
