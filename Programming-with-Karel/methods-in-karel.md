@@ -31,15 +31,27 @@ From the name of our method, ```buildPyramid()```, it is very clear what the met
 
 ---
 
-Quiz information
+<p>Which of the following are good method names?</p>
+- [x] buildTower()
+- [ ] tower()
+- [ ] build tower()
+- [ ] 5moves()
+- [x] spinTwice()
+- [ ] blahblah()
 
-- [ ] fmdfdlksfmdf
-- 
-
-
+> Good! The method name describes what it does, is in Camel Case, and does not have any illegal characters.
+>
+> Bad! The method name is not an action/command.
+>
+> Bad! The method name should not have spaces between words. 
+>
+> Bad! The method name should not start with a number. 
+>
+> Good! The method name describes what it does, is in Camel Case, and does not have any illegal characters.
+>
+> Bad! The method name is not descriptive.
 
 ---
-
 
 ## Defining a method vs. calling a method
 
@@ -56,4 +68,6 @@ When we want to create and use new methods, there are two parts: Defining a meth
 
 **Calling ```turnRight()```**: Karel, turn right.
 
+## Example: Defining ```turnAround()```
 
+Let's teach Karel how to turn around. When we define ```turnAround()```, it will look like: 
