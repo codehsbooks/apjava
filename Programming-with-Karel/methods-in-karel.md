@@ -25,4 +25,19 @@ Here is another example:
 
 From the name of our method, ```buildPyramid()```, it is very clear what the method does. Be sure to name your methods descriptively. 
 
-## De
+## Defining a method vs. calling a method
+
+When we want to create and use new methods, there are two parts: Defining a method and calling our method after we have defined it. 
+
+**Defining a method:** Teaching Karel the new word. In other words, writing out the instructions for this new action.
+
+**Calling a method for Karel:** Actually getting Karel to do the command. Actually causing the action to happen.
+
+
+### Example
+
+**Defining ```turnRight()```**: Karel, when you want to turn right, the instructions are to turn left three times.
+
+**Calling ```turnRight()```**: Karel, turn right.
+
+
