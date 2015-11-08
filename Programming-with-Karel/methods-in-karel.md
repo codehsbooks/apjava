@@ -31,6 +31,7 @@ From the name of our method, ```buildPyramid()```, it is very clear what the met
 
 
 
+
 ## Defining a method vs. calling a method
 
 When we want to create and use new methods, there are two parts: Defining a method and calling our method after we have defined it. 
