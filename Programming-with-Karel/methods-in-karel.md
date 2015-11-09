@@ -82,5 +82,52 @@ Let's teach Karel how to turn around. Here is our class in a code editor:
         
     }
 
-If we try and call ```turnAround()``` before we 
+If we try and call ```turnAround()``` before we define the method, there will be an error: ```Uncaught ReferenceError: turnAround is not defined```.
 
+    public class TurnAroundKarel extends Karel{
+        
+        public void run()
+        {
+            move();
+            turnAround(); // Won't work
+        }
+        
+    }
+    
+Instead, we need to define ```turnAround()``` in another method. 
+
+    public class TurnAroundKarel extends Karel{
+        
+        public void run()
+        {
+            move();
+        }
+        
+        //defining our method
+        private void turnAround()
+        {
+            turnLeft();
+            turnLeft();
+        }
+        
+    }
+    
+Now that we have defined our method, we can call it in the ```run()``` method.
+
+    public class TurnAroundKarel extends Karel{
+        
+        public void run()
+        {
+            move();
+            turnAround(); //calling our method after it has been defined
+        }
+        
+        private void turnAround()
+        {
+            turnLeft();
+            turnLeft();
+        }
+        
+    }
+    
+And that's it! You should now be able to define and call methods properly to make your code cleaner and easier to understand. 
