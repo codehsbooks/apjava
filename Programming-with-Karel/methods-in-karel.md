@@ -55,12 +55,13 @@ From the name of our method, ```buildPyramid()```, it is very clear what the met
 
 ## Defining a method vs. calling a method
 
-When we want to create and use new methods, there are two parts: Defining a method and calling our method after we have defined it. 
+When we want to create and use new methods, there are two parts: Defining a method and calling our method after we have defined it.
 
-**Defining a method:** Teaching Karel the new word. In other words, writing out the instructions for this new action.
+**Defining a method:** Teaching Karel the new command. In other words, writing out the instructions for this new action.
 
 **Calling a method for Karel:** Actually getting Karel to do the command. Actually causing the action to happen.
 
+For Karel to know how to do the command, we will first need to teach Karel the command. 
 
 ### Example
 
@@ -81,5 +82,5 @@ Let's teach Karel how to turn around. Here is our class in a code editor:
         
     }
 
-If we try and call turnAround()
+If we try and call ```turnAround()``` before we 
 
