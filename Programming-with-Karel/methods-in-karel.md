@@ -40,15 +40,15 @@ From the name of our method, ```buildPyramid()```, it is very clear what the met
 - [ ] blahblah()
 
 > Good! The method name describes what it does, is in Camel Case, and does not have any illegal characters.
->
+
 > Bad! The method name is not an action/command.
->
+
 > Bad! The method name should not have spaces between words. 
->
+
 > Bad! The method name should not start with a number. 
->
+
 > Good! The method name describes what it does, is in Camel Case, and does not have any illegal characters.
->
+
 > Bad! The method name is not descriptive.
 
 ---
