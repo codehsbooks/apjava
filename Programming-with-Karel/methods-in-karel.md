@@ -70,4 +70,16 @@ When we want to create and use new methods, there are two parts: Defining a meth
 
 ## Example: Defining ```turnAround()```
 
-Let's teach Karel how to turn around. When we define ```turnAround()```, it will look like: 
+Let's teach Karel how to turn around. Here is our class in a code editor: 
+
+    public class TurnAroundKarel extends Karel{
+        
+        public void run()
+        {
+            move();
+        }
+        
+    }
+
+If we try and call turnAround()
+
