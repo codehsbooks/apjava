@@ -10,4 +10,6 @@ Comments are a way for you to leave notes about what your code is doing in plain
 
 ### Why comment?
 
-Even though code is run by computers, it is read by other people. Comments help others understand your code. 
+Even though code is run by computers, it is read by other people. Comments help others understand your code. If you read your code ten years from now, would you be able to understand what it does? 
+
+### 
