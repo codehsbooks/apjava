@@ -12,4 +12,7 @@ Comments are a way for you to leave notes about what your code is doing in plain
 
 Even though code is run by computers, it is read by other people. Comments help others understand your code. If you read your code ten years from now, would you be able to understand what it does? 
 
-### 
+### Multi-line comments
+
+Use multi-line comments to leave a comment so a reader understands what your program or method is doing. 
+
