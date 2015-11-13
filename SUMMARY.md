@@ -15,7 +15,6 @@
     * [If Statements](Programming-with-Karel/if-statements.md)
     * [If/Else Statements](Programming-with-Karel/if-else-statements.md)
     * [Control Structures Example](Programming-with-Karel/control-structures-example.md)
-    * [More Karel Examples and Testing](Programming-with-Karel/more-karel-examples-and-testing.md)
     * [How To Indent Your Code](Programming-with-Karel/how-to-indent-your-code.md)
 * [Basic Java](Basic-Java/README.md)
     * [Printing in Java](Basic-Java/printing-in-java.md)  
