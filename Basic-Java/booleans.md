@@ -1,7 +1,7 @@
 # Booleans
 How do we write code that tells us whether a user is logged in to our program? Booleans are the solution to these questions. 
 
-### What are booleans?
+### What are Booleans?
 A boolean refers to a value that is true or false. Those are the only values of a boolean expression, and these are useful if we want to check if something is true or false.
 
 ### Meet George Boole
