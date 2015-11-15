@@ -23,7 +23,7 @@ In this situation Karel will only move when a ball is in Karel's current positio
 
 ## Examples of While Loops
 
-Consider the situation where we want Karel to move to a position without a ball. Our 
+Consider the situation where we want Karel to move to a position without a ball. Our starting world looks like:
 
 
 
