@@ -14,6 +14,8 @@ while(condition)
 }
 ```
 
+A while loop will ***only*** repeat the target statement until the condition is no longer true. 
+
 
 
 ## Examples of While Loops
