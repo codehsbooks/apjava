@@ -11,3 +11,6 @@ Consider at the following situations:
  - When the vehicle is turned off, it will no longer use gas.
  
 
+Another example of while loops can be seen in Karel's world:
+ 
+
