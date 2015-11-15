@@ -14,6 +14,7 @@ while(condition)
 }
 ```
 
+## Examples of While Loops
 Consider at the following situation:
  - While a vehicle's engine is on, it will use gas. 
  - When the vehicle's engine is off, it will no longer use gas.
@@ -29,7 +30,7 @@ Here is another example of a while loop, as seen in Karel's world:
 
 In this situation Karel will only move when a ball is in Karel's current position. As soon as Karel lands in a position that does not contain a ball the loop will exit, and Karel will stop moving.
 
-## Examples of While Loops
+## While Loop Practice Exercises
 
 Consider the situation where we want Karel to move to a position without a ball. Our starting world looks like:
 
