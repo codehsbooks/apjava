@@ -14,6 +14,8 @@ while(condition)
 }
 ```
 
+
+
 ## Examples of While Loops
 Consider at the following situation:
  - While a vehicle's engine is on, it will use gas. 
