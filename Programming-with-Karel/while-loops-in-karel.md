@@ -4,7 +4,7 @@ Lets say Karel is standing on one side of the world, and we want to move to the 
 
 ## Basics of While Loops
 
-While loops, unlike for loops, execute the target statement as long as the condition is true.
+While loops, unlike for loops, execute the target statement as long as the condition is true. 
 
 Consider at the following situation:
  - While a vehicle's engine is on, it will use gas. 
@@ -22,4 +22,7 @@ Here is another example of a while loop, as seen in Karel's world:
 In this situation Karel will only move when a ball is in Karel's current position. As soon as Karel lands in a position that does not contain a ball the loop will exit, and Karel will stop moving.
 
 ## Examples of While Loops
+
+Considering the situation where we want Karel to move whenever Karel lands in position that contains a ball, we will need to utilize a while loop. 
+
 
