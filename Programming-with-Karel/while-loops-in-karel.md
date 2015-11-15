@@ -23,6 +23,7 @@ In this situation Karel will only move when a ball is in Karel's current positio
 
 ## Examples of While Loops
 
-Considering the situation where we want Karel to move whenever Karel lands in position that contains a ball, we will need to utilize a while loop. 
+Consider the situation where we want Karel to move to a position without a ball. Our 
+
 
 
