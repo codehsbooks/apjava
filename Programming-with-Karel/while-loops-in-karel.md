@@ -69,6 +69,6 @@ Consider the situation where we want Karel to move to a position without a ball.
 
 > This is answer is incorrect -.. An if statement will only execute the step one time making Karel move once.
 
-> This answer is incorrect -.. A for loop is a possible solution for this exercise, but the parameters for the for loop are incorrect. 
+> This answer is incorrect -.. A for loop is a possible solution for this exercise, but the parameters of this for loop are incorrect. 
 
 ---
