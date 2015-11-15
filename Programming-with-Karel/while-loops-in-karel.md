@@ -54,7 +54,19 @@ while(ballsPresent())
 
 ![](KarelWhileStartingArrows.png)
 
+
+---
+
 <p>Which while loop is correct for this situation? </p>
+<p> Question </p>
+ - [ ] This is answer One
+ - [ ] This is answer Two
+ - [x] This is answer three
+ 
+> The answer is incorrect.
 
+> Answer two is incorrect
 
+> Correct!
 
+---
