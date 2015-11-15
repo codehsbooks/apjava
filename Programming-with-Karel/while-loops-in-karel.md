@@ -49,9 +49,13 @@ while(ballsPresent())
 
 ## While Loop Practice Exercises
 
-Consider the situation where we want Karel to move to a position without a ball. 
+
+<p>Consider the situation where we want Karel to move to a position without a ball. </p>
 
 ![](KarelWhileStartingArrows.png)
 
-Which while loop is correct for this situation?
+<p>Which while loop is correct for this situation? </p>
+
+- [ ] Answer
+
 
