@@ -50,7 +50,7 @@ while(ballsPresent())
 ## While Loop Practice Exercises
 
 
-<p>Consider the situation where we want Karel to move to a position without a ball. </p>
+Consider the situation where we want Karel to move to a position without a ball. 
 
 ![](KarelWhileStartingArrows.png)
 
@@ -58,15 +58,17 @@ while(ballsPresent())
 ---
 
 <p> Which while loop is correct for this situation? </p>
-<p> Question </p>
- - [ ] This is answer One
- - [ ] This is answer Two
- - [x] This is answer three
+- [x] ``` while(ballsPresent()) { move(); }```
+- [ ] ``` while(ballPresent) { move(); } ```
+- [ ] ``` if(ballsPresent()) { move(); } ```
+- [ ] ``` for(ballsPresent()) { move(); } ```
  
-> The answer is incorrect.
+> This is the correct answer!
 
-> Answer two is incorrect
+> This answer is incorrect -.. Make sure the conditional contains parenthesis ```()```
 
-> Correct!
+> This is answer is incorrect -.. An if statement will only execute the step one time making Karel move once.
+
+> This answer is incorrect -.. A for loop is a possible solution for this exercise, but the parameters for the for loop are incorrect. 
 
 ---
