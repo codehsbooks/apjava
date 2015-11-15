@@ -16,8 +16,7 @@ while(condition)
 
 A while loop will ***only*** repeat the target statement until the condition is no longer true. Consider the following diagram:
 
-
-
+![](WhileLoopDiagram.png)
 
 ## Examples of While Loops
 
