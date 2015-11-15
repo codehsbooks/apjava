@@ -25,14 +25,25 @@ Consider at the following situation:
  
 
 In this case the vehicle's engine represents the condition of our while loop. The use of gas represents our target statement that will only execute when the condition is met. Your code for this situation should look like:
-
+``` 
+while(engineOn)
+{
+    useGas();
+}
+```
 Here is another example of a while loop, as seen in Karel's world:
 
  - While a ball is present in Karel's current position, move one space.
  - When Karel lands on a position that does not contain a ball, don't move.
 
 
-In this situation Karel will only move when a ball is in Karel's current position. As soon as Karel lands in a position that does not contain a ball the loop will exit, and Karel will stop moving.
+In this situation Karel will only move when a ball is in Karel's current position. As soon as Karel lands in a position that does not contain a ball the loop will exit, and Karel will stop moving. The code for this situation should look like:
+```
+while(ballsPresent())
+{
+    move();
+}
+```
 
 ## While Loop Practice Exercises
 
