@@ -56,7 +56,6 @@ while(ballsPresent())
 
 
 ---
-
 <p>Which while loop is correct for this situation? </p>
 <p> Question </p>
  - [ ] This is answer One
