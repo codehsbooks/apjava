@@ -6,12 +6,20 @@ Lets say Karel is standing on one side of the world, and we want to move to the 
 
 While loops, unlike for loops, execute the target statement as long as the condition is true. 
 
+A while loop is usually formatted like:
+```
+while(condition)
+{
+    // code to iterate
+}
+```
+
 Consider at the following situation:
  - While a vehicle's engine is on, it will use gas. 
  - When the vehicle's engine is off, it will no longer use gas.
  
 
-In this case the vehicle's engine represents the condition of our while loop. The use of gas represents our target statement that will only execute when the condition is met.  
+In this case the vehicle's engine represents the condition of our while loop. The use of gas represents our target statement that will only execute when the condition is met. Your code for this situation should look like:
 
 Here is another example of a while loop, as seen in Karel's world:
 
