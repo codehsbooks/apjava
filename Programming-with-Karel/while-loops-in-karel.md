@@ -72,6 +72,8 @@ while(ballsPresent())
 
 ---
 
+
+
 **2)** Consider a world where Karel starts facing a random direction.
 
 ![Karel_While_Exercise2](../static/karel/karel_while_exercise_2.png "Karel While Loops Exercise 2")
