@@ -4,13 +4,13 @@ Lets say Karel is standing on one side of the world, and we want to move to the 
 
 ## Basics of While Loops
 
-While loops, unlike for loops, execute the target statement as long as the condition is true. 
+While loops, unlike for loops, execute the target statement as long as the given condition is true. 
 
 A while loop is usually formatted like:
 ```
 while(condition)
 {
-    // code to iterate
+    // code to execute
 }
 ```
 
