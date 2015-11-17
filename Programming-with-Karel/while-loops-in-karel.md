@@ -69,4 +69,5 @@ while(ballsPresent())
 > Super close! An if statement will only execute the step once, and Karel will only move once. 
 
 > Almost! A for loop wont work for this exercise, because we don't know how large the world is. The parameters of the for loop are also incorrect.
+
 ---
