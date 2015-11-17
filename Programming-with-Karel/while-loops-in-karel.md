@@ -52,7 +52,7 @@ while(ballsPresent())
 
 Consider the situation where we want Karel to move to a position without a ball. 
 
-![Karel_While](../static/karel_while_exercise1.png "Karel While")
+![Karel_While](../static/karel_while_loop_exercise_1.png "Karel While")
 
 
 ---
