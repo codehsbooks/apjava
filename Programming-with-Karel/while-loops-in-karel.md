@@ -72,4 +72,24 @@ while(ballsPresent())
 
 ---
 
-**2)** 
+**2)** Consider a world where Karel starts facing a random direction.
+
+![Karel_While_Exercise2](../static/karel/karel_while_exercise_2.png "Karel While Loops Exercise 2")
+
+---
+
+<p> What piece of code will make Karel turn until Karel is facing North? </p>
+- [ ] ``` while(facingNorth()) { turnLeft(); }```
+- [x] ``` while(notFacingNorth()) { turnLeft(); } ```
+- [ ] ``` if(notFacingNorth()) { faceNorth(); } ```
+- [ ] ``` for(var i = 0; i < 3; i++) { turnLeft(); } ```
+ 
+> Very close! Double check the condition in the loop. Remember, we want to turn when Karel is not facing North.
+
+> This is the correct answer! Nice job!
+
+> Super close! An if statement will only execute the step once, and Karel will only turn once. 
+
+> Almost! A for loop wont work for this exercise, because we don't know which direction Karel is starting in.
+
+---
