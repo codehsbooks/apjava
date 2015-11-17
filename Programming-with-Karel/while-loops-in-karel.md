@@ -16,7 +16,7 @@ while(condition)
 
 A while loop will ***only*** repeat the target statement until the condition is no longer true. Consider the following diagram:
 
-![](WhileLoopDiagram.png)
+![While_Loop_Diagram](../static/karel/while_loop_diagram.png.png "While Loop Diagram")
 
 ## Examples of While Loops
 
@@ -52,7 +52,7 @@ while(ballsPresent())
 
 Consider the situation where we want Karel to move to a position without a ball. 
 
-![Karel_While_Exercise1](../static/karel/karel_while_loops_exercise_1.png)
+![Karel_While_Exercise1](../static/karel/karel_while_loops_exercise_1.png "Karel While Loops Exercise 1")
 
 ---
 
