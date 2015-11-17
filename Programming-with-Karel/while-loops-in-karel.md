@@ -50,7 +50,7 @@ while(ballsPresent())
 ## While Loop Practice Exercises
 
 
-Consider the situation where we want Karel to move to a position without a ball. 
+**1)** Consider the situation where we want Karel to move to a position without a ball. 
 
 ![Karel_While_Exercise1](../static/karel/karel_while_loops_exercise_1.png "Karel While Loops Exercise 1")
 
@@ -64,10 +64,9 @@ Consider the situation where we want Karel to move to a position without a ball.
  
 > This is the correct answer!
 
-> Incorrect -.. Make sure the conditional contains parenthesis ```()```
+> Very close! Double check the conditional -.. It should have parenthesis ```()``` at the end.
 
-> Incorrect -.. An if statement will only execute the step one time making Karel move once.
+> Super close! An if statement will only execute the step once, and Karel will only move once. 
 
-> Incorrect -.. A for loop is a possible solution for this exercise, but the parameters of this for loop are incorrect. 
-
+> Almost! A for loop wont work for this exercise, because we don't know how large the world is. The parameters of the for loop are also incorrect.
 ---
