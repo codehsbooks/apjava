@@ -1,6 +1,6 @@
 # Java Programs and the Run Method
 
-So far, we have been writing our Java programs as a series of commands. However, a truly proper Java program requires a few additional parts. From now on, we will need to write our commands inside of a **Karel class** and a **run method**.
+So far, we have been writing our Java programs as a series of commands. However, a truly proper Java program requires a few additional parts. From now on, we will be writing our commands inside of a **Karel class** and a **run method**.
 
 ## Writing a Java Class
 
