@@ -1,6 +1,6 @@
 # Java Programs and the Run Method
 
-So far, we have been writing our Java programs as a series of commands. However, a truly proper Java program requires a few additional parts. From now on, we will write our commands inside of a **class** and **method**.
+So far, we have been writing our Java programs as a series of commands. However, a truly proper Java program requires a few additional parts. From now on, we will need to write our commands inside of a **Karel class** and a **run method**.
 
 ## Writing a Java Class
 
@@ -21,7 +21,7 @@ Let's break this down a little further by looking at each of these parts individ
 * `extends SomeOtherClass` -  Extending *SomeOtherClass* allows us to use properties and methods from that class. This is known as *inheritance*. You will learn more about *inheritance* as well as the *extends* keyword in future chapters.
 * **`{` `}`** - Classes start with an opening curly bracket (`{`) and end with a closing curly bracket (`}`). The rest of our program goes in between these two brackets.
 
-Let's look at an example:
+Let's look at an example using the **Karel class**:
 
 ```
 public class SquareKarel extends Karel
