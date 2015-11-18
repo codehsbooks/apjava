@@ -5,7 +5,7 @@
    * [Introduction to Programming with Karel](Programming-with-Karel/introduction-to-prog-karel.md)
    * [More Basic Karel](Programming-with-Karel/more-basic-karel.md)
    * [Java Programs and the Run Method](Programming-with-Karel/java-programs-and-the-run-method.md)
-   * [Karel Can't Turn Right](Programming-with-Karel/karel-cant-turn-right.md.md)
+   * [Karel Can't Turn Right](Programming-with-Karel/karel-cant-turn-right.md)
    * [Methods in Karel](Programming-with-Karel/methods-in-karel.md)
    * [Top Down Design and Decomposition in Karel](Programming-with-Karel/top-down-design-and-decomposition.md)
    * [Commenting Your Code](Programming-with-Karel/commenting-your-code.md)
