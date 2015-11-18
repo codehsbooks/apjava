@@ -30,7 +30,7 @@ public class SquareKarel extends Karel
 }
 ```
 
-In this example, **SquareKarel** is the name of our class. Our **SquareKarel** class **extends** the **Karel** class. This allows us to write a Karel program. You will learn more about this later, but for right now, you will only extend the **Karel** class. 
+In this example, **SquareKarel** is the name of our class. Our **SquareKarel** class **extends** the **Karel** class. This allows us to write a Karel program. You will learn more about this later, but for right now, you will only need to extend the **Karel** class. 
 
 
 
@@ -48,7 +48,7 @@ public class SquareKarel extends Karel
 }
 ```
 
-The run method spans a total of four lines. It is indented inside of the opening and closing curly brackets (`{}`) of the class body. The run method has its own set of curly brackets (`{}`). We write our Karel commands within the run method's curly brackets.
+The run method is indented inside of the opening and closing curly brackets (`{}`) of the class body. The run method has its own set of curly brackets (`{}`). We write our Karel commands within the run method's curly brackets.
 
 Let's look at an example:
 
