@@ -14,7 +14,7 @@ while(condition)
 }
 ```
 
-A while loop will ***only*** repeat the target statement until the condition is no longer true. Consider the following diagram:
+It is important to know that a while loop will ***only*** repeat the target statement until the condition is no longer true. Consider the following diagram:
 
 ![While_Loop_Diagram](../static/karel/while_loop_diagram.png.png "While Loop Diagram")
 
