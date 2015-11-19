@@ -28,7 +28,7 @@ Consider at the following situation:
 
 In this case the vehicle's engine represents the condition of our while loop. The use of gas represents our target statement that will only execute when the condition is met. Your code for this situation should look like:
 ``` 
-while(engineOn)
+while(engineOn())
 {
     useGas();
 }
