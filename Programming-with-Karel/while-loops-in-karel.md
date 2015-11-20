@@ -57,6 +57,7 @@ while(ballsPresent())
 ---
 
 <p> Which while loop is correct for this situation? </p>
+
 - [x] ``` while(ballsPresent()) { move(); }```
 - [ ] ``` while(ballPresent) { move(); } ```
 - [ ] ``` if(ballsPresent()) { move(); } ```
