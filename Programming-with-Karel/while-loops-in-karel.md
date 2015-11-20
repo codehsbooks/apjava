@@ -52,9 +52,7 @@ while(ballsPresent())
 
 **1)** Consider the situation where we want Karel to move to a position without a ball. 
 
-==== Working on making this a .gif [wezley] ====
-
-![Karel_While_Exercise1](../static/karel/karel_while_loops_exercise_1.png "Karel While Loops Exercise 1")
+![Karel_While_Exercise1](../static/karel/Karel_While_loops_ex1.gif "Karel While Loops Exercise 1")
 
 ---
 
