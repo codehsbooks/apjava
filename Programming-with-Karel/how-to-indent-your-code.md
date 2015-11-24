@@ -12,4 +12,21 @@ public void run()
     move();
     turnLeft();
     move();
-}```
+}
+```
+
+You apply the same rule for indentations when using nested control structures. Consider this example:
+
+```
+// Notice how the brackets are on new lines and the code within is indented.
+public void run() 
+{
+    while(ballsPresent())
+    {
+        if(frontIsClear())
+        {
+            move();
+        }
+    }
+}
+```
