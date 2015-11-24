@@ -1,6 +1,6 @@
 # Control Structures Example
 
-Control structures allow us to shape the flow of our programs and write code that can adapt to the conditions of the world. Control structures can be combined to produce even more responsive and powerful programs.
+Control structures allow us to shape the flow of our programs and write code that can adapt to the conditions of the world. Control structures can be combined to produce responsive and powerful programs.
 
 ## Control Structures
 
