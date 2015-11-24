@@ -51,7 +51,7 @@ public void run()
 - [ ] Yes
 - [x] No
  
-> Very close! Double check the condition in the loop. Remember, we want to turn when Karel is not facing North.
+> Very close! Remember, we want to indent everything within the brackets. Everything within your class's brackets is missing an indentation.
 
 > This is the correct answer! Nice job!
 
