@@ -73,3 +73,10 @@ public classCleanRoad extends SuperKarel
     }
 }
 ```
+<p> Does this piece of code have proper indentations? </p>
+- [x] Yes
+- [ ] No
+ 
+> Very close! Remember, we want to indent everything within the brackets. Everything within your class's brackets is missing an indentation.
+
+> This is the correct answer! Nice job!
