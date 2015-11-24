@@ -3,4 +3,6 @@ Indentations are an important part of your program's structure. Without proper i
 
 ## Indenting Your Code
 
-Suppose you have a piece of code that lacks indentations
+Suppose you have a piece of code that lacks indentations in this case our code will look like:
+
+
