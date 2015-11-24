@@ -34,3 +34,25 @@ public void run()
 
 ## Practice Questions
 
+**1)** Consider the following piece of code:
+```
+public class WalkRoadKarel extends SuperKarel
+{
+public void run()
+{
+    while(frontIsClear())
+    {
+        move();
+    }
+}
+}
+```
+<p> Does this piece of code have proper indentations? </p>
+- [ ] ``` while(facingNorth()) { turnLeft(); }```
+- [x] ``` while(notFacingNorth()) { turnLeft(); } ```
+ 
+> Very close! Double check the condition in the loop. Remember, we want to turn when Karel is not facing North.
+
+> This is the correct answer! Nice job!
+
+
