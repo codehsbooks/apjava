@@ -60,6 +60,16 @@ public void run()
 ```
 public classCleanRoad extends SuperKarel
 {
-
+    public void run()
+    {
+        while(frontIsClear())
+        {
+            if(ballsPresent())
+            {
+                takeBall();
+            }
+            move();
+        }
+    }
 }
 ```
