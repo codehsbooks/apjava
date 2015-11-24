@@ -48,8 +48,8 @@ public void run()
 }
 ```
 <p> Does this piece of code have proper indentations? </p>
-- [ ] ``` while(facingNorth()) { turnLeft(); }```
-- [x] ``` while(notFacingNorth()) { turnLeft(); } ```
+- [ ] Yes
+- [x] No
  
 > Very close! Double check the condition in the loop. Remember, we want to turn when Karel is not facing North.
 
