@@ -77,6 +77,6 @@ public classCleanRoad extends SuperKarel
 - [x] Yes
 - [ ] No
  
-> Very close! Remember, we want to indent everything within the brackets. Everything within your class's brackets is missing an indentation.
-
 > This is the correct answer! Nice job!
+
+> Almost! This piece of does have proper indentations, because each bracket has it's own line and every piece of code within the brackets has an indentation.
