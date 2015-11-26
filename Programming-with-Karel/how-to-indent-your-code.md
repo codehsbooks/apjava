@@ -1,6 +1,7 @@
 # How to Indent Your Code
 
-Indentations are an important part of the structure of your code that make it easier to read and understand.
+Indentations are responsible for making your code easy to read and understand. Indenting your code is always best practice as it helps to show the overall structure of your code.
+
 
 ## Indenting Your Code
 
