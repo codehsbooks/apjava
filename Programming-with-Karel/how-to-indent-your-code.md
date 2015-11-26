@@ -2,6 +2,8 @@
 
 Indentations are responsible for making your code easy to read and understand. Indenting your code is always best practice as it helps to show the overall structure of your code.
 
+![](../static/karel/karel_indentations_ex.gif)
+
 ## Indenting Your Code
 
 A general rule for Java is to ***always*** place brackets on their own lines, and indent the code within the brackets. Here is an example for you to reference:
