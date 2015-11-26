@@ -2,7 +2,7 @@
 
 Indentations are responsible for making your code easy to read and understand. Indenting your code is always best practice as it helps to show the overall structure of your code.
 
-![](../static/karel/karel_indentations_ex.gif)
+!["Karel indentation gif"](../static/karel/karel_indentations_ex.gif "Karel indentation gif")
 
 ## Indenting Your Code
 
