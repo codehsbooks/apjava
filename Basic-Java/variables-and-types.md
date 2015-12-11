@@ -56,6 +56,12 @@ In Java we declare a character using ``char`` before the variable name. Here are
 
 **Booleans** are variables that hold a true or a false value.
 
+In Java we declare a boolean using ``boolean`` before the variable name. Here are a couple of examples:
+
+``boolean passedCalculus = true;``
+
+``boolean hasDog = false;``
+
 ### String Type
 ## 
 
