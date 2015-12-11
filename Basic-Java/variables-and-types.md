@@ -30,6 +30,14 @@ In Java we declare an integer using ``int`` before the variable name. Here are a
 
 `` int costOfShoes = 80; ``
 
+**doubles** are similar to integers, but can have decimals. (Ex. -54.34, 90.21, 0.1223)
+
+In Java we declare a double using ``double`` before the variable name. Here are a couple of examples:
+
+``double costOfApple = 1.24;``
+
+``double milesRan = 5.64;``
+
 
 
 
