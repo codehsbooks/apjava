@@ -8,10 +8,13 @@ In Java we must specify what value we want our variables to hold. This is known 
 
 Here are some of the primitive types found in Java:
 
-
-| int | integer | ``int`` |
+| Type | Description | Assignment |
 | -- | -- | -- |
+| int | integer | ``int`` |
 | double | decimal numbers | ``double`` |
 | char | characters | ``char``  |
-| boolean | true/false value | ``Boolean`` |
+| boolean | true/false value | ``boolean`` |
+
+
+
 
