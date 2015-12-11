@@ -65,6 +65,12 @@ In Java we declare a boolean using ``boolean`` before the variable name. Here ar
 ### String Type
 ## 
 
+**Strings** are variables that hold text. Strings are **not** a primitive type, so you must declare them using a capital **S**. Here are a couple of examples:
+
+``String fishName = "Dog";``
+
+``String myUniversity = "Arizona State University";``
+
 ## Naming Variables
 
 
