@@ -16,5 +16,33 @@ Here are some of the primitive types found in Java:
 | boolean | true/false value | ``boolean`` |
 
 
+### Numeric Type
+## 
+
+Primitive Numeric Types in Java include both integer and double types. 
+
+**Integers** are whole numbers, or counting numbers. 
+(Ex. -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5)
+
+In Java we declare an integer using ``int`` before the variable name. Here are a couple of examples: 
+
+`` int num = 10; ``
+
+`` int costOfShoes = 80; ``
+
+
+
+
+### Char Type
+## 
+
+### Boolean Type
+## 
+
+### String Type
+## 
+
+## Naming Variables
+
 
 
