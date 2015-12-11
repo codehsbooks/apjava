@@ -50,6 +50,7 @@ In Java we declare a character using ``char`` before the variable name. Here are
 ``char currentGrade = 'A';``
 
 ``char favoriteLetter = 'W';``
+
 ### Boolean Type
 ## 
 
