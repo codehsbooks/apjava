@@ -14,7 +14,7 @@ public void addTen(int x)
 }
 ```
 
-![addTen function](../static/methods/returns_addTen.png "addTen method")
+![addTen method](../static/methods/returns_addTen.png "addTen method")
 
 This method takes in a parameter, `x`, and adds 10 to it. Lastly, the program prints the value to the console.
 
@@ -54,7 +54,7 @@ Notice that `tenAdded` is not given a normal value. Instead, we are setting it e
 that the `tenAdded` variable will hold the result of whatever the function call `addTen(7)` returns. We know that
 `addTen(7)` will return 17, so `tenAdded` will be `17`.
 
-![addTen function](../static/methods/returns_tenAdded.png "addTen method")
+![addTen method](../static/methods/returns_tenAdded.png "addTen method")
 
 ## Multiple Parameters With a Return Value
 Return values work in many situations. For example, we can rewrite the `add` method from the previous section
