@@ -31,7 +31,7 @@ any number `x`, it will give us `x + 10` in return. The action that the `addTen`
 -- it adds 10 -- the only thing that changes is the number we give to the method. The number that we pass
 to the method is called a **parameter**.
 
-![addTen method](../static/method/parameters_addTen_with_params.png "addTen method")
+![addTen method](../static/methods/parameters_addTen_with_params.png "addTen method")
 
 ## Defining a method with Parameters
 Let's write the `addTen` method in code:
