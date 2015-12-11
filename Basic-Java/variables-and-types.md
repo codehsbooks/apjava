@@ -4,4 +4,4 @@ Variables are objects that hold a value which can be constant or changing. Varia
 
 ## Types and Variables
 
-In Java we must specify what value we want our variables to hold. 
+In Java we must specify what value we want our variables to hold. This is known as giving a variable a type. 
