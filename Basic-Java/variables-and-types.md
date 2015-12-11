@@ -26,7 +26,7 @@ Primitive Numeric Types in Java include both integer and double types.
 
 In Java we declare an integer using ``int`` before the variable name. Here are a couple of examples: 
 
-`` int num = 10; ``
+`` int itemsInStore = 10; ``
 
 `` int costOfShoes = 80; ``
 
