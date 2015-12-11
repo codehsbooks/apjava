@@ -23,7 +23,7 @@ Recall that methods are like blocks of code that do a particular thing. We can w
 "hello" when called, or a method that draws a circle. But what if we want to create a method to add ten
 to a number? We can sketch out the method like so:
 
-![addTen method](../static/javaScript/parameters_addTen.png "addTen method")
+![addTen method](../static/methods/parameters_addTen.png "addTen method")
 
 We would expect an `addTen` method to add 10 to any number it is given. If we give it 3, the method will give us 13.
 Were we to give it 32, it would give us 42. This pattern can be generalized even more: if we give the method
@@ -31,7 +31,7 @@ any number `x`, it will give us `x + 10` in return. The action that the `addTen`
 -- it adds 10 -- the only thing that changes is the number we give to the method. The number that we pass
 to the method is called a **parameter**.
 
-![addTen method](../static/javaScript/parameters_addTen_with_params.png "addTen method")
+![addTen method](../static/method/parameters_addTen_with_params.png "addTen method")
 
 ## Defining a method with Parameters
 Let's write the `addTen` method in code:
@@ -160,4 +160,4 @@ Karel
 -------------
 ```
 
-In conclusion, order matters when you are using parameters.
+As you can see, order matters when you are using parameters.
