@@ -30,7 +30,7 @@ In Java we declare an integer using ``int`` before the variable name. Here are a
 
 `` int costOfShoes = 80; ``
 
-**doubles** are similar to integers, but can have decimals. (Ex. -54.34, 90.21, 0.1223)
+**doubles** are like integers, but can have decimals. (Ex. -54.34, 90.21, 0.1223)
 
 In Java we declare a double using ``double`` before the variable name. Here are a couple of examples:
 
@@ -40,10 +40,16 @@ In Java we declare a double using ``double`` before the variable name. Here are 
 
 
 
-
 ### Char Type
 ## 
 
+**Characters** represent a single character.
+
+In Java we declare a character using ``char`` before the variable name. Here are a couple of examples:
+
+``char currentGrade = 'A';``
+
+``char favoriteLetter = 'W';``
 ### Boolean Type
 ## 
 
