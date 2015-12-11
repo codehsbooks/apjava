@@ -77,7 +77,7 @@ Naming variables in Java is one of the most important tasks you will have. Varia
 
 Variable Naming Conventions:
 
-- Variable names must start with a letter, $ symbol, or _ symbol.
+- Variable names must start with a letter, ``$`` symbol, or ``_`` symbol.
 
 - Variable names are case sensitive so ``myVariable`` is different than ``MyVariable``
 
