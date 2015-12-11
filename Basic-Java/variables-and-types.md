@@ -54,6 +54,8 @@ In Java we declare a character using ``char`` before the variable name. Here are
 ### Boolean Type
 ## 
 
+**Booleans** are variables that hold a true or a false value.
+
 ### String Type
 ## 
 
