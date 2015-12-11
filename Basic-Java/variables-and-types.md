@@ -73,5 +73,24 @@ In Java we declare a boolean using ``boolean`` before the variable name. Here ar
 
 ## Naming Variables
 
+Naming variables in Java is one of the most important tasks you will have. Variable names need to be as descriptive as possible without being too long.
+
+Variable Naming Conventions:
+
+- Variable names must start with a letter, $ symbol, or _ symbol.
+
+- Variable names are case sensitive so ``myVariable`` is different than ``MyVariable``
+
+- Variable names, after the first character, can contain letters, numbers, or other characters.
+
+
+Here are some examples of good variable names:
+
+| Good: | Bad: |
+| -- | -- |
+| ``string myName;`` | ``string 8names;`` <- Starts with a number. |
+| ``int numItems;`` | ``int Num Items;`` <- Has a space, and is not lowerCamelCase. |
+| ``char myGrade;`` | ``char b;`` <- Isn't descriptive enough. |
+|     |     |
 
 
