@@ -89,8 +89,8 @@ Here are some examples of good variable names:
 | Good: | Bad: |
 | -- | -- |
 | ``string myName;`` | ``string 8names;`` <- Starts with a number. |
-| ``int numItems;`` | ``int Num Items;`` <- Has a space, and is not lowerCamelCase. |
+| ``int numItems;`` | ``int num Items;`` <- Has a space between words. |
 | ``char myGrade;`` | ``char b;`` <- Isn't descriptive enough. |
-|     |     |
+| ``double totalCost;`` | ``double TotalCost;`` <- Doesn't utilize lowerCamelCase    |
 
 
