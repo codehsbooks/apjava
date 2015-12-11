@@ -6,11 +6,11 @@ Variables are objects that hold a value which can be constant or changing. Varia
 
 In Java we must specify what value we want our variables to hold. This is known as giving a variable a type. 
 
-Here are some common types found in Java:
+Here are some of the primitive types found in Java:
 
-| 0:0 | 1:0 | 2:0 |
+| int | integer | 2:0 |
 | -- | -- | -- |
-| 0:2 | 1:2 | 2:2 |
-| 0:3 | 1:3 | 2:3 |
-| 0:4 | 1:4 | 2:4 |
+| double | decimal numbers | ``double`` |
+| char | characters |  |
+| boolean | true/false value | 2:4 |
 
