@@ -18,7 +18,7 @@ Here are some of the primitive types found in Java:
 
 ## 
 #### Numeric Type:
-## 
+---
 
 Primitive Numeric Types in Java include both integer and double types. 
 
@@ -46,7 +46,7 @@ double milesRan = 5.64;
 
 ## 
 #### Char Type:
-## 
+---
 
 **Characters** represent a single character.
 
@@ -60,7 +60,7 @@ char favoriteLetter = 'W';
 
 ## 
 #### Boolean Type:
-## 
+---
 
 **Booleans** are variables that hold a true or a false value.
 
@@ -74,7 +74,7 @@ boolean hasDog = false;
 
 ## 
 #### String Type:
-## 
+---
 
 **Strings** are variables that hold text. Strings are **not** a primitive type, so you must declare them using ``String`` with a capital **S**. Here are a couple of examples:
 
