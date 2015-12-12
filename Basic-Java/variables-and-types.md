@@ -86,6 +86,7 @@ String myUniversity = "Arizona State University";
 
 ## Naming Variables
 
+
 Variable names should be as descriptive as possible without being too long.
 
 Variable Naming Conventions:
