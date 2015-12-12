@@ -1,6 +1,6 @@
 # Variables and Types
 
-Variables are objects that allow us to store information. Variables have a name, type, and value. Variables allow us to store information such as numbers, words, or Boolean expressions. 
+Variables allow us to store information such as numbers, words, or Boolean expressions. 
 
 ## Primitive Types
 
