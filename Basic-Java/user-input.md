@@ -21,7 +21,7 @@ Here is an example of how we would ask the user for their favorite color, and th
 
 ```java
 String favColor = readLine("Hello, what is your favorite color? ");
-System.out.println("Your favorite color is: " + favColor);
+System.out.println(favColor);
 ```
 
 ## Input of Integers
