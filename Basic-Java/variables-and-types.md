@@ -66,9 +66,11 @@ char favoriteLetter = 'W';
 
 In Java we declare a boolean using ``boolean`` before the variable name. Here are a couple of examples:
 
-``boolean passedCalculus = true;``
+```java
+boolean passedCalculus = true;
 
-``boolean hasDog = false;``
+boolean hasDog = false;
+```
 
 ## 
 #### String Type:
@@ -76,9 +78,11 @@ In Java we declare a boolean using ``boolean`` before the variable name. Here ar
 
 **Strings** are variables that hold text. Strings are **not** a primitive type, so you must declare them using ``String`` with a capital **S**. Here are a couple of examples:
 
-``String fishName = "Dog";``
+```java
+String fishName = "Dog";
 
-``String myUniversity = "Arizona State University";``
+String myUniversity = "Arizona State University";
+```
 
 ## Naming Variables
 
