@@ -29,9 +29,7 @@ In Java we declare an integer using ``int`` before the variable name. Here are a
 
 ```java
 int itemsInStore = 10; 
-```
 
-```java 
 int costOfShoes = 80;
 ```
 
@@ -39,9 +37,11 @@ int costOfShoes = 80;
 
 In Java we declare a double using ``double`` before the variable name. Here are a couple of examples:
 
-``double costOfApple = 1.24;``
+```java
+double costOfApple = 1.24;
 
-``double milesRan = 5.64;``
+double milesRan = 5.64;
+```
 
 
 ## 
@@ -52,9 +52,11 @@ In Java we declare a double using ``double`` before the variable name. Here are 
 
 In Java we declare a character using ``char`` before the variable name. Here are a couple of examples:
 
-``char currentGrade = 'A';``
+```java
+char currentGrade = 'A';
 
-``char favoriteLetter = 'W';``
+char favoriteLetter = 'W';
+```
 
 ## 
 #### Boolean Type:
