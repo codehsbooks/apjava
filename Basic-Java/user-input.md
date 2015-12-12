@@ -33,7 +33,7 @@ To read the user's input in an integer format, we would use ``readInt("String pr
 Here is an example of how we would ask the user for their age, and then print it:
 
 ```java
-// Ask for the input and store it in 'age'.
+// Ask for the input, and store it in 'age'.
 int age = readInt("Hello, how old are you? ");
 // Then print it.
 System.out.println(age);
@@ -46,7 +46,10 @@ To read the user's input as a double, we use ``readDouble("String prompt")``. Th
 Here is an example of how we would ask the user for how many miles they have traveled, and then print the input:
 
 ```java
-
+// Ask for the input, and store it in 'miles'.
+double miles = readDouble("How many miles have you traveled? ");
+// Then print it.
+System.out.println(miles);
 ```
 
 ## Input of Booleans
