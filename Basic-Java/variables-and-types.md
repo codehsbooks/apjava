@@ -4,7 +4,7 @@ Variables allow us to store information such as numbers, words, or true/false ex
 
 ## Primitive Types
 
-In Java we must specify what value we want our variables to hold. This is known as giving a variable a type. 
+In Java we must specify what ***type*** of information we want our variables to hold. This is known as giving a variable a type. 
 
 Here are some of the primitive types found in Java:
 
