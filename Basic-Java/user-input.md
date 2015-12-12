@@ -13,10 +13,10 @@ In Java there are four ways we can obtain user input:
 | ``readDouble("String prompt")`` | Allows to ask the user to input a **double**. |
 | ``readBoolean("String input")`` | Allows us to ask the user to input a **boolean**. |
 
-## Input Using Strings
+## Input of Strings
 
-## Input Using Integers
+## Input of Integers
 
-## Input Using Doubles
+## Input of Doubles
 
-## Input Using Booleans
+## Input of Booleans
