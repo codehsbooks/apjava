@@ -8,7 +8,7 @@ In Java there are four ways we can obtain user input:
 
 | Input | Description |
 | -- | -- |
-| ``String readLine("String Prompt")`` | Allows us to ask the user to input a **string**. |
-| ``int readInt("String prompt")`` | Allows us to ask the user to input an **integer**. |
-| ``double readDouble("String prompt")`` | Allows to ask the user to input a **double**. |
-| ``boolean readBoolean("String input")`` | Allows us to ask the user to input a **boolean**. |
+| ``readLine("String Prompt")`` | Allows us to ask the user to input a **string**. |
+| ``readInt("String prompt")`` | Allows us to ask the user to input an **integer**. |
+| ``readDouble("String prompt")`` | Allows to ask the user to input a **double**. |
+| ``readBoolean("String input")`` | Allows us to ask the user to input a **boolean**. |
