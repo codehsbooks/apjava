@@ -1,6 +1,6 @@
 # Variables and Types
 
-Variables allow us to store information like numbers, words, or true/false expressions. Variables can be thought of as a box that has information stored inside. In Java, variables are composed of three things: a name, type, and value. 
+Variables allow us to store information such as numbers, words, or true/false expressions. Variables can be thought of as a box that has information stored inside. In Java, variables are composed of three things: a name, type, and value. 
 
 ## Primitive Types
 
