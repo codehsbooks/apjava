@@ -1,6 +1,6 @@
 # Variables and Types
 
-Variables allow us to store information such as numbers, words, or Boolean expressions. 
+Variables allow us to store information such as numbers, words, or Boolean expressions. Variables are composed of three things: a name, type, and value. 
 
 ## Primitive Types
 
