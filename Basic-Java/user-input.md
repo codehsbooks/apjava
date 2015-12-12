@@ -65,6 +65,7 @@ boolean isAstronaut = readBoolean("Hello, are you an astronaut? ");
 System.out.println(isAstronaut);
 ```
 
+## Getting User Input Applications
 
 
 
