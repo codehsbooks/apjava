@@ -28,7 +28,7 @@ System.out.println(favColor);
 
 ## Input of Integers
 
-To read the user's input in an integer format, we would use ``readInt("String prompt")``. This will allow us to ask the user for their age, favorite number, or any other whole number. 
+To read the user's input in an integer format, we would use ``readInt("String prompt")``. This allows us to ask the user for their age, favorite number, or any other whole number. 
 
 Here is an example of how we would ask the user for their age, and then print it:
 
@@ -53,3 +53,24 @@ System.out.println(miles);
 ```
 
 ## Input of Booleans
+
+To read the user's input as a boolean, we use ``readBoolean("String prompt")``. This allows us to ask the user any true or false questions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
