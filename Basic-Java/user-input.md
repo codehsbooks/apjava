@@ -20,7 +20,9 @@ To read the user's input in a string value we use ``readLine("String prompt")``.
 Here is an example of how we would ask the user for their favorite color, and then print it:
 
 ```java
+// Ask for the input.
 String favColor = readLine("Hello, what is your favorite color? ");
+// Then print it.
 System.out.println(favColor);
 ```
 
@@ -31,7 +33,9 @@ To read the user's input in an integer format, we would use ``readInt("String pr
 Here is an example of how we would ask the user for their age, and then print it:
 
 ```java
+// Ask for the input.
 int age = readInt("Hello, how old are you? ");
+// Then print it.
 System.out.println(age);
 ```
 
