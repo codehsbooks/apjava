@@ -97,7 +97,7 @@ Variable Naming Conventions:
 - Variable names, after the first character, can contain letters, numbers, or other characters.
 
 
-Here are some examples of good variable names:
+Here are some examples of different variable names:
 
 | Good: | Bad: |
 | -- | -- |
