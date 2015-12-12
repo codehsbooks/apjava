@@ -86,7 +86,7 @@ String myUniversity = "Arizona State University";
 
 ## Naming Variables
 
-Naming variables in Java is one of the most important tasks you will have. Variable names need to be as descriptive as possible without being too long.
+Variable names need to be as descriptive as possible without being too long.
 
 Variable Naming Conventions:
 
