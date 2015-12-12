@@ -64,7 +64,7 @@ In Java we declare a boolean using ``boolean`` before the variable name. Here ar
 ``boolean hasDog = false;``
 
 ## 
-#### String Type:
+#### String Type:<uu>String
 ## 
 
 **Strings** are variables that hold text. Strings are **not** a primitive type, so you must declare them using ``String`` with a capital **S**. Here are a couple of examples:
