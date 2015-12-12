@@ -63,7 +63,6 @@ Here is an example of how we would ask the user if they are a astronaut, and the
 boolean isAstronaut = readBoolean("Hello, are you an astronaut? ");
 // Then print it.
 System.out.println(isAstronaut);
-
 ```
 
 
