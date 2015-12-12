@@ -15,7 +15,7 @@ In Java there are four ways we can obtain user input:
 
 ## Input of Strings
 
-To read the user's input in a string value we use ``readLine("String prompt")``. This allows us to ask the user for their name, favorite color, or any other text input from the user.
+To read the user's input as a string, we use ``readLine("String prompt")``. This allows us to ask the user for their name, favorite color, or any other text input from the user.
 
 Here is an example of how we would ask the user for their favorite color, and then print it:
 
