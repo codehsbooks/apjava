@@ -90,9 +90,9 @@ Here are some examples of good variable names:
 
 | Good: | Bad: |
 | -- | -- |
-| ``string myName;`` | ``string 8names;`` <- Starts with a number. |
-| ``int numItems;`` | ``int num Items;`` <- Has a space between words. |
-| ``char myGrade;`` | ``char b;`` <- Isn't descriptive enough. |
-| ``double totalCost;`` | ``double TotalCost;`` <- Doesn't utilize lowerCamelCase    |
+| ``string myName;`` | ``string 8names;`` <dd>``// Starts with a number.`` |
+| ``int numItems;`` | ``int num Items;`` <dd>``// Has a space between words.`` |
+| ``char myGrade;`` | ``char b;`` <dd>``// Isn't descriptive enough.`` |
+| ``double totalCost;`` | ``double TotalCost;`` <dd>``// Doesn't utilize lowerCamelCase``    |
 
 
