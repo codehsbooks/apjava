@@ -4,7 +4,8 @@ Variables allow us to store information such as numbers, words, or true/false ex
 
 ## Primitive Types
 
-In Java we must specify what ***type*** of information we want our variables to hold. You should always give your variable a type before naming it and specifying the value it holds. (Ex. ``int myVariable = 10;``)
+In Java we must specify what ***type*** of information we want our variables to hold. You should always give your variable a type before naming it and specifying the value it holds. (Ex. ``
+int myVariable = 10;``)
 
 Here are some of the primitive types found in Java:
 
@@ -26,9 +27,13 @@ Primitive Numeric Types in Java include both integer and double types.
 
 In Java we declare an integer using ``int`` before the variable name. Here are a couple of examples: 
 
-`` int itemsInStore = 10; ``
+```java
+int itemsInStore = 10; 
+```
 
-`` int costOfShoes = 80; ``
+```java 
+int costOfShoes = 80;
+```
 
 **doubles** are like integers, but can have decimals. (Ex. -54.34, 90.21, 0.1223)
 
