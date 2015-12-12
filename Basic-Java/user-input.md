@@ -15,6 +15,7 @@ In Java there are four ways we can obtain user input:
 
 ## Input of Strings
 
+
 ## Input of Integers
 
 ## Input of Doubles
