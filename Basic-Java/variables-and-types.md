@@ -15,7 +15,7 @@ Here are some of the primitive types found in Java:
 | char | characters | ``char``  |
 | boolean | true/false value | ``boolean`` |
 
-
+## 
 ### Numeric Type
 ## 
 
@@ -39,7 +39,7 @@ In Java we declare a double using ``double`` before the variable name. Here are 
 ``double milesRan = 5.64;``
 
 
-
+## 
 ### Char Type
 ## 
 
@@ -51,6 +51,7 @@ In Java we declare a character using ``char`` before the variable name. Here are
 
 ``char favoriteLetter = 'W';``
 
+## 
 ### Boolean Type
 ## 
 
@@ -62,6 +63,7 @@ In Java we declare a boolean using ``boolean`` before the variable name. Here ar
 
 ``boolean hasDog = false;``
 
+## 
 ### String Type
 ## 
 
