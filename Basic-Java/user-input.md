@@ -41,4 +41,6 @@ System.out.println(age);
 
 ## Input of Doubles
 
+
+
 ## Input of Booleans
