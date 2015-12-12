@@ -20,7 +20,7 @@ Here are some of the primitive types found in Java:
 #### Numeric Type:
 ---
 
-Primitive Numeric Types in Java include both integer and double types. 
+As seen above, primitive numeric types in Java include both integers and doubles. 
 
 **Integers** are whole numbers, or counting numbers. 
 (Ex. -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5)
