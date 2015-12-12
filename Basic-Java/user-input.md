@@ -12,3 +12,5 @@ In Java there are four ways we can obtain user input:
 | ``readInt("String prompt")`` | Allows us to ask the user to input an **integer**. |
 | ``readDouble("String prompt")`` | Allows to ask the user to input a **double**. |
 | ``readBoolean("String input")`` | Allows us to ask the user to input a **boolean**. |
+
+
