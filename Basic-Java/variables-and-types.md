@@ -73,7 +73,6 @@ In Java we declare a boolean using ``boolean`` before the variable name. Here ar
 
 ``String myUniversity = "Arizona State University";``
 
-
 ## Naming Variables
 
 Naming variables in Java is one of the most important tasks you will have. Variable names need to be as descriptive as possible without being too long.
