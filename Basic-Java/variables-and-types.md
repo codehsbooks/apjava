@@ -86,8 +86,7 @@ String myUniversity = "Arizona State University";
 
 ## Naming Variables
 
-Giving your variables meaningful names throughout your code is very important. Proper variable names allow others to easily read and understand your code.
-Variable names should be as descriptive as possible without being too long.
+Giving your variables meaningful names throughout your code is very important. Proper variable names allow others to easily read and understand your code. Variable names should be as descriptive as possible without being too long.
 
 Variable Naming Conventions:
 
