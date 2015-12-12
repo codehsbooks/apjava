@@ -16,7 +16,7 @@ Here are some of the primitive types found in Java:
 | boolean | true/false value | ``boolean`` |
 
 ## 
-### Numeric Type
+### Numeric Type:
 ## 
 
 Primitive Numeric Types in Java include both integer and double types. 
@@ -40,7 +40,7 @@ In Java we declare a double using ``double`` before the variable name. Here are 
 
 
 ## 
-### Char Type
+### Char Type:
 ## 
 
 **Characters** represent a single character.
@@ -52,7 +52,7 @@ In Java we declare a character using ``char`` before the variable name. Here are
 ``char favoriteLetter = 'W';``
 
 ## 
-### Boolean Type
+### Boolean Type:
 ## 
 
 **Booleans** are variables that hold a true or a false value.
@@ -64,7 +64,7 @@ In Java we declare a boolean using ``boolean`` before the variable name. Here ar
 ``boolean hasDog = false;``
 
 ## 
-### String Type
+### String Type:
 ## 
 
 **Strings** are variables that hold text. Strings are **not** a primitive type, so you must declare them using ``String`` with a capital **S**. Here are a couple of examples:
