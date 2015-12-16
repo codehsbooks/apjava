@@ -9,7 +9,8 @@ int myVariable = 10; ``)
 
 Here are some of the primitive types found in Java:
 
-!["Primitive Types Table"](../static/basicJava/basic_java_variables_and_types_primitive_types_table.png"Primitive Types Table")
+!["Primitive Types Table"](../static/basicJava/basic_java_variables_and_types_primitive_types_table.png
+ "Primitive Types Table")
 
 ## 
 #### Numeric Type:
