@@ -76,7 +76,7 @@ boolean hasDog = false;
 #### String Type:
 ---
 
-**Strings** are variables that hold text. Strings are **not** a primitive type, so you must declare them using ``String`` with a capital **S**. Unlike characters, we need to use double quotes when assigning the string (Ex. ``"This is my string."``). Here are a couple of examples:
+**Strings** are variables that hold text. Strings are **not** a primitive type, so you must declare them using ``String`` with a capital **S**. Unlike characters, we need to use double quotes when assigning strings (Ex. ``"This is my string."``). Here are a couple of examples:
 
 ```java
 String fishName = "Dog";
