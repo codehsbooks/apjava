@@ -11,10 +11,10 @@ Here are some of the primitive types found in Java:
 
 | Type | Description |
 | -- | -- | 
-| int | integer |
-| double | decimal numbers |
-| char | characters |
-| boolean | true/false value |
+| ``int`` | integer |
+| ``double`` | decimal numbers |
+| ``char`` | characters |
+| ``boolean`` | true/false value |
 
 ## 
 #### Numeric Type:
