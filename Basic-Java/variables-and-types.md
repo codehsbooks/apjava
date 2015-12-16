@@ -9,12 +9,12 @@ int myVariable = 10; ``)
 
 Here are some of the primitive types found in Java:
 
-| Type | Description | Assignment |
-| -- | -- | -- |
-| int | integer | ``int`` |
-| double | decimal numbers | ``double`` |
-| char | characters | ``char``  |
-| boolean | true/false value | ``boolean`` |
+| Type | Description |
+| -- | -- | 
+| int | integer |
+| double | decimal numbers |
+| char | characters |
+| boolean | true/false value |
 
 ## 
 #### Numeric Type:
