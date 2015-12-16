@@ -96,11 +96,5 @@ Variable Naming Conventions:
 
 Here are some examples of different variable names:
 
-| Good: | Bad: |
-| -- | -- |
-| ``string myName;`` | ```string 8names;``` <dd>``// Starts with a number.`` |
-| ``int numItems;`` | ``int num Items;`` <dd>``// Has a space between words.`` |
-| ``char myGrade;`` | ``char b;`` <dd>``// Isn't descriptive enough.`` |
-| ``double totalCost;`` | ``double TotalCost;`` <dd>``// Doesn't utilize lowerCamelCase``    |
-
+!["Variable Names Table"](../static/basicJava/basic_java_variables_and_types_variable_names.png "Variable Names Table")
 
