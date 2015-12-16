@@ -50,7 +50,7 @@ double milesRan = 5.64;
 
 **Characters** represent a single character.
 
-In Java we declare a character using ``char`` before the variable name, and use single quotes to identify the character literal. Here are a couple of examples:
+In Java we declare a character using ``char`` before the variable name. We also use single quotes to identify a single character (Ex. ``'A'``). Here are a couple of examples:
 
 ```java
 char currentGrade = 'A';
