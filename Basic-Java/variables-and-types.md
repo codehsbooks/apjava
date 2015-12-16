@@ -9,12 +9,7 @@ int myVariable = 10; ``)
 
 Here are some of the primitive types found in Java:
 
-| Type | Description |
-| -- | -- | 
-| ``int`` | integer |
-| ``double`` | decimal numbers |
-| ``char`` | characters |
-| ``boolean`` | true/false value |
+!["Primitive Types Table"](../static/basicJava/basic_java_variables_and_types_primitive_types_table.png"Primitive Types Table")
 
 ## 
 #### Numeric Type:
