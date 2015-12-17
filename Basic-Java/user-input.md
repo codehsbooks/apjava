@@ -62,7 +62,7 @@ System.out.println(isAstronaut);
 
 ## User Input Applications
 
-
+Now that we have seen a some examples of how to get user input, lets look at some applications.
 
 
 
