@@ -75,6 +75,7 @@ public class UserInput extends ConsoleProgram
         int age = readInt("How old are you? ");
         boolean hasPet = readBoolean("Do you own a pet? ");
         
+        System.out.println("");
         System.out.println("Your name is " + name);
         System.out.println("You are " + age + " years old.");
         System.out.println("You own a pet: " + hasPet);
