@@ -67,7 +67,19 @@ Now that we have seen a some examples of how to get user input, lets look at som
 Lets say we are writing a piece of code in which we want to ask the user for their name, age, and if they own a pet. In this case we will ask the user each question, one at a time, and store the answers in their own variables. After we get the user input and store the input in variables, we will then print the variables. Consider the following code:
 
 ```Java
-
+public class UserInput extends ConsoleProgram
+{
+    public void run()
+    {
+        String name = readLine("What is your name? ");
+        int age = readInt("How old are you? ");
+        boolean hasPet = readBoolean("Do you own a pet? ");
+        
+        System.out.println("Your name is " + name);
+        System.out.println("You are " + age + " years old.");
+        System.out.println("You own a pet: " + hasPet);
+    }
+}
 ```
 
 Here is what the user prompts will look like, once the code executes:
