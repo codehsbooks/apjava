@@ -6,12 +6,7 @@ Being able to obtain user input creates new opportunities while coding. This all
 
 In Java there are four ways we can obtain user input:
 
-| Input | Description |
-| -- | -- |
-| ``readLine("String prompt")`` | Allows us to ask the user to input a **string**. |
-| ``readInt("String prompt")`` | Allows us to ask the user to input an **integer**. |
-| ``readDouble("String prompt")`` | Allows to ask the user to input a **double**. |
-| ``readBoolean("String input")`` | Allows us to ask the user to input a **boolean**. |
+!["User Input Table"](../static/basicJava/basic_java_user_input_table.png "User Input Table")
 
 ## Input of Strings
 
