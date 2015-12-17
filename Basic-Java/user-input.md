@@ -70,6 +70,12 @@ Here is a piece of code in which the user is asked for their name, age, and if t
 
 ```
 
+Here is what the user prompts will look like, once the code executes:
+
+Here is what the output will look like:
+
+
+
 
 
 
