@@ -64,7 +64,7 @@ System.out.println(isAstronaut);
 
 Now that we have seen a some examples of how to get user input, lets look at some applications.
 
-Here is a piece of code in which the user is asked for their name, age, and if they own a pet:
+Here is a piece of code in which the user is asked for their name, age, and if they own a pet then prints their answers:
 
 ```Java
 
