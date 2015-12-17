@@ -74,7 +74,7 @@ Here is what the user prompts will look like, once the code executes:
 
 Here is what the output will look like:
 
-
+## Practice Questions
 
 
 
