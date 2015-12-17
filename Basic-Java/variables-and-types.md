@@ -36,7 +36,7 @@ In Java we declare a double using ``double`` before the variable name. Here are 
 ```java
 double costOfApple = 1.24;
 
-double milesRan = 5.64;
+double milesToRun = 5.64;
 ```
 
 
