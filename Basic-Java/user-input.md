@@ -64,7 +64,7 @@ System.out.println(isAstronaut);
 
 Now that we have seen a some examples of how to get user input, lets look at some applications.
 
-Here is a piece of code in which the user is asked for their name, age, and if they own a pet then prints their answers:
+Lets say we are writing a piece of code in which we want to ask the user for their name, age, and if they own a pet. In this case we will ask the user each question, one at a time, and store the answers in their own variables. After we get the user input and store the input in variables, we will then print the variables. Consider the following code:
 
 ```Java
 
