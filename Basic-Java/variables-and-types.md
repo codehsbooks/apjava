@@ -26,7 +26,7 @@ In Java we declare an integer using ``int`` before the variable name. Here are a
 ```java
 int itemsInStore = 10; 
 
-int costOfShoes = 80;
+int numberOfMessages = 80;
 ```
 
 **doubles** are like integers, but can have decimals. (Ex. -54.34, 90.21, 0.1223)
