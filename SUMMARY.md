@@ -10,7 +10,7 @@
    * [Top Down Design and Decomposition in Karel](Programming-with-Karel/top-down-design-and-decomposition.md)
    * [Commenting Your Code](Programming-with-Karel/commenting-your-code.md)
    * [SuperKarel](Programming-with-Karel/superkarel.md)
-   * [For Loops](Programming-with-Karel/method.md)
+   * [For Loops](Programming-with-Karel/for-loops.md)
    * [While Loops in Karel](Programming-with-Karel/while-loops-in-karel.md)
    * [If Statements](Programming-with-Karel/if-statements.md)
    * [If/Else Statements](Programming-with-Karel/if-else-statements.md)
