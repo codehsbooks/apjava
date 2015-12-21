@@ -87,7 +87,7 @@ Here is what the user prompts will look like, once the code executes:
 !["User Input Example"](../static/basicJava/basic_java_user_input_main_example.gif "User Input Example")
 
 # Practice Questions
-
+---
 <p> 1) Which will we use to ask the user a true or false question?</p>
 - [x] ``` readBoolean(string); ```
 - [ ] ``` readInt(string); ```
@@ -103,13 +103,15 @@ Here is what the user prompts will look like, once the code executes:
 > Almost! Remember, ``readDouble(string);`` asks the user for a decimal number value.
 
 
-
+---
 2) Consider the following piece of code:
 
 ```Java
 
 ```
-<p>Is the following piece of code for asking the user their age correct?</p>
+<p> Is the following piece of code for asking the user their age correct?</p>
+- [ ] yes.
+- [x] no.
 
 
 
