@@ -103,6 +103,9 @@ Here is what the user prompts will look like, once the code executes:
 > Almost! Remember, ``readDouble(string);`` asks the user for a decimal number value.
 
 
+2)
+<p>Is the following piece of code for asking the user their age correct?</p>
+
 
 
 
