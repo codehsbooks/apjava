@@ -84,14 +84,7 @@ public class UserInput extends ConsoleProgram
 ```
 
 Here is what the user prompts will look like, once the code executes:
-=== Plan on turning this into a .gif (w.s.) ===
-![](../static/basicJava/basic_java_user_input_name_example.png)
-![](../static/basicJava/basic_java_user_input_name_example2.png)
-![](../static/basicJava/basic_java_user_input_name_example3.png)
-
-Here is what the output will look like:
-
-![](../static/basicJava/basic_java_user_input_final_out_example.png)
+!["User Input Example"](../static/basicJava/basic_java_user_input_main_example.gif "User Input Example")
 
 # Practice Questions
 
