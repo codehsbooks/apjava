@@ -10,7 +10,7 @@ In Java there are four ways we can obtain user input:
 
 ## Input of Strings
 
-To read the user's input as a string, we use ``readLine("String prompt")``. This allows us to ask the user for their name, favorite color, or any other text input from the user.
+To read the user's input as a string, we use``readLine("String prompt")``. This allows us to ask the user for their name, favorite color, or any other text input from the user.
 
 Here is an example of how we would ask the user for their favorite color, and then print it:
 
@@ -23,7 +23,7 @@ System.out.println(favColor);
 
 ## Input of Integers
 
-To read the user's input in an integer format, we would use ``readInt("String prompt")``. This allows us to ask the user for their age, favorite number, or any other whole number. 
+To read the user's input in an integer format, we use``readInt("String prompt")``. This allows us to ask the user for their age, favorite number, or any other whole number. 
 
 Here is an example of how we would ask the user for their age, and then print it:
 
@@ -62,7 +62,7 @@ System.out.println(isAstronaut);
 
 ## User Input Applications
 
-Now that we have seen a some examples of how to get user input, lets look at some applications.
+Now that we have seen a some examples of how to get user input, lets look an application.
 
 Lets say we are writing a piece of code in which we want to ask the user for their name, age, and if they own a pet. In this case we will ask the user each question, one at a time, and store the answers in their own variables. After we get the user input we will print the variables. Here is what our code will look like:
 
