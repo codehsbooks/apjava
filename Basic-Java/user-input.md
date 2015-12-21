@@ -1,6 +1,6 @@
 # User Input
 
-Being able to obtain user input creates new opportunities while coding. This allows us to see what the user wants, and take in data to make our programs work for the user.
+Being able to obtain user input creates new opportunities while coding. This allows us to take in data from the user to make our programs work for them.
 
 ## Getting User Input
 
