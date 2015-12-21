@@ -103,6 +103,7 @@ Here is what the user prompts will look like, once the code executes:
 > Almost! Remember, ``readDouble(string);`` asks the user for a decimal number value.
 
 
+
 2) Consider the following piece of code:
 
 ```Java
