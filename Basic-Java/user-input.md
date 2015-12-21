@@ -88,7 +88,7 @@ Here is what the user prompts will look like, once the code executes:
 
 # Practice Questions
 
-<p> 1) Which will we use to ask the user a true or false question? </p>
+<p> 1) Which will we use to ask the user a true or false question?</p>
 - [x] ``` readBoolean(string); ```
 - [ ] ``` readInt(string); ```
 - [ ] ``` readLine(string); ```
