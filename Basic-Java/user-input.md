@@ -122,9 +122,9 @@ public class UserInput extends ConsoleProgram
 - [ ] yes.
 - [x] no.
 
-> Almost! Remember, ``readDouble(string)`` asks the user for a decimal input. We want to ask the user to input a string.
+> Almost! Remember, ``readDouble(string)`` asks the user for a decimal number input. We want to ask the user to input a string.
 
-> Correct!
+> Correct! This program is asking the user for a decimal number, when we want to ask the user for a string.
 
 
 
