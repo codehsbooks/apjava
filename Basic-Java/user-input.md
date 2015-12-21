@@ -109,7 +109,7 @@ Here is what the user prompts will look like, once the code executes:
 ```Java
 
 ```
-<p> Is the following piece of code for asking the user their age correct?</p>
+<p> Does the above code correctly ask the user for their name?</p>
 - [ ] yes.
 - [x] no.
 
