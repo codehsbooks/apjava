@@ -88,7 +88,7 @@ Here is what the user prompts will look like, once the code executes:
 
 # Practice Questions
 
-
+1) What would we use to ask the user a true or false question?
 
 
 
