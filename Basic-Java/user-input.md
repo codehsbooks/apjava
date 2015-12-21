@@ -96,11 +96,11 @@ Here is what the user prompts will look like, once the code executes:
  
 > This is the correct answer!
 
-> Almost! Remember, ``readInt(string);`` asks for a number value.
+> Almost! Remember, ``readInt(string);`` asks for a whole number value.
 
 > Super close! While the user can input "true" or "false" with ``readLine(string);``, you are assigning the variable a string type. Because of this you can't use a ``readLine(string);`` input as a boolean.
 
-> Almost! A for loop wont work for this exercise, because we don't know how large the world is. The parameters of the for loop are also incorrect.
+> Almost! Remember, ``readDouble(string);`` asks the user for a decimal number value.
 
 
 
