@@ -49,7 +49,7 @@ System.out.println(miles);
 
 ## Input of Booleans
 
-To read the user's input as a boolean, we use ``readBoolean("String prompt")``. This allows us to ask the user any true or false question.
+To read the user's input as a boolean, we use``readBoolean("String prompt")``. This allows us to ask the user any true or false question.
 
 Here is an example of how we would ask the user if they are a astronaut, and then print their answer:
 
