@@ -107,7 +107,16 @@ Here is what the user prompts will look like, once the code executes:
 2) Consider the following piece of code:
 
 ```Java
-
+public class UserInput extends ConsoleProgram
+{
+    public void run()
+    {
+        double userName = readDouble("What is your name? ");
+        
+        System.out.println("");
+        System.out.println("Your name is " + userName);
+    }
+}
 ```
 <p> Does the above code correctly ask the user for their name?</p>
 - [ ] yes.
