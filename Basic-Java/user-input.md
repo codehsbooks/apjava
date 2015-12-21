@@ -36,7 +36,7 @@ System.out.println(age);
 
 ## Input of Doubles
 
-To read the user's input as a double, we use ``readDouble("String prompt")``. This allows us to ask the user how many miles they have traveled, how much an item costs, or any other numerical value that has a decimal.
+To read the user's input as a double, we use``readDouble("String prompt")``. This allows us to ask the user how many miles they have traveled, how much an item costs, or any other numerical value that has a decimal.
 
 Here is an example of how we would ask the user for how many miles they have traveled, and then print the input:
 
