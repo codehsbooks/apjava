@@ -8,9 +8,15 @@ For loops let us type a series of commands only  once, then let the program tell
 ### Using For Loops
 The syntax of a for loop is as follows:
 
-```for(initialize; condition; update){``` 
-        </br> // code goes here    
+```
+for(var i = 0; i < count; i++)
+    {
+        //code you want repeated
     }
 ```
+
+This piece of code says the variable `i` will start with the value 0.  Then, as long as `i < count`, the code you want repeated will execute.  The variable `i` increases by one after every time the code is executed, since we have `i++`.
+
+Let's make Karel put down 5 balls.  In this case, `count` will be 5, because we want something to happen 5 times.  The code inside of the for loop will be `putBall()` because that's what we want to happen 5 times.
 
 ### Test Yourself!
