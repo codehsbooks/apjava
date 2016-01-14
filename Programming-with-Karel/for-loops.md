@@ -30,6 +30,10 @@ for(int i = 0; i < 5; i++){
 }
 ```
 
-Let's look at another example.  This time, we want Karel to put a ball down on every other space. 
+Let's look at another example.  This time, we want Karel to put a ball down on every other space. This means that every iteration, Karel will have to move, then put down a ball. The start world looks like this:
+
+![Starting World](../static/karel/for_oddBallStartWorld.png)
+
+The world should look like this when Karel is finished putting down balls: 
 
 ### Test Yourself!!
