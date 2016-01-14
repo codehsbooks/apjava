@@ -25,5 +25,5 @@ for(var i = 0; i < 5; i++){
 }
 ```
 
-![](static/forLoopDiagram.png)
+![](forLoopDiagram.png)
 ### Test Yourself!!
