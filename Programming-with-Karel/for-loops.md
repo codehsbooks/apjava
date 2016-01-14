@@ -9,7 +9,7 @@ For loops let us type a series of commands only  once, then let the program tell
 The syntax of a for loop is as follows:
 
 ```
-for(var i = 0; i < count; i++)
+for(int i = 0; i < count; i++)
 {
     //code you want repeated
 }
@@ -21,13 +21,15 @@ This piece of code says the variable `i` will start with the value 0.  Then, as 
 ![](../static/karel/forLoopDiagram.png)
 
 
-
+### Examples
 Let's make Karel put down 5 balls.  In this case, `count` will be 5, because we want something to happen 5 times.  The code inside of the for loop will be `putBall()` because that's what we want to happen 5 times.  The for loop looks like this:
 
 ```
-for(var i = 0; i < 5; i++){
+for(int i = 0; i < 5; i++){
     putBall();
 }
 ```
+
+Let's look at another example.  This time, we want Karel to put a ball down on every other space. 
 
 ### Test Yourself!!
