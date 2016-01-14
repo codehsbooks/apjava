@@ -15,7 +15,12 @@ for(var i = 0; i < count; i++)
 }
 ```
 
-This piece of code says the variable `i` will start with the value 0.  Then, as long as `i < count`, the code you want repeated will execute.  The `i++` part specifies how `i` will change after every iteration.  `i++` means add one to the value of `i` after each time the program does everything between the curly braces.  
+This piece of code says the variable `i` will start with the value 0.  Then, as long as `i < count`, the code you want repeated will execute.  The `i++` part specifies how `i` will change after every iteration.  `i++` means add one to the value of `i` after each time the program does everything between the curly braces.  The flow chart below shows the flow of execution in a for loop.
+
+
+![](../static/karel/forLoopDiagram.png)
+
+
 
 Let's make Karel put down 5 balls.  In this case, `count` will be 5, because we want something to happen 5 times.  The code inside of the for loop will be `putBall()` because that's what we want to happen 5 times.  The for loop looks like this:
 
@@ -25,5 +30,4 @@ for(var i = 0; i < 5; i++){
 }
 ```
 
-![](../static/karel/forLoopDiagram.png)
 ### Test Yourself!!
