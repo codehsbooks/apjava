@@ -36,4 +36,8 @@ Let's look at another example.  This time, we want Karel to put a ball down on e
 
 The world should look like this when Karel is finished putting down balls: 
 
+![Ending World](../static/karel/for_oddBallFinish.png)
+
+
+
 ### Test Yourself!!
