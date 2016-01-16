@@ -90,6 +90,6 @@ while(ballsPresent())
 
 > Super close! An if statement will only execute the step once, and Karel will only turn once. 
 
-> Almost! A for loop wont work for this exercise, because we don't know which direction Karel is starting in.
+> Almost! A for loop won't work for this exercise, because we don't know which direction Karel is starting in.
 
 ---
