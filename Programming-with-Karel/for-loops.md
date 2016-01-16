@@ -66,6 +66,9 @@ We know that this world has 9 avenues. Karel will move across 2 of them every it
 
 > Remember that `i` is a variable and must be declared with a type.  
 
+<pre>
+
+</pre>
 
 ---
 
