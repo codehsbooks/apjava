@@ -44,6 +44,7 @@ We know that this world has 9 avenues. Karel will move across 2 of them every it
 
 ---
 
+
 <p>Try out these questions to test your understanding of for loops </p>
 <pre> Fill in the blanks:
         for( ____ i = 0; i < 5; i++)
@@ -63,6 +64,7 @@ We know that this world has 9 avenues. Karel will move across 2 of them every it
 > Yes! Typically `i` is declared as an int.
 
 > Remember that `i` is a variable and must be declared with a type.  
+
 
 ---
 
