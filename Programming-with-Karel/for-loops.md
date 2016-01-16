@@ -41,18 +41,32 @@ The world should look like this when Karel is finished putting down balls:
 We know that this world has 9 avenues. Karel will move across 2 of them every iteration.
 
 ### Test Yourself!!
+
 ---
 
 <p>Try out these questions to test your understanding of for loops </p>
 <pre> Fill in the blanks:
-        for( ____ i = 0; i < count; i++)
+        for( ____ i = 0; i < 5; i++)
         {
             putBall();
         }
 </pre>
+- ( ) var
+- ( ) count
+- (x) int
+- ( ) Nothing should go in the blank
+
+> Not quite.  `var` is used in JavaScript, but not Java
+
+> Nope. `count` is not a variable type. `i` has to be declared as a variable.  Note this also means that `i` could have any variable type, as long as you can add variables of that type.
+
+> Yes! Typically `i` is declared as an int.
+
+> Remember that `i` is a variable and must be declared with a type.  
 
 ---
-            
+
+
 
 
 
