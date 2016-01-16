@@ -41,3 +41,43 @@ The world should look like this when Karel is finished putting down balls:
 We know that this world has 9 avenues. Karel will move across 2 of them every iteration.
 
 ### Test Yourself!!
+---
+
+<p>Try out these questions to test your understanding of for loops </p>
+<pre> Fill in the blanks:
+        for( ____ i = 0; i < count; i++)
+        {
+            putBall();
+        }
+</pre>
+
+---
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
