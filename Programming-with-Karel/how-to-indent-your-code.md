@@ -35,7 +35,7 @@ public void run()
 }
 ```
 
-
+<!--
 ## Practice Questions
 
 **1)** Consider the following piece of code:
@@ -86,3 +86,5 @@ public classCleanRoad extends SuperKarel
 > This is the correct answer! Nice job!
 
 > Almost! This piece of does have proper indentations, because each bracket has it's own line and every piece of code within the brackets has an indentation.
+
+-->
