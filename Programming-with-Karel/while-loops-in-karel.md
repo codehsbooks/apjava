@@ -47,6 +47,7 @@ while(ballsPresent())
 }
 ```
 
+<!-- 
 ## While Loop Practice Exercises
 
 
@@ -93,3 +94,4 @@ while(ballsPresent())
 > Almost! A for loop wont work for this exercise, because we don't know which direction Karel is starting in.
 
 ---
+-->
