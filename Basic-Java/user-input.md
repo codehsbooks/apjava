@@ -86,6 +86,7 @@ public class UserInput extends ConsoleProgram
 Here is what the user prompts will look like, once the code executes:
 !["User Input Example"](../static/basicJava/basic_java_user_input_main_example.gif "User Input Example")
 
+<!-- 
 # Practice Questions
 ---
 <p> 1) Which will we use to ask the user a true or false question?</p>
@@ -125,13 +126,4 @@ public class UserInput extends ConsoleProgram
 > Almost! Remember, ``readDouble(string)`` asks the user for a decimal number input. We want to ask the user to input a string.
 
 > Correct! This program is asking the user for a decimal number, when we want to ask the user for a string.
-
-
-
-
-
-
-
-
-
-
+-->
