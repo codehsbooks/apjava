@@ -24,10 +24,7 @@ System.out.println(z);
 ```
 What will get printed to the screen? The above comparison, x > y, is evaluating if 10 is greater than 8. Because 10 is indeed greater than 8, `z` is assigned a value of true. Thus, `true` will get printed to the screen.
 
-## A Note On Data Types
-TBD
-
-## More Practice
+## More Practice with Comparisons
 
 Let's get a little more practice. Take a look at the following code segment below. Pay close attention to each comparison and the operator being used.
 
