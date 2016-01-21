@@ -12,7 +12,6 @@ Here are some of the primitive types found in Java:
 !["Primitive Types Table"](../static/basicJava/basic_java_variables_and_types_primitive_types_table.png
  "Primitive Types Table")
 
-## 
 #### Numeric Type:
 ---
 
@@ -40,7 +39,6 @@ double milesToRun = 5.64;
 ```
 
 
-## 
 #### Char Type:
 ---
 
@@ -54,7 +52,6 @@ char currentGrade = 'A';
 char favoriteLetter = 'W';
 ```
 
-## 
 #### Boolean Type:
 ---
 
@@ -68,7 +65,6 @@ boolean passedCalculus = true;
 boolean hasDog = false;
 ```
 
-## 
 #### String Type:
 ---
 
