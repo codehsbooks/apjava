@@ -15,25 +15,25 @@ public class SkateVocab extends ConsoleProgram
     public void run()
     {
         System.out.println("Nollie big spin");
-        System.out.println("      \    ");
+        System.out.println("      |    ");
         System.out.println("      /o   ");                                                                                  
         System.out.println("     /     ");
         System.out.println("   _/o     ");
         
         System.out.println("Tre flip");
-        System.out.println("      \    ");
+        System.out.println("      |    ");
         System.out.println("      /o   ");                                                                                  
         System.out.println("     /     ");
         System.out.println("   _/o     ");
         
         System.out.println("A super clean kickflip");
-        System.out.println("      \    ");
+        System.out.println("      |    ");
         System.out.println("      /o   ");                                                                                  
         System.out.println("     /     ");
         System.out.println("   _/o     ");
         
         System.out.println("180 no-comply");
-        System.out.println("      \    ");
+        System.out.println("      |    ");
         System.out.println("      /o   ");                                                                                  
         System.out.println("     /     ");
         System.out.println("   _/o     ");
@@ -63,7 +63,7 @@ public class SkateVocab extends ConsoleProgram
     
     private void drawSkateboard()
     {
-        System.out.println("      \    ");
+        System.out.println("      |    ");
         System.out.println("      /o   ");                                                                                  
         System.out.println("     /     ");
         System.out.println("   _/o     ");
