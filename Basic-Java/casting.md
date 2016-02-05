@@ -17,7 +17,13 @@ double intToDouble = (double)5;
 
 ##### Casting an Integer to a Double
 
+To cast an integer value to a double, we add ``(double)`` in front of the variable.
 
+``` Java
+int intVal = 10;
+
+double doubleVal = (double)intVal; // Our value is now '10.0'
+```
 ##### Casting a Double to an Integer
 
 
