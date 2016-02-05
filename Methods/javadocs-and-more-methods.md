@@ -1,11 +1,11 @@
 # Javadocs and More Methods
 
-Javadoc is all about commenting your code correctly. Javadoc is both the tool and the style of commenting your Java programs. Commenting is very important, as it provides notes in our code to help others understand it.
+Javadoc is all about commenting your code correctly. Javadoc is both a tool and the style of commenting your Java programs. Commenting is important as it provides notes in our code to help others understand it.
 
 
 ## Javadoc Rules
 
-Javadoc comments are similar to multiline comments, but contain an extra `*`. Here is an example of how Javadoc comments start and end:
+Javadoc comments are similar to multiline comments, but contain an extra `*`. Here is an example of a Javadoc comment and its structure. 
 
 ``` Java
 /**
