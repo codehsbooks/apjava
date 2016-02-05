@@ -38,3 +38,12 @@ int intVal = (int)doubleVal;
 ```
 
 ## Division with Casting
+
+If we divide two integers, even if we are setting them to a double, we will always be returned an integer.
+
+``` Java
+int currResidents = 50;
+int floorTotal = 56;
+
+double average = floorTotal / currResidents;
+```
