@@ -12,7 +12,7 @@ Consider the following:
 
 ``` Java
 int doubleToInt = (int)10.95;
-double intToDouble = (double)5;
+// This will become '10'
 ```
 
 ##### Casting an Integer to a Double
