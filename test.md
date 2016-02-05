@@ -1,58 +1,60 @@
-## empty page for testing images, plugins, etc.
+quiz plugin is not currently working 
 
-quiz:
+<!--## empty page for testing images, plugins, etc.-->
 
----
+<!--quiz:-->
 
-Test quiz!
+<!------->
 
-|                  | Good | Bad |
-| ---------------- | ---- | --- |
-| Do you like to code? | (x)  | ( ) |
-> coding, hooray!
+<!--Test quiz!-->
 
-Java with Karel?
-- [x] Yes
-- [x] Very Yes
-- [x] Such Yes
-- [ ] No
+<!--|                  | Good | Bad |-->
+<!--| ---------------- | ---- | --- |-->
+<!--| Do you like to code? | (x)  | ( ) |-->
+<!--> coding, hooray!-->
+
+<!--Java with Karel?-->
+<!--- [x] Yes-->
+<!--- [x] Very Yes-->
+<!--- [x] Such Yes-->
+<!--- [ ] No-->
 
 
-> Yeah, hooray.
->
-> very great
+<!--> Yeah, hooray.-->
+<!-->-->
+<!--> very great-->
 
----
+<!------->
 
-exercise:
+<!--exercise:-->
 
----
+<!------->
 
-Define an integer `x` equal to 10.
+<!--Define an integer `x` equal to 10.-->
 
-```js
-int x =
-```
+<!--```js-->
+<!--int x =-->
+<!--```-->
 
-```js
-int x = 10;
-```
+<!--```js-->
+<!--int x = 10;-->
+<!--```-->
 
-```js
-assert(x == 10);
-```
+<!--```js-->
+<!--assert(x == 10);-->
+<!--```-->
 
-```js
+<!--```js-->
 
 // This is context code available everywhere
 // The user will be able to call magicFunc in the code
-function magicFunc()
-{
-    return 3;
-}
-```
+<!--function magicFunc()-->
+<!--{-->
+<!--    return 3;-->
+<!--}-->
+<!--```-->
 
----
+<!------->
 
 
 image:
