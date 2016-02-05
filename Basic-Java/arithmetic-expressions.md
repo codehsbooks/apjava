@@ -6,7 +6,7 @@ Such expressions can be used for basic math and even more complex algorithms.
 ## Arithmetic Operators
 
 | Operator | Description|
-| -- | -- |
+| --- | --- |
 | + | Addition operator (Ex. 1 + 1 = 2) |
 | - | Subtraction operator (Ex. 2 - 1 = 1) |
 | * | Multiplication operator (Ex. 2 * 2 = 4) |
@@ -125,7 +125,7 @@ public class ModulusOperator extends ConsoleProgram
 It is important to remember that the order of operations still apply. In instances where you have multiple operators with the same precedence the order will be, left to right.
 
 | Operator | Precedence|
-| -- | -- |
+| --- | --- |
 | ``( )`` Parenthesis | 1st |
 | ``* /`` Multiplication and Division | 2nd |
 | ``+ -`` Addition and Subtraction | 3rd |
@@ -173,7 +173,7 @@ Consider the following table:
 
 
 | Original | Shortcut | Description |
-|--|--|--|
+|---|---|---|
 | ``counter = counter + 1;`` | ``counter++;`` | Increment a variable by ``1`` |
 | ``counter = counter - 1;`` | ``counter--;`` | Subtract ``1`` from a variable |
 | ``x = x + y`` | ``x += y`` | Adding values to a variable |
