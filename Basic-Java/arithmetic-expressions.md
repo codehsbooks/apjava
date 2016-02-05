@@ -144,7 +144,7 @@ So in this case, while ``2 / 5 = 2.5``, in Java ``2 / 5 = 2``. This always holds
 
 Dividing doubles is different from dividing integers. 
 
-When you divide two doubles you will be returned a double. In this case, ``2 / 5 = 2.5`` will be your result. 
+When you divide two doubles you will be returned a double. In this case, ``2.0 / 5.0 = 2.5`` will be your result. 
 
 ##### Mixed Division
 
