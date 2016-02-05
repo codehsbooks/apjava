@@ -5,7 +5,7 @@ Javadoc is all about commenting your code correctly. Javadoc is both a tool and 
 
 ## Javadoc Rules
 
-Javadoc comments are similar to multiline comments, but contain an extra `*`. Here is an example of a Javadoc comment and its structure. 
+Javadoc comments are similar to multiline comments, but contain an extra `*`. Here is an example of a Javadoc comment and its structure:
 
 ``` Java
 /**
