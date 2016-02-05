@@ -1,61 +1,65 @@
-quiz plugin is not currently working 
-
-<!--## empty page for testing images, plugins, etc.-->
-
-<!--quiz:-->
-
-<!------->
-
-<!--Test quiz!-->
-
-<!--|                  | Good | Bad |-->
-<!--| ---------------- | ---- | --- |-->
-<!--| Do you like to code? | (x)  | ( ) |-->
-<!--> coding, hooray!-->
-
-<!--Java with Karel?-->
-<!--- [x] Yes-->
-<!--- [x] Very Yes-->
-<!--- [x] Such Yes-->
-<!--- [ ] No-->
 
 
-<!--> Yeah, hooray.-->
-<!-->-->
-<!--> very great-->
+<!--
 
-<!------->
+## quiz plugin is not currently working 
 
-<!--exercise:-->
+## empty page for testing images, plugins, etc.
 
-<!------->
+quiz:
 
-<!--Define an integer `x` equal to 10.-->
+---
 
-<!--```js-->
-<!--int x =-->
-<!--```-->
+Test quiz!
 
-<!--```js-->
-<!--int x = 10;-->
-<!--```-->
+|                  | Good | Bad |
+| ---------------- | ---- | --- |
+| Do you like to code? | (x)  | ( ) |
+> coding, hooray!
 
-<!--```js-->
-<!--assert(x == 10);-->
-<!--```-->
+Java with Karel?
+- [x] Yes
+- [x] Very Yes
+- [x] Such Yes
+- [ ] No
 
-<!--```js-->
 
-<!--// This is context code available everywhere-->
-<!--// The user will be able to call magicFunc in the code-->
-<!--function magicFunc()-->
-<!--{-->
-<!--    return 3;-->
-<!--}-->
-<!--```-->
+> Yeah, hooray.
+>
+> very great
 
-<!------->
+---
 
+exercise:
+
+---
+
+Define an integer `x` equal to 10.
+
+```js
+int x =
+```
+
+```js
+int x = 10;
+```
+
+```js
+assert(x == 10);
+```
+
+```js
+
+// This is context code available everywhere
+// The user will be able to call magicFunc in the code
+function magicFunc()
+{
+    return 3;
+}
+```
+
+---
+-->
 
 image:
 
