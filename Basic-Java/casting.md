@@ -14,3 +14,11 @@ Consider the following:
 int doubleToInt = (int)10.95;
 double intToDouble = (double)5;
 ```
+
+##### Casting an Integer to a Double
+
+
+##### Casting a Double to an Integer
+
+
+## Division with Casting
