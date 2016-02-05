@@ -46,4 +46,15 @@ int currResidents = 50;
 int floorTotal = 56;
 
 double average = floorTotal / currResidents;
+// 'average' will return the value '1'
+```
+
+We can get the correct answer by casting one of the variables to a double.
+
+``` Java
+int currResidents = 50;
+int floorTotal = 56;
+
+double average = (double)floorTotal / currResidents;
+// We now have the value of '1.12'
 ```
