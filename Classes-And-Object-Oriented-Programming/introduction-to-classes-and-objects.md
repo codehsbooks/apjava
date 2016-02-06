@@ -13,3 +13,4 @@ The state contains the information about the specific object.
 The behavior is the actions that can be performed on the specific object.
 
 ## Classes
+Classes are the templates we use for creating objects.
