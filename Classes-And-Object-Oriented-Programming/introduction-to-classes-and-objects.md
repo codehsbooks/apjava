@@ -22,3 +22,17 @@ Classes are the templates we use for creating objects.
 ##### Computer Class
 
 ## Creating Objects
+
+When creating a new object from a class you will use this format:
+
+``` Java 
+[Class Name] [Object Name] = new [Class Name] (params);
+
+// Here are some examples using the classes we created earlier
+
+Rectangle rect = new Rectangle(20, 8);
+
+Animal pet = new Animal();
+
+Computer newComp = new Computer();
+```
