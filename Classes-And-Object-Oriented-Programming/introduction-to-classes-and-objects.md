@@ -11,3 +11,5 @@ The state contains the information about the specific object.
 
 ##### Behavior
 The behavior is the actions that can be performed on the specific object.
+
+## Classes
