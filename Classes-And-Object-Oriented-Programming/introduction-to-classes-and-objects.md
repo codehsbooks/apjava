@@ -34,5 +34,5 @@ Rectangle rect = new Rectangle(20, 8);
 
 Animal pet = new Animal("Dog", "Cujo", 2);
 
-Computer newComp = new Computer("Car", 20, 173600);
+Vehicle myTruck = new Vehicle("Truck", 20, 173600);
 ```
