@@ -7,5 +7,7 @@ Classes and Objects are utilized in Java as part of the Object Oriented Programm
 Objects are structures that contain a state and behavior. 
 
 ##### State
+The state contains the information about the specific object.
 
 ##### Behavior
+The behavior is the actions that can be performed on the specific object.
