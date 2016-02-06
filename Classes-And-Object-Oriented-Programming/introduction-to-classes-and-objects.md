@@ -19,7 +19,7 @@ Classes are the templates we use for creating objects.
 
 ##### Animal Class
 
-#####  Class
+##### Vehicle Class
 
 ## Creating Objects
 
@@ -34,5 +34,5 @@ Rectangle rect = new Rectangle(20, 8);
 
 Animal pet = new Animal("Dog", "Cujo", 2);
 
-Computer newComp = new Computer(");
+Computer newComp = new Computer("Car", 20, 173600);
 ```
