@@ -21,9 +21,54 @@ A car may be able to get its mileage from the remaining fuel.
 Classes are the templates we use for creating objects.
 
 ##### Rectangle Class
+Here is an example of a class that lets us create a rectangle, and get its area:
 
+``` Java
+public class Rectangle
+{
+    private double width;
+    private double height;
+    
+    public Rectangle(double rectWidth, double rectHeight)
+    {
+        width = rectWidth;
+        height = rectHeight;
+    }
+    
+    public int getWidth()
+    {
+        return width;
+    }
+    
+    public int getHeight()
+    {
+        return height;
+    }
+    
+    public int getArea()
+    {
+        return width * height;
+    }
+}
+```
 ##### Animal Class
+Here is another example of a class that lets us create new animal objects:
 
+```Java
+public class Animal
+{
+    private String name;
+    private boolean isPet;
+    private int age;
+    
+    public Animal(String animalName, isAnimalPet, animalAge)
+    {
+        name = animalName;
+        isPet = isAnimalPet;
+        age = animalAge;
+    }
+}
+```
 ##### Vehicle Class
 
 ## Creating Objects
