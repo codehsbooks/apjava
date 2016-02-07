@@ -67,6 +67,21 @@ public class Animal
         isPet = isAnimalPet;
         age = animalAge;
     }
+    
+    public getName()
+    {
+        return name;
+    }
+    
+    public getPetStatus()
+    {
+        return isPet;
+    }
+    
+    public getAge()
+    {
+        return age;
+    }
 }
 ```
 ##### Vehicle Class
