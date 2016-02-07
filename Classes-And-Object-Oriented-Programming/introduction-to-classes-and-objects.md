@@ -5,12 +5,17 @@ Classes and Objects are utilized in Java as part of the Object Oriented Programm
 ## Object
 
 Objects are structures that contain a state and behavior. 
+Every day objects we commonly use have states and behaviors. For example, a car is an object. A car has both a state and a behavior.
 
 ##### State
-The state contains the information about the specific object.
+The state contains the information about the specific object. 
+
+Thinking back to the car in this case. An example of a state, with the car, would be how much fuel it has.
 
 ##### Behavior
 The behavior is the actions that can be performed on the specific object.
+
+A car may be able to get its mileage from the remaining fuel.
 
 ## Classes
 Classes are the templates we use for creating objects.
