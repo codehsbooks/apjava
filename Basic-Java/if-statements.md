@@ -145,7 +145,7 @@ public class EvenOrOdd extends ConsoleProgram
 }
 ```
 
-Recall that the modulous
+Recall that the modulus operator `%` returns the **remainder** after a division. For example, let's say the user enters the number 5. *5%2* is equal to 1. Thus, the code within the `else` segment will run. It tells us that the number is odd.
 
 ## Logical Operators in Boolean Expressions
 
