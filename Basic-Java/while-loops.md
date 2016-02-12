@@ -3,7 +3,8 @@
 While loops are a way to repeat a block of code.  The basic syntax of a while loop is shown below.
 
 ``` 
-while(condition){
+while(condition)
+{
     // code block to be done if condition is true
 }
 
