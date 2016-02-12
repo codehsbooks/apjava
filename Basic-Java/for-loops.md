@@ -75,10 +75,10 @@ Initiating countdown:
 
 ### Count by Twos
 
-Instead of incrementing or decrementing `i` by 1, we will increment `i` by adding 2 in this example instead. This allows us to count up by two each time.
+Instead of incrementing or decrementing `i` by only 1, we will increment `i` by adding 2 in this example instead. This allows us to count up by two each time.
 
 ```
-for(int i = 0; i < = 20; i += 2){
+for(int i = 0; i < 21; i += 2){
 	System.out.println(i);
 }
 ```
@@ -104,15 +104,15 @@ Here is a program which sums all numbers from 1 to 100. The for loop adds the nu
 ```
 // This program adds the numbers from 1
 // to 100.
-var MIN = 1;
-var MAX = 100;
+int MIN = 1;
+int MAX = 100;
 
 function start(){
-	var sum = 0;
-	for(var i = MIN; i < = MAX; i++){
+	int sum = 0;
+	for(int i = MIN; i < = MAX; i++){
 		sum += i;
 	}
-	println("The sum was " + sum);
+	System.out.println("The sum was " + sum);
 }
 ```
 Output:
