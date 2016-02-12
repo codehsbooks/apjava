@@ -99,7 +99,7 @@ If the user enters a negative age (less than 0), our program informs them that i
 We can improve our age survey even further by restricting users from being able to enter ages that are too large. We do this by adding in an **else if** statement.
 
 ```
-public class ForLoop extends ConsoleProgram
+public class ImprovedAgeSurvey extends ConsoleProgram
 {
     public void run()
     {
@@ -128,13 +128,24 @@ With these restrictions, we have created a range of acceptable ages. Valid ages 
 We want to write a program that tests whether some given number is even or odd. Here is how that can be done.
 
 ```
-var num = readInt("Number: ");
-if(num % 2 == 0){
-	println("Number is even.");
-}else{
-	println("Number is odd.");
+public class EvenOrOdd extends ConsoleProgram
+{
+    public void run()
+    {
+        int num = readInt("Number: ");
+        if(num % 2 == 0)
+        {
+        	System.out.println("Number is even.");
+        }
+        else
+        {
+        	System.out.println("Number is odd.");
+        }
+    }
 }
 ```
+
+Recall that the modulous
 
 ## Logical Operators in Boolean Expressions
 
