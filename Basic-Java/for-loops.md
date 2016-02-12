@@ -1,6 +1,6 @@
 # For Loops
 
-For loops allow us to repeat code a fixed number of times. A for loop is structured like this:
+For loops allow us to repeat code a fixed number of times. A basic for loop is structured like this:
 
 ```
 for (int i = 0; i < COUNT; i++) {
@@ -19,7 +19,7 @@ Let's break down the following example into its three major parts:
 
 #### Part 1: Initialize
 
-The first part of a for loop initializes some variable. In the example above, `int i = 0` initially sets the variable `i` equal to `0`. 
+The first part of a for loop initializes some variable. In the example above, `int i = 0` initially sets the variable `i` equal to `0`.
 
 #### Part 2: Condition
 
@@ -49,3 +49,77 @@ Thus, our output would be:
 1
 2
 ```
+
+## More Examples
+
+### Countdown
+
+In this countdown example, `i` is initially set to 5. We decrement (or subtract) 1 from `i` on each iteration of the for loop. We print out each value of `i` until it reaches 0.
+
+```
+System.out.println("Initiating countdown:");
+for(int i = 5; i >= 0; i--){
+	System.out.println(i + "...");
+}
+```
+Output:
+```
+Initiating countdown:
+5...
+4...
+3...
+2...
+1...
+0...
+```
+
+### Count by Twos
+
+Instead of incrementing or decrementing `i` by 1, we will increment `i` by adding 2 in this example instead. This allows us to count up by two each time.
+
+```
+for(int i = 0; i < = 20; i += 2){
+	System.out.println(i);
+}
+```
+Output:
+```
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+```
+
+### For Loop Sum Program
+
+Here is a program which sums all numbers from 1 to 100. The for loop adds the numbers 1+2+3+4+5+6+.....+98+99+100. Since this program uses global constants, we can easily change the `MIN` and `MAX` values used in our sum without having to touch the for loop at all.
+
+```
+// This program adds the numbers from 1
+// to 100.
+var MIN = 1;
+var MAX = 100;
+
+function start(){
+	var sum = 0;
+	for(var i = MIN; i < = MAX; i++){
+		sum += i;
+	}
+	println("The sum was " + sum);
+}
+```
+Output:
+```
+The sum was 5050
+```
+
+
+
+
