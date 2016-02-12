@@ -5,8 +5,9 @@ In the previous chapters, you learned all about logical operators and comparison
 We use if statements to run a segment of code only if some boolean expression first evaluates to true. An if statement takes the following basic form:
 
 ```
-if (boolean expression) {
-    // Segment of code that will run given the boolean expression is true
+if (boolean expression) 
+{
+    //Segment of code that will run if the boolean expression is true
 }
 ```
 
@@ -14,29 +15,39 @@ If the boolean expression evaluates to false, nothing will happen. The code with
 
 ## If/Else Statements
 
-We can add the **else** keyword to our if statements.
-In this case, if the boolean expression in our if statement evaluates to false, the code within the **else** segment will run. If the boolean expression evaluates to true, the code within the if segment will run.
+We can add the **else** keyword to our if statement.In this case, if the boolean expression in our if statement evaluates to false, the code within the **else** segment will run. If the boolean expression evaluates to true, the code within the if segment will run.
 
 ```
-if (boolean expression) {
-    //Segment of code that will run given the boolean expression is true
-} else {
-    //Segment of code that will run given the boolean expression is false
+if (boolean expression) 
+{
+    //Segment of code that will run if the boolean expression is true
+} 
+else 
+{
+    //Segment of code that will run if the boolean expression is false
 }
 ```
 
 ## If/Else/Else If Statements
 
-We can add the **else if** keyword to our if statements.
-In this case, if the boolean expression in our if statement evaluates to false, the code within the **else** segment will run. If the boolean expression evaluates to true, the code within the if segment will run.
+We can add the **else if** keyword between our if/else statement. If *boolean expression one* evaluates to false, then *boolean expression two* gets evaluated next. If *boolean expression two* also turns out to be false, the code within the `else` segment will run.
 
 ```
-if (boolean expression one) {
-    //Segment of code that will run given the boolean expression is true
-} else ifelse {
-    //Segment of code that will run given the boolean expression is false
+if (boolean expression one) 
+{
+    //Segment of code that will run if boolean expression one is true
+} 
+else if (boolean expression two)
+{
+    //Segment of code that will run if boolean expression two is true
+}
+else 
+{
+    //Segment of code that will run if boolean expression one and boolean expression two are both false
 }
 ```
+
+You can have as many **else if** statements as you want. There is no limit!
 
 ## Age Survey
 
