@@ -145,18 +145,38 @@ public class EvenOrOdd extends ConsoleProgram
 }
 ```
 
-Recall that the modulus operator `%` returns the **remainder** after a division. For example, let's say the user enters the number 5. *5%2* is equal to 1. Thus, the code within the `else` segment will run. It tells us that the number is odd.
+Recall that the modulus operator `%` returns the **remainder** after a division. For example, let's say the user enters the number 5. *5%2* is equal to 1. Thus, the code within the `else` segment will run. It rightly tells us that the number is odd.
 
 ## Logical Operators in Boolean Expressions
 
-In the previous examples, we have been using comparison operators in our boolean expressions. We will now write a program which combines the usage of comparison operators with logical operators. This program will check to see if someone's numerical grade is a B.
+In the previous examples, we have been using comparison operators in our boolean expressions. We will now write a program which combines the usage of comparison operators with logical operators. This program will determine a user's letter grade.
 
 ```
-var grade = readInt("What grade did you get? ");
-if (grade >= 80 && grade < 90) {
-    grade = "You got a B!";
-} else {
-    grade = "You did not get a B.";
+public class DetermineLetterGrade extends ConsoleProgram
+{
+    public void run()
+    {
+        int grade = readInt("What grade did you get? ");
+        if (grade > 89) //90 or above is an A
+        {
+            System.out.println("You got an A! Great job!");
+        } 
+        else if (grade > 79 && grade < 90) //80 - 89 is a B
+        {
+            System.out.println("You got an B.");
+        }
+        else if (grade > 69 && grade < 80) //70 - 79 is a C
+        {
+            System.out.println("You got a C.");
+        }
+        else if (grade > 59 && grade < 70) //60 - 69 is a D
+        {
+            System.out.println("You got a D.");
+        }
+        else //Anything else is a F. Below 60.
+        {
+            System.out.println("Oh no! You failed.");
+        }
+    }
 }
-println(grade);
 ```
