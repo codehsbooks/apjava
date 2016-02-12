@@ -15,7 +15,7 @@ If the boolean expression evaluates to false, nothing will happen. The code with
 
 ## If/Else Statements
 
-We can add the **else** keyword to our if statement.In this case, if the boolean expression in our if statement evaluates to false, the code within the **else** segment will run. If the boolean expression evaluates to true, the code within the if segment will run.
+We can add the **else** keyword to our if statement. In this case, if the boolean expression in our if statement evaluates to false, the code within the **else** segment will run. If the boolean expression evaluates to true, the code within the if segment will run.
 
 ```
 if (boolean expression) 
@@ -49,17 +49,79 @@ else
 
 You can have as many **else if** statements as you want. There is no limit!
 
+## Test for Negative Numbers
+
+Using if statements, we can determine if a number is negative. If a number is less than 0, we know it is a negative number.
+
+```
+public class TestForNegatives extends ConsoleProgram
+{
+    public void run()
+    {
+        System.out.println("This program tests if a number is negative.");
+        int number = readInt("Enter a number: ");
+        if (number < 0) 
+        {
+            System.out.println("You entered a negative number!");
+        }
+    }
+}
+
+```
+
+
 ## Age Survey
 
-Suppose we want to ask users for their age, but we want to restrict them from being able to enter a negative number. After all, someone can not have a negative age. We accomplish this by doing the following:
+Suppose we want to ask users for their age, but we want to restrict them from being able to enter a negative number. After all, someone can not have a negative age. We can accomplish this by doing the following:
 
 ```
-var age = readInt("How old are you? ");
-if (age < 0) {
-    age = "You can't have a negative age!";
+public class AgeSurvey extends ConsoleProgram
+{
+    public void run()
+    {
+        int age = readInt("How old are you? ");
+        if (age < 0) 
+        {
+            System.out.println("You can't have a negative age!");
+        }
+        else
+        {
+            System.out.println("Your age: " + age);   
+        }
+    }
 }
-println("Your age: " + age);
 ```
+
+If the user enters a negative age (less than 0), our program informs them that is not allowed. Otherwise, it prints their age back out to them.
+
+## Improved Age Survey
+
+We can improve our age survey even further by restricting users from being able to enter ages that are too large. We do this by adding in an **else if** statement.
+
+```
+public class ForLoop extends ConsoleProgram
+{
+    public void run()
+    {
+        int age = readInt("How old are you? ");
+        if (age < 0) 
+        {
+            System.out.println("You can't have a negative age!");
+        }
+        else if (age > 123)
+        {
+            System.out.println("No one has ever lived to the age of " + age + "!");
+        }
+        else
+        {
+            System.out.println("Your age: " + age);   
+        }
+    }
+}
+```
+
+With these restrictions, we have created a range of acceptable ages. Valid ages are considered between 0 and 123 inclusive. If a user enters an age that is less than 0, we tell them that is impossible. If a user enters an age over 123, we inform them that no one has ever lived that long before. Otherwise, we simply print their age.
+
 
 ## Even or Odd
 
