@@ -3,7 +3,8 @@
 For loops allow us to repeat code a fixed number of times. A basic for loop is structured like this:
 
 ```
-for (int i = 0; i < COUNT; i++) {
+for (int i = 0; i < COUNT; i++) 
+{
     //Code segment that is executed COUNT times.
 }
 ```
@@ -62,7 +63,8 @@ public class Countdown extends ConsoleProgram
     public void run()
     {
         System.out.println("Initiating countdown:");
-        for(int i = 5; i >= 0; i--){
+        for(int i = 5; i >= 0; i--)
+        {
             System.out.println(i + "...");
         }
     }
@@ -88,7 +90,8 @@ public class CountByTwos extends ConsoleProgram
 {
     public void run()
     {
-        for(int i = 0; i < 21; i += 2){
+        for(int i = 0; i < 21; i += 2)
+        {
         	System.out.println(i);
         }
     }
@@ -126,7 +129,8 @@ public class ForLoopSum extends ConsoleProgram
     public void run()
     {
     	int sum = 0;
-    	for(int i = MIN; i < = MAX; i++){
+    	for(int i = MIN; i < = MAX; i++)
+    	{
     		sum += i;
     	}
     	System.out.println("The sum was " + sum);
