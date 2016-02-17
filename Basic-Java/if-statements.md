@@ -7,7 +7,7 @@ We use if statements to run a segment of code only if some boolean expression fi
 ```
 if (boolean expression) 
 {
-    //Segment of code that will run if the boolean expression is true
+    // Segment of code that will run if the boolean expression is true
 }
 ```
 
@@ -20,11 +20,11 @@ We can add the **else** keyword to our if statement. In this case, if the boolea
 ```
 if (boolean expression) 
 {
-    //Segment of code that will run if the boolean expression is true
+    // Segment of code that will run if the boolean expression is true
 } 
 else 
 {
-    //Segment of code that will run if the boolean expression is false
+    // Segment of code that will run if the boolean expression is false
 }
 ```
 
@@ -35,15 +35,15 @@ We can add the **else if** keyword between our if/else statement. If *boolean ex
 ```
 if (boolean expression one) 
 {
-    //Segment of code that will run if boolean expression one is true
+    // Segment of code that will run if boolean expression one is true
 } 
 else if (boolean expression two)
 {
-    //Segment of code that will run if boolean expression two is true
+    // Segment of code that will run if boolean expression two is true
 }
 else 
 {
-    //Segment of code that will run if boolean expression one and boolean expression two are both false
+    // Segment of code that will run if boolean expression one and boolean expression two are both false
 }
 ```
 
@@ -157,23 +157,23 @@ public class DetermineLetterGrade extends ConsoleProgram
     public void run()
     {
         int grade = readInt("What grade did you get? ");
-        if (grade > 89) //90 or above is an A
+        if (grade > 89)                                     // 90 or above is an A
         {
             System.out.println("You got an A! Great job!");
         } 
-        else if (grade > 79 && grade < 90) //80 - 89 is a B
+        else if (grade > 79 && grade < 90)                  // 80 - 89 is a B
         {
             System.out.println("You got an B.");
         }
-        else if (grade > 69 && grade < 80) //70 - 79 is a C
+        else if (grade > 69 && grade < 80)                  // 70 - 79 is a C
         {
             System.out.println("You got a C.");
         }
-        else if (grade > 59 && grade < 70) //60 - 69 is a D
+        else if (grade > 59 && grade < 70)                  // 60 - 69 is a D
         {
             System.out.println("You got a D.");
         }
-        else //Anything else is a F. Below 60.
+        else                                                // Anything else is a F. Below 60.
         {
             System.out.println("Oh no! You failed.");
         }
