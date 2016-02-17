@@ -5,7 +5,7 @@ For loops allow us to repeat code a fixed number of times. A basic for loop is s
 ```
 for (int i = 0; i < COUNT; i++) 
 {
-    //Code segment that is executed COUNT times.
+    // Code segment that is executed COUNT times.
 }
 ```
 
