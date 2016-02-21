@@ -20,3 +20,12 @@ Say that after going grocery shopping, you and your friend decide to play a game
 #### HashMap
 Or perhaps you are going on vacation to an exciting place and you want to send postcards to your friends while you are away. You could create an address book to take with you by writing the name of each friend in one column and the corresponding mailing address in the next column. This data is different from the list of grocery items because each entry actually consists of two pieces of information: a key (the friend's name) and a value (the friend's address). As such, you would use a different data structure called a **map** to store this type of data (so called because it "maps" each name to an address).
 
+In summary, the data types are:
+
+|Type|Simple Definition|Example|
+|---|---|---|
+|array|List of fixed size|10-item grocery list|
+|ArrayList|List of changing size|Flexible grocery list to add or remove items|
+|2D array|Table of grid|Checkerboard|
+|HashMap|Association, key to value|Address book to store friend's addresses|
+
