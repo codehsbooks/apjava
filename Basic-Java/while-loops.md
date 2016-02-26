@@ -140,5 +140,21 @@ public class GuessTheSecretNumber extends ConsoleProgram
 }
 ```
 
-We don't know how many guesses it will take the user to find the secret number. It might take them only one or two guesses. It might take them over twenty or even over fifty guesses. We don't know! Thus, we must use a while loop here. A for loop won't do us any good. 
+We don't know how many guesses it will take the user to find the secret number. It might take them only one or two guesses. It might take them over twenty or even over fifty guesses. We don't know! Thus, we must use a while loop here. A for loop won't do us any good.
+
+Here is just **one** possible example of many for what a user might do after running the program:
+
+```
+I am thinking of a secret number from 1 to 100. Can you guess it? 
+Type a number: 5
+Incorrect. Try a different number: 60
+Incorrect. Try a different number: 44
+Incorrect. Try a different number: 32
+Incorrect. Try a different number: 11
+Incorrect. Try a different number: 99
+Incorrect. Try a different number: 52
+Incorrect. Try a different number: 53
+Incorrect. Try a different number: 54
+Correct! You got it!
+```
 
