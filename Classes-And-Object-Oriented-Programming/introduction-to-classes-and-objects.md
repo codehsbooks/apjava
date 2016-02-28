@@ -164,9 +164,10 @@ As discussed earlier, objects have both a state and behavior. Here are some exam
 // Rectangle Class
 public class StateBehavior_Rectangle
 {
-    // Here we will create a new rectangle, and then print it.
+    // Here we will create a new rectangle, and then print its information.
     public void run()
     {
+        // Create the rectangle
         Rectangle rect = new Rectangle(20, 8);
         // This will print ""Rectangle with width: 20 and height: 8 and area: 160"
         System.out.println(rect);
@@ -174,7 +175,11 @@ public class StateBehavior_Rectangle
 }
 
 // Animal Class
-
+public class StateBehavior_Animal
+{
+    // Here we will create a new animal, and then print its information.
+    Animal myPet = new Animal("Cujo", true, 7);
+}
 // Vehicle Class
 
 ```
