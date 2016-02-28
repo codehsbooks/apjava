@@ -191,5 +191,12 @@ public class StateBehavior_Animal
 }
 
 // Vehicle Class
-
+public class StateBehavior_Vehicle
+{
+    // Here we will create a new vehicle, and then calculate how many miles/year it has.
+    public void run()
+    {
+    
+    }
+}
 ```
