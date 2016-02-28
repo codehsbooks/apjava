@@ -89,13 +89,13 @@ public class Animal
 public class Vehicle
 {
     private String vehicleType;
-    private int vehicleYear;
+    private int vehicleAge;
     private double vehicleMiles;
     
-    public Vehicle(String vType, int vYear, double vMiles)
+    public Vehicle(String vType, int vAge, double vMiles)
     {
         vehicleType = vType;
-        vehicleYear = vYear;
+        vehicleAge = vAge;
         vehicleMiles = vMiles;
     }
     
@@ -104,14 +104,19 @@ public class Vehicle
         return vehicleType;
     }
     
-    public int getYear()
+    public int getAge()
     {
-        return vehicleYear;
+        return vehicleAge;
     }
     
     public double getMiles()
     {
         return vehicleMiles;
+    }
+    
+    public double estimateMilesPerYear()
+    {
+        return vehicleMiles / vehicleAge;
     }
 }
 
@@ -129,5 +134,5 @@ Rectangle rect = new Rectangle(20, 8);
 
 Animal pet = new Animal("Dog", "Cujo", 2);
 
-Vehicle myTruck = new Vehicle("Truck", 2000, 173600.4);
+Vehicle myTruck = new Vehicle("Truck", 10, 173600.4);
 ```
