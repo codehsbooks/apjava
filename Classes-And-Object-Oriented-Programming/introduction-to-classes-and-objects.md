@@ -161,6 +161,7 @@ Vehicle myTruck = new Vehicle("Truck", 10, 173600.4);
 As discussed earlier, objects have both a state and behavior. Here are some examples on how to create objects with our previous defined classes, and use them.
 
 ``` Java
+// Rectangle Class
 public class StateBehavior_Rectangle
 {
     // Here we will create a new rectangle, and then print it.
