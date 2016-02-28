@@ -167,7 +167,7 @@ public class StateBehavior_Rectangle
     public void run()
     {
         Rectangle rect = new Rectangle(20, 8);
-        
+        //
         
     }
 }
