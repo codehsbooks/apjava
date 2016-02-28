@@ -15,7 +15,7 @@ Thinking back to the car in this case. An example of a state, with the car, woul
 ##### Behavior
 The behavior is the actions that can be performed on the specific object.
 
-A car may be able to get its mileage from the remaining fuel.
+A behavior of the car may be to get the mileage from the remaining fuel.
 
 ## Classes
 Classes are the templates we use for creating objects.
@@ -85,7 +85,7 @@ public class Animal
 }
 ```
 ##### Vehicle Class
-Here is another example of a class that takes in a vehicle type, its age, and how many miles it has.
+Here is another example of a class that takes in a vehicle type, its age, and how many miles it has:
 
 ``` Java
 public class Vehicle
@@ -137,4 +137,9 @@ Rectangle rect = new Rectangle(20, 8);
 Animal pet = new Animal("Dog", "Cujo", 2);
 
 Vehicle myTruck = new Vehicle("Truck", 10, 173600.4);
+
 ```
+
+## State and Behavior
+
+As discussed earlier, objects have both a state and behavior.
