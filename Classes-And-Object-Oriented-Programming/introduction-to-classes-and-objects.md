@@ -61,31 +61,61 @@ public class Animal
     private boolean isPet;
     private int age;
     
-    public Animal(String animalName, isAnimalPet, animalAge)
+    public Animal(String animalName, boolean isAnimalPet, int animalAge)
     {
         name = animalName;
         isPet = isAnimalPet;
         age = animalAge;
     }
     
-    public getName()
+    public String getName()
     {
         return name;
     }
     
-    public getPetStatus()
+    public boolean getPetStatus()
     {
         return isPet;
     }
     
-    public getAge()
+    public int getAge()
     {
         return age;
     }
 }
 ```
 ##### Vehicle Class
+``` Java
+public class Vehicle
+{
+    private String vehicleType;
+    private int vehicleYear;
+    private double vehicleMiles;
+    
+    public Vehicle(String vType, int vYear, double vMiles)
+    {
+        vehicleType = vType;
+        vehicleYear = vYear;
+        vehicleMiles = vMiles;
+    }
+    
+    public String getType()
+    {
+        return vehicleType;
+    }
+    
+    public int getYear()
+    {
+        return vehicleYear;
+    }
+    
+    public double getMiles()
+    {
+        return vehicleMiles;
+    }
+}
 
+```
 ## Creating Objects
 
 When creating a new object from a class you will use this format:
@@ -99,5 +129,5 @@ Rectangle rect = new Rectangle(20, 8);
 
 Animal pet = new Animal("Dog", "Cujo", 2);
 
-Vehicle myTruck = new Vehicle("Truck", 20, 173600);
+Vehicle myTruck = new Vehicle("Truck", 2000, 173600.4);
 ```
