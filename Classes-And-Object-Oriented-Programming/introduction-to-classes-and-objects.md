@@ -85,6 +85,8 @@ public class Animal
 }
 ```
 ##### Vehicle Class
+Here is another example of a class that takes in a vehicle type, its age, and how many miles it has.
+
 ``` Java
 public class Vehicle
 {
