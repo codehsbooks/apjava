@@ -85,7 +85,7 @@ public class Animal
     
     public String animalInfo()
     {
-        String aInfo = "This animal's name is: " + name + " they are current a pet: " +
+        String aInfo = "This animal's name is: " + name + " they are currently a pet: " +
                                 isAnimalPet + ". The animal is " + age + " years old.";
         return aInfo;
     }
