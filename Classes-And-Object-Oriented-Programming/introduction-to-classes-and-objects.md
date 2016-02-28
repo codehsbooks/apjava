@@ -49,6 +49,13 @@ public class Rectangle
     {
         return width * height;
     }
+    
+    public String toString()
+    {
+        String rectInfo = "Rectangle with width: " + width + " and height: " + height + 
+                                " and area: " + getArea();
+        return rectInfo;
+    }
 }
 ```
 ##### Animal Class
@@ -83,7 +90,7 @@ public class Animal
         return age;
     }
     
-    public String animalInfo()
+    public String toString()
     {
         String aInfo = "This animal's name is: " + name + " they are currently a pet: " +
                                 isAnimalPet + ". The animal is " + age + " years old.";
@@ -149,4 +156,17 @@ Vehicle myTruck = new Vehicle("Truck", 10, 173600.4);
 
 ## State and Behavior
 
-As discussed earlier, objects have both a state and behavior.
+As discussed earlier, objects have both a state and behavior. Here are some examples on how to create objects with our previous defined classes, and use them.
+
+``` Java
+public class StateBehavior_Rectangle
+{
+    // Here we will create a new rectangle, and then print it.
+    public void run()
+    {
+        Rectangle rect = new Rectangle(20, 8);
+    }
+}
+
+
+```
