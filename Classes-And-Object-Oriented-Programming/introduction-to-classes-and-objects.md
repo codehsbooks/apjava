@@ -123,7 +123,7 @@ public class Vehicle
 ```
 ## Creating Objects
 
-When creating a new object from a class you will use this format:
+When creating a new object from a class you will use the following format:
 
 ``` Java 
 [Class Name] [Object Name] = new [Class Name] (params);
