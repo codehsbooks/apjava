@@ -82,6 +82,13 @@ public class Animal
     {
         return age;
     }
+    
+    public String animalInfo()
+    {
+        String aInfo = "This animal's name is: " + name + " they are current a pet: " +
+                                isAnimalPet + ". The animal is " + age + " years old.";
+        return aInfo;
+    }
 }
 ```
 ##### Vehicle Class
