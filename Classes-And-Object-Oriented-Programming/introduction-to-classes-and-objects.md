@@ -184,8 +184,12 @@ public class StateBehavior_Animal
         Animal myPet = new Animal("Cujo", true, 7);
         // Print out the animal info
         System.out.println(myPet);
+        
+        // This will print: "This animal's name is: Cujo they are currently a pet: true.
+        // The animal is 5 years old."
     }
 }
+
 // Vehicle Class
 
 ```
