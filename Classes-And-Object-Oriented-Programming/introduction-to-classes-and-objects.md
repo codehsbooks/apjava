@@ -94,7 +94,7 @@ public class Animal
     public String toString()
     {
         String aInfo = "This animal's name is: " + name + " they are currently a pet: " +
-            isAnimalPet + ". The animal is " + age + " years old.";
+            isPet + ". The animal is " + age + " years old.";
             
         return aInfo;
     }
@@ -178,7 +178,13 @@ public class StateBehavior_Rectangle
 public class StateBehavior_Animal
 {
     // Here we will create a new animal, and then print its information.
-    Animal myPet = new Animal("Cujo", true, 7);
+    public void run()
+    {
+        // Create the animal and assign its attributes
+        Animal myPet = new Animal("Cujo", true, 7);
+        // Print out the animal info
+        System.out.println(myPet);
+    }
 }
 // Vehicle Class
 
