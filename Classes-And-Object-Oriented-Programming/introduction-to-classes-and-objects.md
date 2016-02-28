@@ -196,7 +196,12 @@ public class StateBehavior_Vehicle
     // Here we will create a new vehicle, and then calculate how many miles/year it has.
     public void run()
     {
-    
+        // Create the vehicle and assign its attributes
+        Vehicle myTruck = new Vehicle("Truck", 15, 173600.4);
+        
+        // Now we will use the `estimateMilesPerYear()` method to determine how many miles
+        // per year, it has been driven.
+        System.out.println("Your yearly mileage is: " + myTruck.estimateMilesPerYear());
     }
 }
 ```
