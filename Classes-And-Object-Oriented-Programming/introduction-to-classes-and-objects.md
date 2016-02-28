@@ -141,7 +141,7 @@ When creating a new object from a class you will use the following format:
 
 Rectangle rect = new Rectangle(20, 8);
 
-Animal pet = new Animal("Dog", "Cujo", 2);
+Animal pet = new Animal("Cujo", true, 7);
 
 Vehicle myTruck = new Vehicle("Truck", 10, 173600.4);
 
