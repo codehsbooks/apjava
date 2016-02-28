@@ -53,7 +53,8 @@ public class Rectangle
     public String toString()
     {
         String rectInfo = "Rectangle with width: " + width + " and height: " + height + 
-                                " and area: " + getArea();
+            " and area: " + getArea();
+            
         return rectInfo;
     }
 }
@@ -93,7 +94,8 @@ public class Animal
     public String toString()
     {
         String aInfo = "This animal's name is: " + name + " they are currently a pet: " +
-                                isAnimalPet + ". The animal is " + age + " years old.";
+            isAnimalPet + ". The animal is " + age + " years old.";
+            
         return aInfo;
     }
 }
