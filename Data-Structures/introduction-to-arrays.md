@@ -28,5 +28,57 @@ Let's take apart the array declaration:
 - `new`: The `new` keyword indicates that a new array is being created.
 - `type[numberOfElements]`: The type of elements is mentioned again, as well as the number of items the array will store.
 
-## Array Example
+## Getting and Setting Array Elements
+Once an array is declared, it's ready to store information. Perhaps the easiest way of putting data into an array is to initizalize the array with data when declaring it. To do so, simply include the array elements between curly braces. Here's a list of 6 numbers:
 
+    int[] numberList = {10,20,30,40,50,60};
+    
+*index position:* | 0 | 1 | 2 | 3 | 4 | 5 |
+---               |---|---|---|---|---|---|
+***list item:***  |10 |20 |30 |40 |50 |60 |
+    
+#### Setting Elements
+It's also possible to declare a new empty array and add in the list items later. Elements in an array can be accessed using the index position of the array. Let's create a new empty array of numbers, then add in two numbers:
+
+    // Create an empty array that will store 6 integers
+    int[] newNumberList = new int[6];
+    
+    // Add the number 11 to index position 0
+    newNumberList[0] = 11;
+    
+    // Add the number 13 to index position 1
+    newNumberList[1] = 13;
+    
+The array now contains two integers:
+
+*index position:* | 0 | 1 | 2 | 3 | 4 | 5 |
+---               |---|---|---|---|---|---|
+***list item:***  |11 |13 |   |   |   |   |
+
+The same syntax can be used to change elements in a list. Let's change 13 to 21:
+
+    newNumberList[1] = 21;
+    
+*index position:* | 0 | 1 | 2 | 3 | 4 | 5 |
+---               |---|---|---|---|---|---|
+***list item:***  |11 |21 |   |   |   |   |
+
+#### Getting Elements
+
+Accessing elements in a list uses a similar syntax. We can get and store the number at index 0 into a variable:
+
+    // This variable will contain the number 11
+    int firstNumber = newNumberList[0];
+    
+    // Two ways to print out the number 11 to the console
+    System.out.println(firstNumber);
+    System.out.println(newNumberList[0]);
+    
+    // Now print out the number at index position 1 to the console
+    System.out.println(newNumberList[1]);
+    
+The output from the code will be:
+
+    11
+    11
+    21
