@@ -2,10 +2,10 @@
 
 Classes and Objects are utilized in Java as part of the Object Oriented Programming model. This model focuses on objects and the data and actions associated with the objects.
 
-## Object
+## Objects
 
 Objects are structures that contain a state and behavior. 
-Every day objects we commonly use have states and behaviors. For example, a car is an object. A car has both a state and a behavior.
+Every day objects we commonly use have states and behaviors. For example, a car is an object with both a state and a behavior.
 
 ##### State
 The state contains the information about the specific object. 
