@@ -10,3 +10,4 @@ Going back to the previous chapter, ***Rectangle***, ***Animal***, and ***Vehicl
 So, in this case, if we create two different vehicles they would be specific instances of the ***Vehicle*** class. 
 
 Remember, ***An object is an instance of a class.***
+
