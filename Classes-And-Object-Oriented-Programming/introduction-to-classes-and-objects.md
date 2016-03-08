@@ -169,7 +169,7 @@ public class StateBehavior_Rectangle
     {
         // Create the rectangle
         Rectangle rect = new Rectangle(20, 8);
-        // This will print ""Rectangle with width: 20 and height: 8 and area: 160"
+        // This will print "Rectangle with width: 20 and height: 8 and area: 160"
         System.out.println(rect);
     }
 }
