@@ -18,7 +18,7 @@ In Java our array will look like:
 int[] orangeOrders = {10, 3, 6, 4, 5, 1};
 ```
 <br>
-##### Accessing a Single Item:
+##### Accessing a Single Element:
 Our third order `index 2` is for 6 oranges, but what if the customer made a mistake and only wants 3 oranges? 
 
 In this case we would access the array, and change the value at `index 2` to 6. To do this we would use:
@@ -26,5 +26,19 @@ In this case we would access the array, and change the value at `index 2` to 6. 
 ```Java
 orangeOrders[2] = 3;
 ```
+
+Now the value at `index 2` in our array is set to 3.
+
+<hr>
+Now, lets say orders at `index 4` and `index 5` paid for an express purchase. We need to push these two items into our order queue before the rest of our orders. To do this we would use `orangeOrders[4]` and `orangeOrders[5]`, and push them through our queue using `finalizeOrder(order);`.
+
+Our code will look like:
+
+```Java
+finalizeOrder(orangeOrders[4]);
+finalizeOrder(orangeOrders[5]);
+```
+
+
 
 
