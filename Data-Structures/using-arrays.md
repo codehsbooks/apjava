@@ -27,9 +27,10 @@ In this case we would access the array, and change the value at `index 2` to 6. 
 orangeOrders[2] = 3;
 ```
 
-Now the value at `index 2` in our array is set to 3.
+The value at `index 2` in our array is set to 3.
 
-<hr>
+<br>
+
 Now, lets say orders at `index 4` and `index 5` paid for an express purchase. We need to push these two items into our order queue before the rest of our orders. To do this we would use `orangeOrders[4]` and `orangeOrders[5]`, and push them through our queue using `finalizeOrder(order);`.
 
 Our code will look like:
@@ -39,6 +40,6 @@ finalizeOrder(orangeOrders[4]);
 finalizeOrder(orangeOrders[5]);
 ```
 
-
+##### Iterating Through The Array
 
 
