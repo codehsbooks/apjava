@@ -40,6 +40,17 @@ finalizeOrder(orangeOrders[4]);
 finalizeOrder(orangeOrders[5]);
 ```
 
-##### Iterating Through The Array
+##### Iterating Over The Array
 
+It is the end of the day and our store has stopped accepting new orders. Now we need to send the current array of orders to be finalized. We don't want to access each item in the array one-by-one and rewrite code. So we will need to iterate over our array using a for loop. Since we are using a for loop, how do we know how many iterations it should perform? We use `arr.length` to see how many items are in our array.
 
+Our code will look something like:
+
+```Java
+int[] orangeOrders = {10, 3, 6, 4, 5, 1};
+
+for(int i = 0; i < orangeOrders.length; i++)
+{
+    finalizeOrder(orangeOrders[i]);
+}
+```
