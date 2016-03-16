@@ -3,4 +3,4 @@ Arrays are utilized for many operations in various programs. Since arrays store 
 
 ### Accessing the Array
 
-There are many ways we can access the items within our array
+There are many ways we can access the items within our array. 
