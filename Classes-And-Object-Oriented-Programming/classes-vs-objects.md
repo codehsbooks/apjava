@@ -12,6 +12,21 @@ In essence, if we create two different vehicles they would be specific instances
 Remember, ***An object is an instance of a class.***
 
 
-### Practice Questions
+### Examples
+
+``` Java
+public class ExampleClass extends ConsoleProgram
+{
+  public void run()
+  {
+    // `Animal` is our class
+    
+    // `myDog` and `myCat` are objects, because
+    // they are specific instances of our `Animal` class. 
+    Animal myDog = new Animal("Cujo", true, 7);
+    Animal myCat = new Animal("Kerby", true, 2);
+  }
+}
+```
 
 
