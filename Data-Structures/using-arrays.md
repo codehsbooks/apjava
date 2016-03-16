@@ -12,3 +12,9 @@ Here is the array:
 | -- | -- | -- | -- | -- | -- | -- |
 | *Orders:* | 10 Oranges | 3 Oranges | 6 Oranges | 4 Oranges | 5 Oranges | 1 Orange |
 
+In Java our array will look like:
+
+```Java 
+int[] orangeOrders = {10, 3, 6, 4, 5, 1};
+```
+
