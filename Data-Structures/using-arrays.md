@@ -55,4 +55,16 @@ for(int i = 0; i < orangeOrders.length; i++)
 }
 ```
 
+We can also iterate over our array to determine how many oranges have been sold using:
 
+```Java
+int[] orangeOrders = {10, 3, 6, 4, 5, 1};
+int sumOfOranges = 0;
+
+for(var i = 0; i < orangeOrders.length; i++)
+{
+  sumOfOranges += orangeOrders[i];
+}
+
+System.out.println("Total oranges sold: " + sumOfOranges);
+```
