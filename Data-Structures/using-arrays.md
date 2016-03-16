@@ -17,4 +17,14 @@ In Java our array will look like:
 ```Java 
 int[] orangeOrders = {10, 3, 6, 4, 5, 1};
 ```
+<br>
+##### Accessing a Single Item:
+Our third order `index 2` is for 6 oranges, but what if the customer made a mistake and only wants 3 oranges? 
+
+In this case we would access the array, and change the value at `index 2` to 6. To do this we would use:
+
+```Java
+orangeOrders[2] = 3;
+```
+
 
