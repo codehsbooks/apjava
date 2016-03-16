@@ -7,7 +7,7 @@ An **instance** is a specific version of an object that can differ in numerous w
 
 Going back to the previous chapter, ***Rectangle***, ***Animal***, and ***Vehicle*** are all classes. These classes, as is, are considered a type, unless you create a specific version of the class. 
 
-So, in this case, if we create two different vehicles they would be specific instances of the ***Vehicle*** class. 
+In essence, if we create two different vehicles they would be specific instances of the ***Vehicle*** class. 
 
 Remember, ***An object is an instance of a class.***
 
