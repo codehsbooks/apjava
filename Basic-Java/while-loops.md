@@ -36,9 +36,9 @@ public class WhileLoopCountDown extends ConsoleProgram
 }
 ```
 
-We first declare a variable `i` and set it equal to *5*. Before the while loop, we print out a message letting the user know that the countdown is about to begin. Our while loop starts by checking to see if the boolean expression, ``i >= 0``, is true. The current value of `i` is *5*. `5 >= 0` is true, so the code within the while loop gets executed. It prints out the number *5* and then decrements it by subtracting 1. 
+We first declare a variable `i` and set it equal to *5*. Before the while loop, we print out a message letting the user know that the countdown is about to begin. Our while loop starts by checking to see if the boolean expression, *i >= 0*, is true. The current value of `i` is *5*. *5 >= 0* is true, so the code within the while loop gets executed. It prints out the number *5* and then decrements it by subtracting 1. 
 
-`i` is now set to *4*. Our while loop then checks to see if `4 >= 0`. Since this condition is still true, the code within the while loop gets executed again. This will continue until `i` gets down to *0*. After *0* gets printed to the screen, we decrement `i` so that it is now set to *-1*. Our while loop tests to see if `-1 >= 0`. Since *-1* is **not** greater than or equal to *0*, the boolean expression is false. The code within the while loop is skipped. The while loop has finished its execution.
+`i` is now set to *4*. Our while loop then checks to see if *4 >= 0*. Since this condition is still true, the code within the while loop gets executed again. This will continue until `i` gets down to *0*. After *0* gets printed to the screen, we decrement `i` so that it is now set to *-1*. Our while loop tests to see if *-1 >= 0*. Since *-1* is **not** greater than or equal to *0*, the boolean expression is false. The code within the while loop is skipped. The while loop has finished its execution.
 
 
 After we run the above program, this is what gets printed to the screen:
@@ -77,7 +77,7 @@ public class InfiniteWhileLoopCountdown extends ConsoleProgram
 
 But why? Why does this cause an infinite loop?
 
-With the omission of `i--`, we are no longer changing our variable. `i` will forever be set to 5. Our while loop will repeatedly check to see if `5 >= 0`. Since this condition is *always* true, the code within the while loop body will execute forever. The while loop will *never* terminate. Our program will just keep printing a value of *5* over and over again.
+With the omission of `i--`, we are no longer changing our variable. `i` will forever be set to 5. Our while loop will repeatedly check to see if *5 >= 0*. Since this condition is *always* true, the code within the while loop body will execute forever. The while loop will *never* terminate. Our program will just keep printing a value of *5* over and over again.
 
 Thus, after running the program, our output will look something like this (assuming the browser does not freeze and crash):
 
