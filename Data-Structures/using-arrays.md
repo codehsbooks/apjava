@@ -1,11 +1,11 @@
 # Using Arrays
-Arrays are utilized for many operations in various programs. Since arrays store data in order, we can iterate through them to access this data. Lets say we are creating an online store that sells oranges. We would want to store the customer orders in an array so we can honor the first orders before the orders that come later.
+Arrays are utilized for many operations in various programs. Since arrays store data in order, we can iterate through them to access this data. Let's say we are creating an online store that sells oranges. We would want to store the customer orders in an array so we can honor the first orders before the orders that come later.
 
 ### Accessing the Array
 
 There are many ways we can access the items within our array.
 
-Lets say we have an array that stores the order data from our market.
+Let's say we have an array that stores the order data from our market.
 Here is the array:
 
 | *Index:* | 0 | 1 | 2 | 3 | 4 | 5|
@@ -31,7 +31,7 @@ The value at `index 2` in our array is set to 3.
 
 <br>
 
-Now, lets say orders at `index 4` and `index 5` paid for an express purchase. We need to push these two items into our order queue before the rest of our orders. To do this we would use `orangeOrders[4]` and `orangeOrders[5]`, and push them through our queue using `finalizeOrder(order);`.
+Now, let's say orders at `index 4` and `index 5` paid for an express purchase. We need to push these two items into our order queue before the rest of our orders. To do this we would use `orangeOrders[4]` and `orangeOrders[5]`, and push them through our queue using `finalizeOrder(order);`.
 
 Our code will look like:
 
