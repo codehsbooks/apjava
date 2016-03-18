@@ -26,7 +26,7 @@ The flow chart below shows the flow of execution in a for loop.
 
 
 ### Examples
-Let's make Karel put down 5 balls.  In this case, `count` will be 5, because we want something to happen 5 times.  The code inside of the for loop will be `putBall()` because that's what we want to happen 5 times.  The for loop looks like this:
+Let's make Karel put down 5 balls.  In this case, we'll initialize `i` to 0, and `count` will be 5, because we want something to happen 5 times.  The code inside of the for loop will be `putBall()` because that's what we want to happen 5 times.  The for loop looks like this:
 
 ```
 for(int i = 0; i < 5; i++){
