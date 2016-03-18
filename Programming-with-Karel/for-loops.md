@@ -17,9 +17,9 @@ for(int i = 0; i < count; i++)
 
 A for loop consists of three parts: the header, the curly braces, and the code inside of the curly braces. The curly braces are there to designate what code you want repeated.  All of the code between the curly braces will be repeated.  You can put any commands you want Karel to do to inside of the for loop.
 
-The header is made up of three parts: the initialization part, the conditional part, and the 
+The header is made up of three parts: initialization, the conditional, and update. You must separate each of these parts with a semicolon, but be careful to **not** put a semicolon after the closing parenthesis! The initialization part simply declares and initializes your loop variable -- 'int i = 0;'.  The conditional part is how you specify how many times you want the loop to execute -- 'i < count'.  This works by only letting 'i' reach a particular value. The update part lets you choose how 'i' should be incremented after each time the loop executes -- 'i++'.  In the example above, we've specified that 'i' should have one added to the value each time.  
 
-This piece of code says the variable `i` will start with the value 0.  Then, as long as `i < count`, the code inside of the for loop will repeat.  The `i++` part specifies how `i` will change every time after the code in the curly braces executes.  `i++` means add one to the value of `i` after each time through the loop.  This is one way to control how many *iterations* through the for loopThe flow chart below shows the flow of execution in a for loop.
+The flow chart below shows the flow of execution in a for loop.
 
 
 ![](../static/karel/forLoopDiagram.png)
