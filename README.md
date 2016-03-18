@@ -9,8 +9,6 @@ We'd like to thank all those who have helped write this book:
 
 - Karel the Dog (@karelthedog, http://karelthedog.com/)
 
-- Kathryn Rodgers
-
 - Michael Goheen
 
 - Neil Shankar
@@ -22,3 +20,8 @@ We'd like to thank all those who have helped write this book:
 - Sachi Williamson
 
 - Wezley Sherman 
+ 
+- Kathryn Rodgers
+
+
+
