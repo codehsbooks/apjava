@@ -26,6 +26,7 @@ The flow chart below shows the flow of execution in a for loop.
 
 
 ### Examples
+#### Example One
 Let's make Karel put down 5 balls.  In this case, we'll initialize `i` to 0, and `count` will be 5, because we want something to happen 5 times.  The code inside of the for loop will be `putBall()` because that's what we want to happen 5 times.  The for loop looks like this:
 
 ```
@@ -34,21 +35,15 @@ for(int i = 0; i < 5; i++){
 }
 ```
 
-Let's look at another example.  This time, we want Karel to put a ball down on every other space. This means that every iteration, Karel will have to move, put down a ball, then move again. The start world looks like this:
+#### Example Two
+This time, we want to have Karel move, put down a ball, and move again.
 
-![Starting World](../static/karel/for_oddBallStartWorld.png)
+Here is what the starting world looks like:
 
-The world should look like this when Karel is finished putting down balls: 
-
-![Ending World](../static/karel/for_oddBallFinish.png)
-
-We know that this world has 9 avenues. Karel will move across 2 of them every iteration.
 
 ### Test Yourself!!
-
-
 ---
-<p>Try out these questions to test your understanding of for loops </p>
+<p>Try to answer these questions to test your understanding of for loops </p>
 <pre> Fill in the blanks:
         for( ____ i = 0; i < 5; i++)
         {
@@ -56,10 +51,10 @@ We know that this world has 9 avenues. Karel will move across 2 of them every it
         }
 </pre>
 
-- ( ) var
-- ( ) count
-- (x) int
-- ( ) Nothing should go in the blank
+A. var
+B. count
+C. int
+D. Nothing should go in the blank
 
 > Not quite.  `var` is used in JavaScript, but not Java
 
