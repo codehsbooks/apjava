@@ -39,6 +39,7 @@ for(int i = 0; i < 5; i++){
 This time, we want to have Karel move, put down a ball, and move again.
 
 Here is what the starting world looks like:
+ ![Starting World](../static/karel/for_oddBallStartWorld.png)
 
 
 ### Test Yourself!!
