@@ -53,7 +53,9 @@ for(){
     move();
 }```
 
-Now, let's look at the world.  It has 9 avenues.  However, since we're telling Karel to move twice, we can't use `i < 9` because we'd make Karel crash into the wall!  If we were only moving once, then we would iterate 9 times.  Since we're moving twice, we can only iterate 9/2 times.  We'll round down and say that 9/2 = 4.5 and rounded is 4.  We need the loop to iterate 4 times! Here's the final for loop
+Now, let's look at the world.  It has 9 avenues.  However, since we're telling Karel to move twice, we can't use `i < 9` because we'd make Karel crash into the wall!  If we were only moving once, then we would iterate 9 times.  Since we're moving twice, we can only iterate 9/2 times.  We'll round down and say that 9/2 = 4.5 and rounded is 4.  We need the loop to iterate four times! Why didn't we round up to five? Look at the picture of the ending world.  There is only room for four balls.  If we had looped five times, Karel would have still crashed into the wall.
+
+Here's the final for loop
 
 ```
 for(int i = 0; i < 4; i++){
