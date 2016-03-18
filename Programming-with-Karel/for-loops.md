@@ -25,6 +25,15 @@ The flow chart below shows the flow of execution in a for loop.
 ![](../static/karel/forLoopDiagram.png)
 
 
+### Be Careful!
+There are several things that you want to make sure to watch out for when using for loops.
+
+1. Don't put a semicolon after the closing parenthesis of the header.  This will cause the for loop to not repeat the code in the body of the loop.
+2. Put spaces around the operators in the header.  The equals sign and less than symbol should have spaces around them.
+3. Put spaces between each part of the header. You should end the initialization and conditional parts with a semicolon and space. None of this squished nonsense: ~~`for(int i=0;i<0;i++)`~~ 
+4. Make sure all of the code you want to be in the body of the loop is between the curly braces.  Only code in the curly braces will be considered as part of the loop.
+
+
 ### Examples
 #### Example One
 Let's make Karel put down 5 balls.  In this case, we'll initialize `i` to 0, and `count` will be 5, because we want something to happen 5 times.  The code inside of the for loop will be `putBall()` because that's what we want to happen 5 times.  The for loop looks like this:
@@ -39,9 +48,11 @@ for(int i = 0; i < 5; i++){
 This time, we want to have Karel move, put down a ball, and move again.
 
 Here is what the starting world looks like:
+
  ![Starting World](../static/karel/for_oddBallStartWorld.png)
 
-Here's what we want the ending world to look like
+Here's what we want the ending world to look like:
+
 ![Ending World](../static/karel/for_oddBallFinish.png)
 
 How can we build a for loop to do this? Let's build the loop from the inside out.  What do we want Karel to do each iteration?  Karel should 1) move, 2) put down a ball, and 3) move again. The body of the for loop would look like this:
@@ -66,7 +77,7 @@ for(int i = 0; i < 4; i++){
 ```
 
 ### Summary
-For loops are a convenient way to repeat chunks of code.  We can use for loops when we have a fixed number of iterations.  A for loop is made of three parts: the header, the body, and the curly braces.  The header has the initialization, condition, and update information.  The body is made up of the statements that should be repeated and goes between the curly braces. 
+For loops are a convenient way to repeat chunks of code.  We can use for loops when we have a fixed number of iterations.  A for loop is made of three parts: the header, the body, and the curly braces.  The header has the initialization, condition, and update information.  THe opening curly brace comes before the body. The body is made up of the statements that should be repeated. The closing curly brace finishes up the for loop and tells the program that we're done with the code we want repeated.
 
 
 
