@@ -1,5 +1,5 @@
 # Strings
- As you have learned, a character is one of the primitive data types in Java. We use the `char` keyword to declare it. A character is a single letter. \`A\`, \`a\`, \`D\`, \`Z\` are all examples of characters. 
+ As you have learned, a character is one of the primitive data types in Java. We use the `char` keyword to declare it. A character is a single letter. `'A'`, `'a'`, `'D'`, and `'Z'` are all examples of characters. 
 
 It is great that we have an easy way to represent a single character, but what if we wanted to represent words or sentences? How can we do this?
 
