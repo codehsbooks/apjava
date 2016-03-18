@@ -64,7 +64,7 @@ for(int i = 0; i < 4; i++){
 ```
 
 ### Summary
-For loops are a convenient way to repeat chunks of code.  We can use for loops when we have a fixed number of iterations.  A for loop is made of three parts: the header, the body, and the curly braces.  The header has the initialization, condition, and update information.  The body is made up of the statements that should be repeated and goes inbetween the curly braces.
+For loops are a convenient way to repeat chunks of code.  We can use for loops when we have a fixed number of iterations.  A for loop is made of three parts: the header, the body, and the curly braces.  The header has the initialization, condition, and update information.  The body is made up of the statements that should be repeated and goes between the curly braces.
 
 
 
