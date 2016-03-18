@@ -15,7 +15,9 @@ for(int i = 0; i < count; i++)
 }
 ```
 
-A for loop is made up of three parts: the header, the curly braces, and the code inside of the curly braces. 
+A for loop consists of three parts: the header, the curly braces, and the code inside of the curly braces. The curly braces are there to designate what code you want repeated.  All of the code between the curly braces will be repeated.  You can put any commands you want Karel to do to inside of the for loop.
+
+The header is made up of three parts: the initialization part, the conditional part, and the 
 
 This piece of code says the variable `i` will start with the value 0.  Then, as long as `i < count`, the code inside of the for loop will repeat.  The `i++` part specifies how `i` will change every time after the code in the curly braces executes.  `i++` means add one to the value of `i` after each time through the loop.  This is one way to control how many *iterations* through the for loopThe flow chart below shows the flow of execution in a for loop.
 
