@@ -15,7 +15,9 @@ for(int i = 0; i < count; i++)
 }
 ```
 
-This piece of code says the variable `i` will start with the value 0.  Then, as long as `i < count`, the code you want repeated will execute.  The `i++` part specifies how `i` will change after every iteration.  `i++` means add one to the value of `i` after each time the program does everything between the curly braces.  The flow chart below shows the flow of execution in a for loop.
+A for loop is made up of three parts: the header, the curly braces, and the code inside of the curly braces. 
+
+This piece of code says the variable `i` will start with the value 0.  Then, as long as `i < count`, the code inside of the for loop will repeat.  The `i++` part specifies how `i` will change every time after the code in the curly braces executes.  `i++` means add one to the value of `i` after each time through the loop.  This is one way to control how many *iterations* through the for loopThe flow chart below shows the flow of execution in a for loop.
 
 
 ![](../static/karel/forLoopDiagram.png)
