@@ -119,7 +119,7 @@ Hooray! The bug is now gone!
 
 It is important to note that when we compare Strings, it is case-sensitive. Uppercase and lowercase letters need to match exactly. Typing `codeHS` or `Codehs` as an answer will not work because capitalization matters.
 
-#### General Format for Comparing Two Strings:
+#### Thus, The General Format for Comparing Two Strings Is:
 
 ```
 boolean result = stringOne.equals(stringTwo);
