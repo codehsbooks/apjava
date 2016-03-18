@@ -41,42 +41,30 @@ This time, we want to have Karel move, put down a ball, and move again.
 Here is what the starting world looks like:
  ![Starting World](../static/karel/for_oddBallStartWorld.png)
 
+Here's what we want the ending world to look like
+![Ending World](../static/karel/for_oddBallFinish.png)
 
-### Test Yourself!!
----
-<p>Try to answer these questions to test your understanding of for loops </p>
-<pre> Fill in the blanks:
-        for( ____ i = 0; i < 5; i++)
-        {
-            putBall();
-        }
-</pre>
+How can we build a for loop to do this? Let's build the loop from the inside out.  What do we want Karel to do each iteration?  Karel should 1) move, 2) put down a ball, and 3) move again. The body of the for loop would look like this:
 
-A. var
-B. count
-C. int
-D. Nothing should go in the blank
+``` 
+for(){
+    move();
+    putBall();
+    move();
+}```
 
-> Not quite.  `var` is used in JavaScript, but not Java
+Now, let's look at the world.  It has 9 avenues.  However, since we're telling Karel to move twice, we can't use `i < 9` because we'd make Karel crash into the wall!  If we were only moving once, then we would iterate 9 times.  Since we're moving twice, we can only iterate 9/2 times.  We'll round down and say that 9/2 = 4.5 and rounded is 4.  We need the loop to iterate 4 times! Here's the final for loop
 
-> Nope. `count` is not a variable type. `i` has to be declared as a variable.  Note this also means that `i` could have any variable type, as long as you can add variables of that type.
+```
+for(int i = 0; i < 4; i++){
+  move();
+  putBall();
+  move();
+}
+```
 
-> Yes! Typically `i` is declared as an int.
-
-> Remember that `i` is a variable and must be declared with a type.  
----
-
-
-
-
-
-
-
-
-
-
-
-
+### Summary
+For loops are a convenient way to repeat chunks of code.  We can use for loops when we have a fixed number of iterations.  A for loop is made of three parts: the header, the body, and the curly braces.  The header has the initialization, condition, and update information.  The body is made up of the statements that should be repeated and goes inbetween the curly braces.
 
 
 
