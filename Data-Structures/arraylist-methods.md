@@ -19,7 +19,14 @@ public class ArrayListExample extends ConsoleProgram
 {
   public void run()
   {
+    // Create the ArrayList named `classGrades` and set its type to `Integer`
     ArrayList<Integer> classGrades = new ArrayList<Integer>();
+    
+    // Add the grades to our ArrayList
+    classGrades.add(97);
+    classGrades.add(50);
+    classGrades.add(80);
+    classGrades.add(90);
   }
 }
 ```
