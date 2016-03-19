@@ -7,8 +7,10 @@ You can think of an ArrayList as a container that will resize as we add/remove o
 <.Gif example here>
 
 ### Creating ArrayLists
-
+We create an ArrayList in a similar fashion as if we were to create an Array.  
 
 ### Using ArrayLists
 
 ### Iterating Over ArrayLists
+
+
