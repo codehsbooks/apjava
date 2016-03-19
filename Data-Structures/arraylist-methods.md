@@ -2,4 +2,13 @@
 Arrays are amazing, but they lack flexibility and useful methods. That's where ArrayList comes into play. An ArrayList is similar to an Array, except that it is resizable and has more functionality. 
 
 ### ArrayLists
-You can think of an ArrayList as if it were a 
+You can think of an ArrayList as a container that will resize as we add/remove objects from it. Like the container, the ArrayList can hold any of our types: Strings, Integers, Booleans, ect.  
+
+<.Gif example here>
+
+### Creating ArrayLists
+
+
+### Using ArrayLists
+
+### Iterating Over ArrayLists
