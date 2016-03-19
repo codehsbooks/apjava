@@ -35,7 +35,7 @@ Let's review some key points about Strings:
 
 ## String Methods
 
-![](static/methods/string-methods-table.png)
+![String Methods Table](../static/methods/string-methods-table.png)
 
 
 
