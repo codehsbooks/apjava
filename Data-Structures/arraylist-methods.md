@@ -19,7 +19,7 @@ public class ArrayListExample extends ConsoleProgram
 {
   public void run()
   {
-    ArrayList<int> classGrades = new ArrayList<int>();
+    ArrayList<Integer> classGrades = new ArrayList<Integer>();
   }
 }
 ```
