@@ -1,16 +1,46 @@
 # Strings Methods
 
-You will remember that Strings are a sequence of characters. Take the example String below:
+You will remember that Strings are a sequence of characters. Let's look at this example String below:
 
 ```
 String str = "Hello World"
 ```
 
-Here is another way to think about Strings as a sequence of characters:
+Here is a way to think about this String as a sequence of individual characters:
 
 | 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 |
 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
 | H  | e  | l  | l  | o  |    | W  | o  | r  | l  | d  |
 
-Each character in this string has a position. The first character 'H'a position of 0. The second You will note that the space between the two words is at position 5.
+Each character in this string has a position from 0 to 10. For example, the first character, `'H'`, is at position 0. The second character, `'e'`, is at position 1. The last character, `'d'`, is at position 10. You will note that the space between the two words, `' '`, is also a character and is located at position 5.
+
+## String Review
+
+Let's review some key points about Strings:
+
+* Strings are **objects**.
+* Strings are **not** primitive types (like `char`, `int`, `boolean`, `double`, etc.).
+* A **S**tring starts with a capital letter whereas primitive types are all lowercase.
+* Since Strings are objects, we must use the `.equals()` method to determine if two Strings are exactly the same. Using `==` to compare two Strings will result in buggy programs.
+  * `string1.equals(string2)` **is** the correct way to compare two Strings. `string1 == string2` is **NOT** the correct way to compare two Strings.
+
+## Notes About The Java Documentation
+
+* **The Java Documentation** is the reference for how to use different methods and classes. 
+  * [The full Java documentation for all methods and classes is located here](https://docs.oracle.com/javase/7/docs/api/). 
+* In this chapter, we will be focusing specifically on the documentation for Strings ([located on this page](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)).
+* Tip: you can find a specific page in the documentation using a search engine like Google. When searching for a specific method or class, search using the keywords "Java  [method or class]". 
+  * [For example, here is a Google search for the Java String Documentation](https://www.google.com/search?q=java+string).
+  * This is often easier than navigating through the full Java Documentation website.
+
+## String Methods
+
+![](StringMethodsTable.PNG)
+
+
+
+
+
+
+
 
