@@ -7,8 +7,22 @@ You can think of an ArrayList as a container that will resize as we add/remove o
 <.Gif example here>
 
 ### Creating ArrayLists
-We create an ArrayList in a similar fashion as if we were to create an Array.  
+We create an ArrayList in a similar fashion as if we were to create an Array. To create an ArrayList we use: `ArrayList<type> variableName = new ArrayList<type>();`
 
+Lets say we want to create an ArrayList that holds the grades for a class. Here is an example of what that code would look like:
+
+```Java
+// Import the ArrayList
+import java.util.*;
+
+public class ArrayListExample extends ConsoleProgram
+{
+  public void run()
+  {
+    ArrayList<int> classGrades = new ArrayList<int>();
+  }
+}
+```
 ### Using ArrayLists
 
 ### Iterating Over ArrayLists
