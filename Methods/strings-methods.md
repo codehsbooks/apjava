@@ -35,10 +35,27 @@ Let's review some key points about Strings:
 
 ## String Methods
 
+[If you go to the String documentation page](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html), you will notice that there are ***a lot*** of different methods we can use on Strings. In this section, we will be focusing on some of the key methods from that page which are listed in the table below:
+
 ![String Methods Table](../static/methods/string-methods-table.png)
 
+The *left-most column* in the table shows us the return type of the method. The *middle column* in the table shows us the **method signature**. The method signature includes the name of the method and its parameters. The middle column also tells us what the method does. The *right-most* column gives an example of using the method.
 
+### Using The charAt Method
 
+[Todo]
+
+### Using The substring Method
+
+[Todo]
+
+#### Strings Are Immutable:
+
+[Todo]
+
+## Looping Over A String
+
+[Todo]
 
 
 
