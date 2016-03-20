@@ -52,7 +52,7 @@ public class ArrayListExample extends ConsoleProgram
   }
 }
 ```
-### Using ArrayLists
+### ArrayList Methods
 After creating and populating your ArrayList you can perform multiple operations on it.
 
 ##### Getting a Value
@@ -70,6 +70,8 @@ With ArrayLists we can set a specific index's value using `list.set(index, value
 classGrades.set(1, 90); // Will change the value at index 1 to `90`
 students.set(0, "Willy"); // Will change the value at index 0 to `Willy`
 ```
+
+
 
 ### Iterating Over ArrayLists
 
