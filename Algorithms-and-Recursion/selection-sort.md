@@ -10,7 +10,7 @@ Selection Sort will sort the numbers in our array using loops to iterate over th
 
 ##### How it looks
 
-Here is an example of what a selection sort algorithm looks like:
+Here is an example of what a Selection Sort algorithm looks like:
 
 ```Java
 /* This is a Selection Sort example with an array of 
