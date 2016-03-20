@@ -17,11 +17,15 @@ public class SelectionSort extends ConsoleProgram
 {
   public void run() 
   {
+    // Create our array of numbers
     int[] intsToOrder = {10, 3, 6, 4, 5, 1};
-     
+    
+    // Create minimum index, and temporary value variables
     int minIndex = 0;
     int tmpValue = 0;
-    for(int i = 0; i < intsToOrder.length; i++)
+    
+    // Loop through
+    for(int i = 0; i < intsToOrder.length - 1; i++)
     {
       minIndex = i;
       for(int j = i + 1; j < intsToOrder.length; j++)
