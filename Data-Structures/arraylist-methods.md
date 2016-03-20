@@ -52,7 +52,7 @@ public class ArrayListExample extends ConsoleProgram
 }
 ```
 ### ArrayList Methods
-After creating and populating your ArrayList you can perform multiple operations on it.
+After creating and populating your ArrayList you can use multiple methods with it.
 
 ##### Adding to an ArrayList
 To add a value to an ArrayList you use `list.add(elem);`. Here is an example using our `classGrades` and `students` ArrayLists:
