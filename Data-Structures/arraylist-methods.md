@@ -36,6 +36,18 @@ Now we want to create a list of students in a classroom. We can use the ArrayLis
 ```Java
 // Import the ArrayList
 import java.util.*;
+
+public class ArrayListExample extends ConsoleProgram
+{
+  public void run()
+  {
+    // Create the ArrayList named 'students' and set its type to 'String'
+    ArrayList<String> students = new ArrayList<String>();
+    
+    // Add the students to our ArrayList
+    
+  }
+}
 ```
 ### Using ArrayLists
 
