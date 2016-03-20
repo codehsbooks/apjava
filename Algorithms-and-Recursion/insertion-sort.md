@@ -16,6 +16,7 @@ public class InsertionSort extends ConsoleProgram
 {
   public void run()
   {
+    // Create our array of integers to sort
     int[] intsToSort = {1, 5, 6, 3};
     
     // We start at `1` instead of `0`
