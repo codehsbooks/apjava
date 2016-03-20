@@ -6,8 +6,7 @@ Insertion Sort is another sorting algorithm that we can use to sort arrays. Goin
 As with Selection Sort; Insertion Sort uses loops to iterate over the array. The difference in Insertion Sort is that as we iterate over the array, we will put each element in its designated position. Where as Selection Sort will search for the smallest element on each iteration.
 
 
-<----.gif example ---->
-
+!["Insertion Sort Example"](../static/algorithms/Algorithms_Insertion_Sort_Example.gif)
 ##### What it looks like
 
 Here is an example of what an Insertion Sort algorithm looks like:
