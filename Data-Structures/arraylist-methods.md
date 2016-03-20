@@ -116,10 +116,8 @@ for(int i = 0; i < classGrades.size(); i++)
     int grade = classGrades.get(i);
     System.out.println(grade);
 }
-
-
-
-
+```
+```Java
 // Loops through `students`
 for(int i = 0; i < students.size(); i++)
 {
@@ -138,9 +136,8 @@ for(int grade: classGrades)
   // Prints out the class grades.
   System.out.println(grade);
 }
-
-
-
+```
+```Java
 // Loops through `students`
 for(String name: students)
 {
