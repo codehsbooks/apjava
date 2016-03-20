@@ -54,6 +54,14 @@ public class ArrayListExample extends ConsoleProgram
 ### ArrayList Methods
 After creating and populating your ArrayList you can perform multiple operations on it.
 
+##### Adding to an ArrayList
+To add a value to an ArrayList you use `list.add(elem);`. Here is an example using our `classGrades` and `students` ArrayLists:
+
+```Java
+classGrades.add(100);
+students.add("Trevor");
+```
+
 ##### Getting a Value
 To get a value from your ArrayList you use `list.get(index);`. Here is an example using our `classGrades` and `students` ArrayLists:
 
