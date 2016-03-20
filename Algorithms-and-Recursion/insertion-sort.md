@@ -22,6 +22,7 @@ public class InsertionSort extends ConsoleProgram
     for(int i = 1; i < intsToSort.length; i++)
     {
       int currNum = intsToSort[i];
+      
       // Shift element into designated position
       int currIndex = i-1;
       while(currIndex > -1 && intsToSort[currIndex] > currNum)
