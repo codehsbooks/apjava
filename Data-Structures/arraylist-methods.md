@@ -56,7 +56,7 @@ public class ArrayListExample extends ConsoleProgram
 After creating and populating your ArrayList you can perform multiple operations on it.
 
 ##### Getting a Value
-To get a value from your ArrayList you use `list.get(index);`. Here is an example with our `classGrades` and `students` ArrayLists:
+To get a value from your ArrayList you use `list.get(index);`. Here is an example using our `classGrades` and `students` ArrayLists:
 
 ```Java
 int grade = classGrades.get(2); // Will return `80`
@@ -64,6 +64,12 @@ String student = students.get(1); // Will return `Wezley`
 ```
 
 ##### Setting a Value
+With ArrayLists we can set a specific index's value using `list.set(index, value);`. Here is an example using our `classGrades` and `students` ArrayLists:
+
+```Java
+classGrades.set(1, 90); // Will change the value at index 1 to `90`
+students.set(0, "Willy"); // Will change the value at index 0 to `Willy`
+```
 
 ### Iterating Over ArrayLists
 
