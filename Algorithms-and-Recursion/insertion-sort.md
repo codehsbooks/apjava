@@ -20,6 +20,7 @@ public class InsertionSort extends ConsoleProgram
     int[] intsToSort = {1, 5, 6, 3};
     
     // We start at `1` instead of `0`
+    // because first value is already sorted
     for(int i = 1; i < intsToSort.length; i++)
     {
       int currNum = intsToSort[i];
