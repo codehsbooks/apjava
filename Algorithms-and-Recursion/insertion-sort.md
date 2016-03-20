@@ -16,7 +16,20 @@ public class InsertionSort extends ConsoleProgram
 {
   public void run()
   {
-  
+    int[] intsToSort = {1, 5, 6, 3};
+    
+    for(int i = 1; i < intsToSort.length; i++)
+    {
+      int currNum = intsToSort[i];
+      
+      int currIndex = i-1;
+      while(currIndex > -1 && intsToSort[currIndex] > currNum)
+      {
+        intsToSort[currIndex+1] = intsToSort[currIndex];
+        currIndex--;
+      }
+      intsToSort[currIndex+1] = currNum;
+    }
   }
 }
 
