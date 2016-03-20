@@ -28,7 +28,7 @@ public class SelectionSort extends ConsoleProgram
       {
         if(intsToOrder[j] < intsToOrder[minIndex])
         {
-          minIndex = i;
+          minIndex = j;
         }
       }
       
