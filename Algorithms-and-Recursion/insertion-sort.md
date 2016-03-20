@@ -7,4 +7,12 @@ As with Selection Sort; Insertion Sort uses loops to iterate over the array. The
 
 <---- .gif example ---->
 
+##### What it looks like
+
+Here is an example of what an Insertion Sort algorithm looks like:
+
+```Java
+
+
+```
 
