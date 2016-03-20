@@ -13,6 +13,11 @@ Selection Sort sorts the numbers in our array using loops to iterate over the ar
 Here is an example of what a selection sort algorithm looks like:
 
 ```Java
+/* This is a Selection Sort example with an array of 
+ * integers. This will iterate over our array, and 
+ * look for the smallest values. It will rearrange 
+ * our values from smallest to largest
+ */  
 public class SelectionSort extends ConsoleProgram 
 {
   public void run() 
