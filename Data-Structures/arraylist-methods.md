@@ -48,7 +48,6 @@ public class ArrayListExample extends ConsoleProgram
     students.add("Stephen");
     students.add("Wezley");
     students.add("Wade");
-    students.add("Trevor");
   }
 }
 ```
@@ -71,6 +70,13 @@ classGrades.set(1, 90); // Will change the value at index 1 to `90`
 students.set(0, "Willy"); // Will change the value at index 0 to `Willy`
 ```
 
+##### Getting Size of an ArrayList
+We can also access the length or size of a specific ArrayList using `list.size();`. Here is an example using our `classGrades` and `students` ArrayLists:
+
+```Java
+int gradeSize = classGrades.size(); // Will return 4
+int classSize = students.size(); // Will return 3
+```
 
 
 ### Iterating Over ArrayLists
