@@ -116,13 +116,33 @@ for(int i = 0; i < classGrades.size(); i++)
     int grade = classGrades.get(i);
     System.out.println(grade);
 }
+
+
+
+
+// Loops through `students`
+for(int i = 0; i < students.size(); i++)
+{
+    // Prints out our students
+    String name = students.get(i);
+    System.out.println(name);
+}
 ```
 
 We also have the option of using a For Each loop to iterate over our ArrayList like:
 
 ```Java
+// Loops through `classGrades`
+for(int grade: classGrades)
+{
+  // Prints out the class grades.
+  System.out.println(grade);
+}
+
+
+
 // Loops through `students`
-for(String name : students)
+for(String name: students)
 {
   // Prints the name of our students
   System.out.println(name); 
