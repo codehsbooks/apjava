@@ -63,6 +63,8 @@ int grade = classGrades.get(2); // Will return `80`
 String student = students.get(1); // Will return `Wezley`
 ```
 
+##### Setting a Value
+
 ### Iterating Over ArrayLists
 
 
