@@ -1,1 +1,2 @@
 # Selection Sort
+Lets say we are working on a statistics package that returns the median value of an array. The problem we run into is that the numbers in the array aren't sorted. First we must sort the numbers in the array from smallest to largest. 
