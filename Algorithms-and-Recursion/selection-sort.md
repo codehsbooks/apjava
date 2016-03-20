@@ -24,18 +24,24 @@ public class SelectionSort extends ConsoleProgram
     int minIndex = 0;
     int tmpValue = 0;
     
-    // Loop through
+    // Loop through the number array and set minIndex to i
     for(int i = 0; i < intsToOrder.length - 1; i++)
     {
       minIndex = i;
+      // Loop through the array again, and compare each value to 
+      // the value at `minIndex`
       for(int j = i + 1; j < intsToOrder.length; j++)
       {
+        // If the value at `j` is less than the value at `minIndex`
+        // set `minIndex` equal to `j`
         if(intsToOrder[j] < intsToOrder[minIndex])
         {
           minIndex = j;
         }
       }
       
+      // Swap the value in spot `i` with the value in
+      // `minIndex`
       tmpValue = intsToOrder[minIndex];
       intsToOrder[minIndex] = intsToOrder[i];
       intsToOrder[i] = tmpValue;
