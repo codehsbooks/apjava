@@ -45,7 +45,10 @@ public class ArrayListExample extends ConsoleProgram
     ArrayList<String> students = new ArrayList<String>();
     
     // Add the students to our ArrayList
-    
+    students.add("Stephen");
+    students.add("Wezley");
+    students.add("Wade");
+    students.add("Trevor");
   }
 }
 ```
