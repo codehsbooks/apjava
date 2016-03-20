@@ -5,3 +5,20 @@ Lets say we are working on a statistics package that returns the median value of
 ##### How it works
 
 Selection Sort sorts the numbers in our array using loops to iterate over the arrays as we sort one number at a time. Each time the loop iterates we look for the smallest value left in the unsorted chunk and sort it. 
+
+<--- Add .gif --->
+
+##### How it looks
+
+Here is an example of what a selection sort algorithm looks like:
+
+```Java
+public class SelectionSort extends ConsoleProgram 
+{
+  public void run() 
+  {
+    int[] intsToOrder = {10, 3, 6, 4, 5, 1};
+  }
+}
+
+```
