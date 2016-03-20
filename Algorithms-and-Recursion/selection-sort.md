@@ -4,7 +4,7 @@ Lets say we are working on a statistics package that returns the median value of
 
 ##### How it works
 
-Selection Sort sorts the numbers in our array using loops to iterate over the arrays as we sort one number at a time. Each time the loop iterates we look for the smallest value left in the unsorted chunk and sort it. 
+Selection Sort will sort the numbers in our array using loops to iterate over the arrays as we sort one number at a time. Each time the loop iterates we look for the smallest value left in the unsorted chunk and sort it. 
 
 !["Selection Sort Example"](../static/algorithms/Algorithms_And_Recursion_Selection_Sort_Example.gif)
 
