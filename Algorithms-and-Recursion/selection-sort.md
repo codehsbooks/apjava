@@ -18,7 +18,7 @@ public class SelectionSort extends ConsoleProgram
   public void run() 
   {
     int[] intsToOrder = {10, 3, 6, 4, 5, 1};
-    
+     
     int minIndex = 0;
     int tmpValue = 0;
     for(int i = 0; i < intsToOrder.length; i++)
