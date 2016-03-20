@@ -34,7 +34,8 @@ public class ArrayListExample extends ConsoleProgram
 Now we want to create a list of students in a classroom. We can use the ArrayList for this as well:
 
 ```Java
-
+// Import the ArrayList
+import java.util.*;
 ```
 ### Using ArrayLists
 
