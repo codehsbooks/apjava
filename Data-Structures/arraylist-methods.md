@@ -62,6 +62,14 @@ classGrades.add(100);
 students.add("Trevor");
 ```
 
+##### Adding at a Specific Index
+ArrayLists also allow us to add an item at a specific index using `list.add(index, elem);`. Here is an example using our `classGrades` and `students` ArrayLists:
+
+```Java
+classGrades.add(1, 29); // Adds '29' to index 1, and shifts everything right
+students.add(2, "Kyle"); // Adds 'Kyle' to index 2, and shifts everything right
+```
+
 ##### Getting a Value
 To get a value from your ArrayList you use `list.get(index);`. Here is an example using our `classGrades` and `students` ArrayLists:
 
