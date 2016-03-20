@@ -53,6 +53,15 @@ public class ArrayListExample extends ConsoleProgram
 }
 ```
 ### Using ArrayLists
+After creating and populating your ArrayList you can perform multiple operations on it.
+
+##### Getting a Value
+To get a value from your ArrayList you use `list.get(index);`. Here is an example with our `classGrades` and `students` ArrayLists:
+
+```Java
+int grade = classGrades.get(2); // Will return `80`
+String student = students.get(1); // Will return `Wezley`
+```
 
 ### Iterating Over ArrayLists
 
