@@ -94,6 +94,13 @@ int gradeSize = classGrades.size(); // Will return 4
 int classSize = students.size(); // Will return 3
 ```
 
+##### Removing From ArrayList
+Finally, we can remove a specific item from our ArrayList using `list.remove(index);`. Here is an example using our `classGrades` and `students` ArrayLists:
+
+```Java
+classGrades.remove(1); // Removes `50` from `classGrades`
+students.remove(0); // Removes `Stephen` from `students`
+```
 
 ### Iterating Over ArrayLists
 
