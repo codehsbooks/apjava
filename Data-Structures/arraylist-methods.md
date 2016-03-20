@@ -106,7 +106,7 @@ students.remove(0); // Removes `Stephen` from `students`
 
 As with traditional Arrays, we can iterate over ArrayLists.
 
-We can use a regular for loop to loop through our list like:
+We can use a regular for loop to iterate over our ArrayList like:
 
 ```Java
 // Loops through `classGrades`
@@ -116,3 +116,13 @@ for(int i = 0; i < classGrades.size(); i++)
     System.out.println(grade);
 }
 ```
+
+We also have the option of using a For Each loop to iterate over our ArrayList like:
+
+```Java
+// Loops through `students`
+for(String name : students)
+{
+  // Prints the name of our students
+  System.out.println(name); 
+}
