@@ -4,7 +4,7 @@ Arrays are amazing, but they lack flexibility and useful methods. That's where A
 ### ArrayLists
 You can think of an ArrayList as a container that will resize as we add/remove objects from it. ArrayLists can't store primitive types so we must use ``Integer`` for ints and ``Double`` for doubles
 
-<.Gif example here>
+<.Gif example here> 
 
 ### Creating ArrayLists
 We create an ArrayList in a similar fashion as if we were to create an Array. To create an ArrayList we use: `ArrayList<type> variableName = new ArrayList<type>();`
@@ -112,6 +112,7 @@ We can use a regular for loop to iterate over our ArrayList like:
 // Loops through `classGrades`
 for(int i = 0; i < classGrades.size(); i++)
 {
+    // Prints out our class grades
     int grade = classGrades.get(i);
     System.out.println(grade);
 }
