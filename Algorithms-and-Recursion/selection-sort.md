@@ -34,11 +34,9 @@ public class SelectionSort extends ConsoleProgram
     {
       minIndex = i;
       // Loop through the array again, and compare each value to 
-      // the value at `minIndex`
+      // the value at `minIndex`. Set `minIndex` to `j` if it's smaller.
       for(int j = i + 1; j < intsToOrder.length; j++)
       {
-        // If the value at `j` is less than the value at `minIndex`
-        // set `minIndex` equal to `j`
         if(intsToOrder[j] < intsToOrder[minIndex])
         {
           minIndex = j;
@@ -55,3 +53,4 @@ public class SelectionSort extends ConsoleProgram
 }
 
 ```
+
