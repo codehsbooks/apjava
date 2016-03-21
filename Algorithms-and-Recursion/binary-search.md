@@ -12,14 +12,17 @@ public class BinarySearch extends ConsoleProgram
 {
   public void run() 
   {
-  
+    // Create our array of numbers
     int[] listNums = {1, 2, 3, 4, 5, 10, 20};
     
+    // Designate a key to search for
     int numKey = 10;
   
+    // Assign our high and low indexes
     int low = 0;
     int high = listNums.length-1;
     
+    // Start iterating over the array to search for our key
     while(low <= high)
     {
       int mid = (low + high)/2;
