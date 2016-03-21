@@ -8,16 +8,34 @@ Using binary search, we will choose high and low indexes. The algorithm will the
 Here is an example of a binary search algorithm:
 
 ```Java
-public class BinarySearch extends ConsoleProgram {
-  public void run() {
+public class BinarySearch extends ConsoleProgram 
+{
+  public void run() 
+  {
+  
     int[] listNums = {1, 2, 3, 4, 5, 10, 20};
+    
+    int numKey = 10;
   
     int low = 0;
     int high = listNums.length-1;
     
     while(low <= high)
     {
-    
+      int mid = (low + high)/2;
+      
+      if(listNums[mid] == numKey)
+      {
+        return mid;
+      }
+      else if(listNums[mid] < number)
+      {
+        low = mid + 1;
+      }
+      else
+      {
+         high = mid - 1;
+      }
     }
   }
 }
