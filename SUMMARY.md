@@ -62,6 +62,7 @@
    * [Battleship](Data-Structures/battleship.md)
 * [Algorithms and Recursion](Algorithms-and-Recursion/README.md)
    * [What is an Algorithm?](Algorithms-and-Recursion/what-is-an-algorithm.md)
+   * [Pseudocode](Algorithms-and-Recursion/pseudocode.md)
    * [Linear Search](Algorithms-and-Recursion/linear-search.md)
    * [Binary Search](Algorithms-and-Recursion/binary-search.md)
    * [Selection Sort](Algorithms-and-Recursion/selection-sort.md)
