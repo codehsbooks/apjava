@@ -61,4 +61,4 @@ will print out:
     3.5
     3.5
     
-Though the results are the same, there are some important differences. And take a look at the `findAverageC` method--it's doing way more work than the other algorithms!
+Though the results are the same, there are some important differences. And take a look at the `findAverageC` method. It finds the correct solution, but it's doing way more work than the other algorithms! As the programs you write solve bigger and bigger problems, it becomes more important to compare the speed and efficiency of different algorithms. 
