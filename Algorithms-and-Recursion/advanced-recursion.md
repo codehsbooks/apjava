@@ -113,4 +113,4 @@ private int fibonacci(int num)
 <hr>
 Sometimes recursion is used as the subject of humor for mathematicians and computer scientists. One of the most famed example of humorous recursion can be seen by going to Google and searching: "recursion." 
 <br>
-<-- include .gif -->
+![Google Recursion Humor](../static/algorithms/Algorithms_Recursion_Google_Humor.gif)
