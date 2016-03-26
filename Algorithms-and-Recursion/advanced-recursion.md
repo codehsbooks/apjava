@@ -23,10 +23,10 @@ Recursion is an important part of Computer Science, because it allows us to cond
 The ***Base Case*** is the terminating case in a recursive problem. This case does not use recursion, because it is the simplest form of the problem. The ***Base Case*** causes the method to terminate. If we don't have a ***Base Case*** the recursive method would continue indefinitely. 
 
 #### Recursive Case:
-The ***Recursive Case*** is the set of steps that reduces all the other cases as the ***Recursive Algorithm*** gets closer to the ***Base Case***.
+The ***Recursive Case*** is the step, or set of steps, that reduces all the other cases as the ***Recursive Algorithm*** gets closer to the ***Base Case***.
 
 #### Recursive Algorithm:
-The ***Recursive Algorithm*** is a finite set of steps that calls itself with simpler inputs, as the ***Recursive Case*** approaches the ***Base Case***.
+The ***Recursive Algorithm*** is a finite set of steps that calls itself with simpler inputs, as the algorithm approaches the ***Base Case***.
 
 ## Examples of Recursion
 <hr>
