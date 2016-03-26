@@ -30,7 +30,7 @@ The ***Recursive Algorithm*** is a finite set of steps that calls itself with si
 
 ## Examples of Recursion
 <hr>
-Some common examples of recursive solutions include Factorials and the Fibonacci Sequence. Other examples of recursive solutions include: Golden Ratio, Catalan Numbers, and Computer Compound Interest.
+Some common examples of recursive solutions include Factorials and the Fibonacci Sequence. Other examples of recursive solutions include: Tower of Hanoi, Golden Ratio, Catalan Numbers, and Computer Compound Interest.
 
 #### Factorials and Recursion
 One common way to solve for factorials use to use a for loop.
