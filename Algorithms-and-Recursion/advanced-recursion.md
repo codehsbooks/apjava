@@ -47,16 +47,16 @@ While this solution definitely works, we can simply it using recursion.
 Looking at the formula for factorials: $$n*(n-1)*(n-2)*(n-3)...$$
 we can see a recurrence relation of: $$n! =\begin{cases}1 & n = 0,\\(n-1)!*n & n > 0\end{cases}$$ 
 <br>
-
+<br>
 Looking at this from a programming point of view, this means:
-``factorial(0);`` equals ``1``, and ``factorial(n);`` equals ``factorial(n-1) * n;``
-
+``factorial(0); = 1``, and ``factorial(n); = factorial(n-1) * n;``
+<hr>
 ##### Base Case:
 Since ``factorial(0);`` is the simplest form we can achieve, it is our base case. This means we want to keep calling our ``factorial();`` method until the input is equal to ``0``.
 
 ##### Recursive Case:
 Given that ``factorial(0);`` is our ***Base Case** we can conclude that ``factorial(n) = factorial(n - 1) * n;`` is our ***Recursive Case***.
-
+<hr>
 Now that we have our ***Base Case*** and ***Recursive Case*** we can construct our recursive method:
 
 ```Java
