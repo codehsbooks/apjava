@@ -44,7 +44,7 @@ private int factorial(int num)
 }
 ```
 While this solution definitely works, we can simply it using recursion.
-Looking at how factorials are solved: $$n*(n-1)*(n-2)*(n-3)...$$
+Looking at the formula for factorials: $$n*(n-1)*(n-2)*(n-3)...$$
 we can see a recurrence relation of: $$n! =\begin{cases}1 & n = 0,\\(n-1)!*n & n > 0\end{cases}$$ 
 <br>
 
