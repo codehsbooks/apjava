@@ -51,8 +51,10 @@ we can see a recurrence relation of: $$n! =\begin{cases}1 & n = 0,\\(n-1)!*n & n
 Looking at this from a programming point of view, this means:
 ``factorial(0);`` equals ``1``, and ``factorial(n);`` equals ``n * factorial(n-1);``
 
-###### Base Case:
+##### Base Case:
 Since ``factorial(0);`` is the simplest form we can achieve, it is our base case. This means we want to keep calling our ``factorial();`` method until the input is equal to ``0``.
+
+##### Recursive Case:
 
 #### Fibonacci Sequence and Recursion
 
