@@ -33,10 +33,10 @@ One common way to solve for factorials use to use a for loop.
 Here is one example:
 
 ```Java
-private int factorial(int num)
+private int factorial(int n)
 {
   int res = 1;
-  for(int i = num; i > 0; i--)
+  for(int i = n; i > 0; i--)
   {
     res *= i;
   }
@@ -49,12 +49,29 @@ we can see a recurrence relation of: $$n! =\begin{cases}1 & n = 0,\\(n-1)!*n & n
 <br>
 
 Looking at this from a programming point of view, this means:
-``factorial(0);`` equals ``1``, and ``factorial(n);`` equals ``n * factorial(n-1);``
+``factorial(0);`` equals ``1``, and ``factorial(n);`` equals ``factorial(n-1) * n;``
 
 ##### Base Case:
 Since ``factorial(0);`` is the simplest form we can achieve, it is our base case. This means we want to keep calling our ``factorial();`` method until the input is equal to ``0``.
 
 ##### Recursive Case:
+Given that ``factorial(0);`` is our ***Base Case** we can conclude that ``factorial(n) = factorial(n - 1) * n;`` is our ***Recursive Case***.
+
+Now that we have our ***Base Case*** and ***Recursive Case*** we can construct our recursive method:
+
+```Java
+private int factorial(int n)
+{
+    // Our Base Case
+    if(n == 0)
+    {
+      return 1;
+    }
+    
+    // Our Recursive Case
+    return factorial(n - 1) * n;
+}
+```
 
 #### Fibonacci Sequence and Recursion
 
