@@ -45,7 +45,11 @@ private int factorial(int num)
 ```
 While this solution definitely works, we can simply it using recursion.
 Looking at how factorials are solved: $$n*(n-1)*(n-2)*(n-3)...$$
-we can see a recurrence relation of: n! = {1 if n = 0, (n-1)!*n if n > 0
+we can see a recurrence relation of: $$n! =\begin{cases}1 & n = 0\\(n-1)!*n & n > 0\end{cases}$$ 
+<br>
+
+Looking at this from a programming point of view, this means:
+``factorial(0);`` equals ``1``, and ``factorial(n);`` equals ``n * factorial(n-1);``
 
 #### Fibonacci Sequence and Recursion
 
