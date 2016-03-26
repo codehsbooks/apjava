@@ -43,6 +43,9 @@ private int factorial(int num)
   return res;
 }
 ```
+While this solution definitely works, we can simply it using recursion.
+Looking at how factorials are solved: $$n*(n-1)*(n-2)*(n-3)...$$
+we can see a recurrence relation of: n! = {1 if n = 0, (n-1)!*n if n > 0
 
 #### Fibonacci Sequence and Recursion
 
