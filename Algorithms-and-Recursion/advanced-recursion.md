@@ -78,6 +78,11 @@ private int factorial(int n)
 ```
 
 #### Fibonacci Sequence and Recursion
+The Fibonacci Sequence is achieved by adding up the two previous numbers to get the next number. The sequence looks like: $$1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...$$
+
+The recurrence relation for the Fibonacci Sequence is: $$F_{n} = F_{n-1} + F_{n-2}$$
+Given this formula, and looking at the sequence we can conclude that $$F_{0} = 1$$ and $$F_{1} = 1$$
+
 
 
 
