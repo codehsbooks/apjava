@@ -24,6 +24,8 @@ The ***Recursive Case*** is the set of steps that reduces all the other cases as
 ##### Recursive Algorithm
 The ***Recursive Algorithm*** is a finite set of steps that calls itself with simpler inputs, as the ***Recursive Case*** approaches the ***Base Case***.
 
+## Examples of Recursion
+
 ## The Humor of Recursion
 <hr>
 Sometimes recursion is used as the subject of humor for mathematicians and computer scientists. One of the most famed example of humorous recursion can be seen by going to Google and searching: "recursion." 
