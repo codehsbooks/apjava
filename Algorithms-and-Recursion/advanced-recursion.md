@@ -84,6 +84,7 @@ The recurrence relation for the Fibonacci Sequence is: $$F_{n} = F_{n-1} + F_{n-
 Given this formula, and looking at the sequence we can conclude that $$F_{0} = 1$$ and $$F_{1} = 1$$
 
 From a programming point of view, this means ``fibonacci(0) = 1``, ``fibonacci(1) = 1``, and ``fibonacci(n) = fibonacci(n-1) + fibonacci(n-2)``
+
 <hr>
 ##### Base Case:
 Since ``fibonacci(0) = 1`` and ``fibonacci(1) = 1`` are the simplest forms we can achieve, these are our ***Base Cases***.
