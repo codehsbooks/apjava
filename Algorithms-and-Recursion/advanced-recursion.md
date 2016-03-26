@@ -77,7 +77,7 @@ private int factorial(int n)
 }
 ```
 <br>
-<br>
+
 ### Fibonacci Sequence and Recursion:
 The Fibonacci Sequence is achieved by adding up the two previous numbers to get the next number. The sequence looks like: $$1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...$$
 
