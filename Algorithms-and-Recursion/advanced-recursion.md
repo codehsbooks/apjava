@@ -93,6 +93,23 @@ Since ``fibonacci(0) = 1`` and ``fibonacci(1) = 1`` are the simplest forms we ca
 Now that we know our ***Base Cases***, we are left with ``fibonacci(n) = fibonacci(n-1) + fibonacci(n-2)`` to be our ***Recursive Case***.
 <hr>
 
+Now that we have our ***Base Cases*** and ***Recursive Case*** we can construct our recursive method:
+
+```Java
+private int fibonacci(int num)
+{
+  // Our Base Cases
+  if(num == 0 || num == 1)
+  {
+    return 1;
+  }
+  
+  // Our Recursive Case
+  return fibonacci(num-1) + fibonacci(num-2);
+}
+
+```
+
 ## The Humor of Recursion
 <hr>
 Sometimes recursion is used as the subject of humor for mathematicians and computer scientists. One of the most famed example of humorous recursion can be seen by going to Google and searching: "recursion." 
