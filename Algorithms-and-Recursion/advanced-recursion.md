@@ -107,7 +107,6 @@ private int fibonacci(int num)
   // Our Recursive Case
   return fibonacci(num-1) + fibonacci(num-2);
 }
-
 ```
 
 ## The Humor of Recursion
