@@ -22,3 +22,4 @@ The ***Base Case*** is the terminating case in a recursive problem. This case do
 The ***Recursive Case*** is the set of steps that reduces all the other cases as the ***Recursive Algorithm*** gets closer to the ***Base Case***.
 
 ##### Recursive Algorithm
+The ***Recursive Algorithm*** is a finite set of steps that calls itself with simpler inputs, as the ***Recursive Case*** approaches the ***Base Case***.
