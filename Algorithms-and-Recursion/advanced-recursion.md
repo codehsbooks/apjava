@@ -14,7 +14,7 @@ In Computer Science, recursion is when a method calls itself to solve a given pr
 
 (Source: https://en.wikipedia.org/wiki/Tower_of_Hanoi)
 
-Recursion is an important part of Computer Science, because it allows us to condense our code into a simple form.
+Recursion is an important part of Computer Science, because it allows us to condense our code into a simple, easy to read, form.
 
 ## Parts of a Recursive Method
 <hr>
