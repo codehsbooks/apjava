@@ -63,4 +63,5 @@ Since ``factorial(0);`` is the simplest form we can achieve, it is our base case
 ## The Humor of Recursion
 <hr>
 Sometimes recursion is used as the subject of humor for mathematicians and computer scientists. One of the most famed example of humorous recursion can be seen by going to Google and searching: "recursion." 
+<br>
 <-- include .gif -->
