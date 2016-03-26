@@ -86,10 +86,10 @@ Given this formula, and looking at the sequence we can conclude that $$F_{0} = 1
 From a programming point of view, this means ``fibonacci(0) = 1``, ``fibonacci(1) = 1``, and ``fibonacci(n) = fibonacci(n-1) + fibonacci(n-2)``
 
 ##### Base Case:
-Since ``fibonacci(0) = 1`` and ``fibonacci(1) = 1`` are the simplest forms we can achieve, these are our ***Base Cases***
+Since ``fibonacci(0) = 1`` and ``fibonacci(1) = 1`` are the simplest forms we can achieve, these are our ***Base Cases***.
 
 ##### Recursive Case:
-Now that we know our ***Base Cases*** we are left with ``fibonacci(n) = fibonacci(n-1) + fibonacci(n-2)`` to be our ***Recursive Case***
+Now that we know our ***Base Cases*** we are left with ``fibonacci(n) = fibonacci(n-1) + fibonacci(n-2)`` to be our ***Recursive Case***.
 
 
 ## The Humor of Recursion
