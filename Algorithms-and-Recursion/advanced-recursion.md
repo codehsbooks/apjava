@@ -25,6 +25,7 @@ The ***Recursive Case*** is the set of steps that reduces all the other cases as
 The ***Recursive Algorithm*** is a finite set of steps that calls itself with simpler inputs, as the ***Recursive Case*** approaches the ***Base Case***.
 
 ## Examples of Recursion
+<hr>
 
 ## The Humor of Recursion
 <hr>
