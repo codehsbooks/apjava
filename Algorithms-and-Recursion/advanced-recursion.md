@@ -55,7 +55,7 @@ Looking at this from a programming point of view, this means:
 Since ``factorial(0);`` is the simplest form we can achieve, it is our base case. This means we want to keep calling our ``factorial();`` method until the input is equal to ``0``.
 
 ##### Recursive Case:
-Given that ``factorial(0);`` is our ***Base Case** we can conclude that ``factorial(n) = factorial(n - 1) * n;`` is our ***Recursive Case***.
+Given that ``factorial(0);`` is our ***Base Case*** we can conclude that ``factorial(n) = factorial(n - 1) * n;`` is our ***Recursive Case***.
 <hr>
 Now that we have our ***Base Case*** and ***Recursive Case*** we can construct our recursive method:
 
