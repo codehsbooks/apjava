@@ -10,6 +10,10 @@ In Computer Science, recursion is when a method calls itself to solve a given pr
 ![Recursion Example](../static/algorithms/Algorithms_Recursion_Example.jpg)
 (Source: https://prateekvjoshi.com/2013/10/05/understanding-recursion-part-i/)
 
+![Recursion Tower](../static/algorithms/Algorithms_Recursion_Tower_Example 2.gif)
+
+(Source: https://en.wikipedia.org/wiki/Tower_of_Hanoi)
+
 Recursion is such an important part of Computer Science, because it allows us to condense our code into a simple form.
 
 ## Parts of a Recursive Method
