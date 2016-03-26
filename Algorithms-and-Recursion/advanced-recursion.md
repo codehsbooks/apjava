@@ -30,7 +30,7 @@ The ***Recursive Algorithm*** is a finite set of steps that calls itself with si
 
 ## Examples of Recursion
 <hr>
-Some common examples of recursive solutions include Factorials and the Fibonacci Sequence. Other examples of recursive solutions include: Tower of Hanoi, Golden Ratio, Catalan Numbers, and Computer Compound Interest.
+Some common examples of recursive solutions include ***Factorials*** and the ***Fibonacci Sequence***. Other examples of recursive solutions include: Tower of Hanoi, Golden Ratio, Catalan Numbers, and Computer Compound Interest.
 
 #### Factorials and Recursion
 One common way to solve for factorials use to use a for loop.
@@ -76,7 +76,8 @@ private int factorial(int n)
     return factorial(n - 1) * n;
 }
 ```
-
+<br>
+<br>
 #### Fibonacci Sequence and Recursion
 The Fibonacci Sequence is achieved by adding up the two previous numbers to get the next number. The sequence looks like: $$1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...$$
 
@@ -90,7 +91,7 @@ From a programming point of view, this means ``fibonacci(0) = 1``, ``fibonacci(1
 Since ``fibonacci(0) = 1`` and ``fibonacci(1) = 1`` are the simplest forms we can achieve, these are our ***Base Cases***.
 
 ##### Recursive Case:
-Now that we know our ***Base Cases***, we are left with ``fibonacci(n) = fibonacci(n-1) + fibonacci(n-2)`` to be our ***Recursive Case***.
+Now that we know our ***Base Cases***, we are left with ``fibonacci(n) = fibonacci(n-1) + fibonacci(n-2)``. This is our ***Recursive Case***.
 <hr>
 
 Now that we have our ***Base Cases*** and ***Recursive Case*** we can construct our recursive method:
