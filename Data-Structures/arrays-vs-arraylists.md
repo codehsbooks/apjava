@@ -25,15 +25,17 @@ To retrieve values at a given index is as follows:
 <br>
 To get a value at a given index with an ***Array*** we use ``int x = arr[i];``.
 <br>
-
+To get a value at a given index with an ***ArrayList*** we use ``int x = list.get(i);``
 
 ##### Creating New Instances:
 To create new instances of an Array or ArrayList you use:
 <br>
-
+To create a new instance of an ***Array*** we use ``int[] arr = new int[5];``
 <br>
+To create a new instance of an ***ArrayList*** we use ``ArrayList<Integer> list = new ArrayList<Integer>();``
 
 ##### Extra Helper Methods:
-Only ArrayLists have extra helper methods. These helper methods include:
+Only ArrayLists have extra helper methods. These helper methods include: remove, add at index, clear, and isEmpty.
+<br>
 
 ##### Types:
