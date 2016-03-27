@@ -32,6 +32,7 @@ The ***Key-Value Pair*** is the combination of the ***Key*** and the ***Value***
 <hr>
 
 ##### Creating Hashmaps:
+
 In order to create a ***Hashmap*** we use: `Hashmap<key_type, value_type> name = new Hashmap<key_type, value_type>();`. 
 <br>
 <br>
@@ -40,6 +41,7 @@ If we were to create our gradebook ***Hashmap*** we would use: `Hashmap<String, 
 <br>
 
 ##### Adding Items:
+
 To add an item to a ***Hashmap*** we use: `map.put(key, value);`
 <br>
 <br>
@@ -53,6 +55,7 @@ gradeBook.put("Julio Rodriguez", 84);
 <br>
 
 ##### Retrieving Items:
+
 To retrieve an item from a ***Hashmap*** we use: `map.get(key);`
 <br>
 <br>
@@ -64,6 +67,7 @@ int trevGrade = gradeBook.get("Trevor Forrey");
 <br>
 
 ##### Iterating Over a Hashmap:
+
 Now, lets say we want to print out every grade in our gradebook. To do so we would have to iterate over our ***Hashmap***. Here is an example of what that would look like:
 
 ```Java
