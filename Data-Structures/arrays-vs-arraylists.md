@@ -16,15 +16,16 @@ With ***ArrayLists*** we would use ``list.size()``.
 ##### Setting Values at an Index:
 Settings values at a given index varies as well.
 <br>
-To set the value of a given index using an ***Array*** we use ``arr[i] = x;``
+To set the value of a given index with an ***Array*** we use ``arr[i] = x;``
 <br>
-To set the value of a given index using an ***ArrayList*** we use ``list.set(i, x);``
+To set the value of a given index with an ***ArrayList*** we use ``list.set(i, x);``
 
 ##### Getting Values at an Index:
 To retrieve values at a given index is as follows:
 <br>
-
+To get a value at a given index with an ***Array*** we use ``int x = arr[i];``.
 <br>
+
 
 ##### Creating New Instances:
 To create new instances of an Array or ArrayList you use:
