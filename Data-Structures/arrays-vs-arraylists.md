@@ -30,6 +30,7 @@ To create new instances of an Array or ArrayList you use:
 <br>
 
 <br>
+
 ##### Extra Helper Methods:
 Only ArrayLists have extra helper methods. These helper methods include:
 
