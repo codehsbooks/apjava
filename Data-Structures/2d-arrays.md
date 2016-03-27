@@ -39,9 +39,9 @@ Here is what a 3x3 2D Array would look like:
 
 |   | 0 | 1 | 2 |
 | -- | -- | -- | -- |
-| 0 |(0, 0)|(1, 0)|(2, 0)|
-| 1 |(0, 1)|(1, 1)|(2, 1)|
-| 2 |(0, 2)|(1, 2)|(2, 2)|
+| 0 |$$(0, 0)$$|$$(1, 0)$$|$$(2, 0)$$|
+| 1 |$$(0, 1)$$|$$(1, 1)$$|$$(2, 1)$$|
+| 2 |$$(0, 2)$$|$$(1, 2)$$|$$(2, 2)$$|
 Where the top and far left rows represent our **X** and **Y** indexes. 
 
 ### Utilizing 2D Arrays
