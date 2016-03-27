@@ -64,5 +64,16 @@ int trevGrade = gradeBook.get("Trevor Forrey");
 <br>
 
 ##### Iterating Over a Hashmap
+Now, lets say we want to print out every grade in our gradebook. To do so we would have to iterate over our ***Hashmap***. Here is an example of what that would look like:
 
+```Java
+System.out.println("Class Grades: ");
+
+// For each `key` in gradeBook.keySet()
+for(String key: in gradeBook.keySet) 
+{
+  int grade = gradeBook.get(key);
+  System.out.println(key + ": " + grade);
+}
+```
 
