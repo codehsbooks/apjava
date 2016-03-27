@@ -72,7 +72,7 @@ int trevGrade = gradeBook.get("Trevor Forrey");
 
 ##### Iterating Over a Hashmap:
 
-Now, lets say we want to print out every grade in our gradebook. To do so we would have to iterate over our ***Hashmap***. Here is an example of what that would look like:
+Now, lets say we want to print out every grade in our gradebook. In order to do this, we would have to iterate over our ***Hashmap***. Here is an example of what that would look like:
 
 ```Java
 System.out.println("Class Grades: ");
