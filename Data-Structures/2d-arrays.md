@@ -5,7 +5,7 @@ Lets say we are contracted by a video game company to build Tic-Tac-Toe game. We
 
 ### Creating 2D Arrays
 <hr>
-To create a 2D Array, we would declare it in a similar fashion as a regular Array. A 2D Array's declaration would look like: ``type[][] name = new type[rows][columns];``
+To create a 2D Array, we would use: ``type[][] name = new type[rows][columns];``
 
 Here are some examples:
 
