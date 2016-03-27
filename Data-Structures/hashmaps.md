@@ -28,7 +28,7 @@ The ***Value*** is the result we get when we look up a specific item with a ***K
 The ***Key-Value Pair*** is the combination of the ***Key*** and the ***Value*** associated.
 <br>
 
-It is important to remember that each key can only have **one** value, and ***key-value pairs*** are **not** ordered.
+It is important to remember that each ***key*** can only have **one** ***value***, and ***key-value pairs*** are **not** ordered.
 
 ### Utilizing Hashmaps
 <hr>
@@ -38,8 +38,10 @@ It is important to remember that each key can only have **one** value, and ***ke
 In order to create a ***Hashmap*** we use: `Hashmap<key_type, value_type> name = new Hashmap<key_type, value_type>();`. 
 <br>
 <br>
-If we were to create our gradebook ***Hashmap*** we would use: `Hashmap<String, Integer> gradeBook = new Hashmap<String, Integer>();`
-<br>
+If we were to create our gradebook ***Hashmap*** we would use: 
+```Java
+Hashmap<String, Integer> gradeBook = new Hashmap<String, Integer>();
+```
 <br>
 
 ##### Adding Items:
