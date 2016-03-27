@@ -36,7 +36,8 @@ In order to create a ***Hashmap*** we use: `Hashmap<key_type, value_type> name =
 <br>
 <br>
 If we were to create our gradebook ***Hashmap*** we would use: `Hashmap<String, Integer> gradeBook = new Hashmap<String, Integer>();`
-
+<br>
+<br>
 ##### Adding Items:
 To add an item to a ***Hashmap*** we use `map.put(key, value);`
 <br>
@@ -48,3 +49,7 @@ gradeBook.put("Wade Adams", 95);
 gradeBook.put("Julio Rodriguez", 84);
 ...
 ```
+<br>
+##### Retrieving Items:
+
+
