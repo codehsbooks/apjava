@@ -13,8 +13,24 @@ When dealing with an ***Array*** we use ``arr.length`` to access its length.
 <br>
 With ***ArrayLists*** we would use ``list.size()``.
 
-##### Setting Values at Index:
+##### Setting Values at an Index:
 Settings values at a given index varies as well.
 <br>
 
 <br>
+
+##### Getting Values at an Index:
+To retrieve values at a given index is as follows:
+<br>
+
+<br>
+
+##### Creating New Instances:
+To create new instances of an Array or ArrayList you use:
+<br>
+
+<br>
+##### Extra Helper Methods:
+Only ArrayLists have extra helper methods. These helper methods include:
+
+##### Types:
