@@ -23,7 +23,7 @@ This would look like:
 
 The ***Key*** is the element we use to look up a specific ***Value*** in the map.
 <br>
-The ***Value*** is the result we get when we look up a specific value with a ***Key***. 
+The ***Value*** is the result we get when we look up a specific item with a ***Key***. 
 <br>
 The ***Key-Value Pair*** is the combination of the ***Key*** and the ***Value*** associated.
 <br>
