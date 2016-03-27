@@ -65,7 +65,9 @@ To retrieve an item from a ***Hashmap*** we use: `map.get(key);`
 <br>
 Lets say we wanted to access Trevor Forry's and Ada Lovelace's grades. To do so we would use:
 ```Java
+// `adaGrade` would contain `96`
 int adaGrade = gradeBook.get("Ada Lovelace");
+// `trevGrade` would tonain `100`
 int trevGrade = gradeBook.get("Trevor Forrey");
 ```
 <br>
