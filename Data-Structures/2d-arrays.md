@@ -66,6 +66,7 @@ With that said, we want to grab the element in the middle of the grid. So we wou
 <br>
 <br>
 Now, lets say we want to get the element in the top right corner of the canvas. In this case, we use `int elem = gameBoard[2][0];` and we get `2`.
+<br>
 
 ##### Setting an Element:
 In order to set an element of a grid we use `grid[row][col] = elem;`
@@ -76,6 +77,15 @@ If we were to want to make **O** the winner of our game we would have to set the
 gameBoard[0][0] = 2;
 gameBoard[0][1] = 2;
 ```
+
+Now our Grid looks like:
+
+|   | 0 | 1 | 2 |
+| -- | -- | -- | -- |
+| **0** | 2 | 0 | 2 |
+| **1** | 2 | 1 | 0 |
+| **2** | 2 | 2 | 1 |
+<br>
 ##### Getting a Row:
 
 
