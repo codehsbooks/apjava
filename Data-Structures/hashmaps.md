@@ -38,7 +38,7 @@ It is important to remember that each ***key*** can only have **one** ***value**
 In order to create a ***Hashmap*** we use: `Hashmap<key_type, value_type> name = new Hashmap<key_type, value_type>();`. 
 <br>
 <br>
-If we were to create our gradebook ***Hashmap*** we would use: 
+If we were to create our grade book ***Hashmap*** we would use: 
 ```Java
 Hashmap<String, Integer> gradeBook = new Hashmap<String, Integer>();
 ```
@@ -49,7 +49,7 @@ Hashmap<String, Integer> gradeBook = new Hashmap<String, Integer>();
 To add an item to a ***Hashmap*** we use: `map.put(key, value);`
 <br>
 <br>
-If we were to add grades to our gradebook ***Hashmap*** we would use:
+If we were to add grades to our grade book ***Hashmap*** we would use:
 ```Java
 gradeBook.put("Wezley Sherman", 85);
 gradeBook.put("Wade Adams", 95);
@@ -72,7 +72,7 @@ int trevGrade = gradeBook.get("Trevor Forrey");
 
 ##### Iterating Over a Hashmap:
 
-Now, lets say we want to print out every grade in our gradebook. In order to do this, we would have to iterate over our ***Hashmap***. Here is an example of what that would look like:
+Now, lets say we want to print out every grade in our grade book. In order to do this, we would have to iterate over our ***Hashmap***. Here is an example of what that would look like:
 
 ```Java
 System.out.println("Class Grades: ");
