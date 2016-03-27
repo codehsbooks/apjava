@@ -7,7 +7,7 @@ With that said, lets say you are creating a piece of software that stores studen
 
 ### What a Hashmap Looks Like
 <hr>
-With Hashmaps we can have keys and assign each key a value. So, if we are creating a piece of software to store student grades, our keys are the student's names and the value is the grade itself. It is important to remember that each key can only have **one** value.
+With Hashmaps we can have keys and assign each key a value. So, if we are creating a piece of software to store student grades, our keys are the student's names and the value is the grade itself. It is important to remember that each key can only have **one** value, and ***Key-Value Pairs*** are **not** ordered.
 
 This would look like:
 
