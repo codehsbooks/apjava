@@ -11,4 +11,6 @@ How we retrieve the size or length of an Array or ArrayList varies between the t
 <br>
 When dealing with an ***Array*** we use ``arr.length`` to access its length.
 <br>
-***ArrayLists*** 
+With ***ArrayLists*** we would use ``list.size()``.
+
+##### Setting Values at Index:
