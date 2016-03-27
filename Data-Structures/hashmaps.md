@@ -28,6 +28,23 @@ The ***Value*** is the result we get when we look up a specific item with a ***K
 The ***Key-Value Pair*** is the combination of the ***Key*** and the ***Value*** associated.
 <br>
 
-### Creating Hashmaps
+### Utilizing Hashmaps
 <hr>
-In order to create a Hashmap we use: `Hashmap<key_type, value_type> name = new Hashmap<key_type, value_type>();`.
+
+##### Creating Hashmaps:
+In order to create a ***Hashmap*** we use: `Hashmap<key_type, value_type> name = new Hashmap<key_type, value_type>();`. 
+<br>
+<br>
+If we were to create our gradebook ***Hashmap*** we would use: `Hashmap<String, double> gradeBook = new Hashmap<String, double>();`
+
+##### Adding Items:
+To add an item to a ***Hashmap*** we use `map.put(key, value);`
+<br>
+<br>
+If we were to add grades to our gradebook ***Hashmap*** we would do:
+```Java
+gradeBook.put("Wezley Sherman", 85);
+gradeBook.put("Wade Adams", 95);
+gradeBook.put("Julio Rodriguez", 84);
+...
+```
