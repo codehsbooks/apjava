@@ -39,3 +39,6 @@ Only ArrayLists have extra helper methods. These helper methods include: remove,
 <br>
 
 ##### Types:
+***Arrays*** can hold Primitives or Objects
+<br>
+***ArrayLists*** can only hold Objects, and handles autoboxing and unboxing.
