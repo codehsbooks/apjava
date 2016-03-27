@@ -86,8 +86,9 @@ Now our Grid looks like:
 | **1** | 2 | 1 | 0 |
 | **2** | 2 | 2 | 1 |
 <br>
-##### Getting a Row:
 
+##### Getting a Row:
+Finally, to get a specific row of a grid, we use `int[] row = grid[row]`
 
 
 
