@@ -30,4 +30,4 @@ The ***Key-Value Pair*** is the combination of the ***Key*** and the ***Value***
 
 ### Creating Hashmaps
 <hr>
-
+In order to create a Hashmap we use: `Hashmap<key_type, value_type> name = new Hashmap<key_type, value_type>();
