@@ -59,7 +59,7 @@ Here is what our grid looks like with **X** as the winner:
 | **2** | 2 | 2 | 1 |
 
 ##### Getting an Element:
-Lets say we want to access a specific element of our grid. For this, we use: `int elem = grid[row][col];`
+Lets say we want to access a specific element of our grid. For this, we use: `int elem = grid[row][col];`.
 <br>
 <br>
 With that said, we want to grab the element in the middle of the grid. So we would use: `int elem = gameBoard[1][1];`, which would give us a `1`.
@@ -69,7 +69,7 @@ Now, lets say we want to get the element in the top right corner of the canvas. 
 <br>
 
 ##### Setting an Element:
-In order to set an element of a grid we use `grid[row][col] = elem;`
+In order to set an element of a grid we use `grid[row][col] = elem;`.
 <br>
 <br>
 If we were to want to make **O** the winner of our game we would have to set the elements at $$(0, 0)$$ and $$(0, 1)$$ to `2`. In order to do this we would use:
@@ -88,7 +88,10 @@ Now our Grid looks like:
 <br>
 
 ##### Getting a Row:
-Finally, to get a specific row of a grid, we use `int[] row = grid[row];`
+Finally, to get a specific row of a grid, we use `int[] row = grid[row];`.
+<br>
+<br>
+If were were to access the values in the 2nd row of our board, we would use `int[] 2ndRow = gameBoard[1];`.
 
 
 
