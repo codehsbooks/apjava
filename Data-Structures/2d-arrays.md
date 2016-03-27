@@ -12,7 +12,7 @@ Here are some examples:
 ```Java
 // Create a 2x4 grid of doubles
 double[][] doubleGrid = new double[2][4];
-
+ 
 // Create a 5x6 grid of Strings
 String[][] stringGrid = new String[5][6];
 
@@ -50,7 +50,7 @@ Now that we understand what 2D Arrays look like, and how to create them, we can 
 
 Now, lets say we have a 3x3 grid, named `gameBoard`, with the value of our Tic-Tac-Toe game. In this case, `0` represents a blank space, `1` represents a **X**, and `2` represents an **O**.
 
-Here is what our grid looks like:
+Here is what our grid looks like with **X** as the winner:
 
 |   | 0 | 1 | 2 |
 | -- | -- | -- | -- |
@@ -59,12 +59,23 @@ Here is what our grid looks like:
 | **2** | 2 | 2 | 1 |
 
 ##### Getting an Element:
-Lets say we want to access a specific element of our grid. We want to get the element in the middle of the grid. So we would use: `int elem = gameBoard[1][1];`, which would give us a `1`.
-
-Now, lets say we want to get the element at the top right corner of the canvas. In this case, we use `int elem = gameBoard[2][0];` and we get `2`.
+Lets say we want to access a specific element of our grid. For this, we use: `int elem = grid[row][col];`
+<br>
+<br>
+With that said, we want to grab the element in the middle of the grid. So we would use: `int elem = gameBoard[1][1];`, which would give us a `1`.
+<br>
+<br>
+Now, lets say we want to get the element in the top right corner of the canvas. In this case, we use `int elem = gameBoard[2][0];` and we get `2`.
 
 ##### Setting an Element:
-
+In order to set an element of a grid we use `grid[row][col] = elem;`
+<br>
+<br>
+If we were to want to make **O** the winner of our game we would have to set the elements at $$(0, 0)$$ and $$(0, 1)$$ to `2`. In order to do this we would use:
+```Java
+gameBoard[0][0] = 2;
+gameBoard[0][1] = 2;
+```
 ##### Getting a Row:
 
 
