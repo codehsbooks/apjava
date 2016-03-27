@@ -16,8 +16,9 @@ With ***ArrayLists*** we would use ``list.size()``.
 ##### Setting Values at an Index:
 Settings values at a given index varies as well.
 <br>
-
+To set the value of a given index using an ***Array*** we use ``arr[i] = x;``
 <br>
+To set the value of a given index using an ***ArrayList*** we use ``list.set(i, x);``
 
 ##### Getting Values at an Index:
 To retrieve values at a given index is as follows:
