@@ -65,16 +65,16 @@ Lets say we want to access a specific element of our grid. For this, we use: `in
 With that said, we want to grab the element in the middle of the grid. So we would use: `int elem = gameBoard[1][1];`, which would give us a `1`.
 <br>
 <br>
-Now, lets say we want to get the element in the top right corner of the canvas. In this case, we use `int elem = gameBoard[2][0];` and we get `2`.
+Now, we want to get the element in the top right corner of the canvas. In this case, we use: `int elem = gameBoard[2][0];` and we get `2`.
 <br>
 
 ##### Setting an Element:
-In order to set an element of a grid we use `grid[row][col] = elem;`.
+In order to set an element of a grid we use: `grid[row][col] = elem;`.
 <br>
 <br>
-If we were to want to make **O** the winner of our game we would have to set the elements at $$(0, 0)$$ and $$(0, 1)$$ to `2`. In order to do this we would use:
+If we wanted to make **O** the winner of our game we would have to set the elements at $$(0, 0)$$ and $$(0, 1)$$ to `2`. In order to do this we would use:
 ```Java
-gameBoard[0][0] = 2;
+gameBoard[0][0] = 2; 
 gameBoard[0][1] = 2;
 ```
 
@@ -92,6 +92,8 @@ Finally, to get a specific row of a grid, we use `int[] row = grid[row];`.
 <br>
 <br>
 If were were to access the values in the 2nd row of our board, we would use `int[] 2ndRow = gameBoard[1];`.
+<br>
+<br>
 
 
 
