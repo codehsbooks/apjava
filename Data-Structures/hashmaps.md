@@ -7,3 +7,23 @@ With that said, lets say you are creating a piece of software that stores studen
 
 ### What a Hashmap Looks Like
 <hr>
+With Hashmaps we can have keys and assign each key a value. So, if we are creating a piece of software to store student grades, our keys are the student's names and the value is the grade itself. 
+
+This would look like:
+
+| Key | Value |
+| -- | -- |
+| Wezley Sherman | 85 |
+| Wade Adams | 95 |
+| Julio Rodriguez | 84 |
+| Trevor Forrey | 100 |
+| Ada Lovelace | 96 |
+| Sally Pants | 98 |
+| Sarah Abe | 86 |
+
+The ***Key*** is the element we use to loop up a specific ***Value*** in the map.
+<br>
+The ***Value*** is the result we get when we look up a specific entry with a ***Key***. 
+<br>
+Together these are known as a ***key-value pair***.
+<br>
