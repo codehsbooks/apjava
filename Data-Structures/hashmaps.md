@@ -35,7 +35,7 @@ The ***Key-Value Pair*** is the combination of the ***Key*** and the ***Value***
 In order to create a ***Hashmap*** we use: `Hashmap<key_type, value_type> name = new Hashmap<key_type, value_type>();`. 
 <br>
 <br>
-If we were to create our gradebook ***Hashmap*** we would use: `Hashmap<String, double> gradeBook = new Hashmap<String, double>();`
+If we were to create our gradebook ***Hashmap*** we would use: `Hashmap<String, Integer> gradeBook = new Hashmap<String, Integer>();`
 
 ##### Adding Items:
 To add an item to a ***Hashmap*** we use `map.put(key, value);`
