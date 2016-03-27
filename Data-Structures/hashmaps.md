@@ -7,7 +7,7 @@ With that said, lets say you are creating a piece of software that stores studen
 
 ### What a Hashmap Looks Like
 <hr>
-With ***Hashmaps*** we assign a ***key*** and a ***value*** associated with that ***key***. If we are creating a piece of software to store student grades, our ***keys*** are the student's names and the ***value*** is the grade. It is important to remember that each key can only have **one** value, and ***Key-Value Pairs*** are **not** ordered.
+With ***Hashmaps*** we assign a ***key*** and a ***value*** associated with that ***key***. If we are creating a piece of software to store student grades, our ***keys*** are the student's names and the ***value*** is the grade. 
 
 This would look like:
 
@@ -27,6 +27,8 @@ The ***Value*** is the result we get when we look up a specific item with a ***K
 <br>
 The ***Key-Value Pair*** is the combination of the ***Key*** and the ***Value*** associated.
 <br>
+
+It is important to remember that each key can only have **one** value, and ***key-value pairs*** are **not** ordered.
 
 ### Utilizing Hashmaps
 <hr>
