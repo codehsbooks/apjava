@@ -5,7 +5,28 @@ Lets say we are contracted by a video game company to build Tic-Tac-Toe game. We
 
 ### Creating 2D Arrays
 <hr>
-To create a 2D Array, we would declare it in a similar fashion as a regular Array. A 2D Array's declaration would look like:
+To create a 2D Array, we would declare it in a similar fashion as a regular Array. A 2D Array's declaration would look like: ``type[][] name = new type[rows][columns];``
+
+Here are some examples:
+
 ```Java
-int[][] arr
+// Create a 2x4 grid of doubles
+double[][] doubleGrid = new double[2][4];
+
+// Create a 5x6 grid of Strings
+String[][] stringGrid = new String[5][6];
+
+// Create a 6x10 grid of chars
+char[][] charGrid = new char[6][10];
+
+// Create a 3x3 grid of integers
+int[][] intGrid = new int[3][3]
+
+// Initializing our Tic-Tac-Toe Grid with X's (1's) as the winner.
+int[][] gameBoard = {
+  {1, 0, 2},
+  {0, 1, 2},
+  {0, 0, 1}
+ };
 ```
+
