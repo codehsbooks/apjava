@@ -29,4 +29,8 @@ int[][] gameBoard = {
   {0, 0, 1}
  };
 ```
+<br>
+
+### What 2D Arrays Look Like
+<hr>
 
