@@ -39,10 +39,10 @@ If we were to create our gradebook ***Hashmap*** we would use: `Hashmap<String, 
 <br>
 <br>
 ##### Adding Items:
-To add an item to a ***Hashmap*** we use `map.put(key, value);`
+To add an item to a ***Hashmap*** we use: `map.put(key, value);`
 <br>
 <br>
-If we were to add grades to our gradebook ***Hashmap*** we would do:
+If we were to add grades to our gradebook ***Hashmap*** we would use:
 ```Java
 gradeBook.put("Wezley Sherman", 85);
 gradeBook.put("Wade Adams", 95);
@@ -51,5 +51,12 @@ gradeBook.put("Julio Rodriguez", 84);
 ```
 <br>
 ##### Retrieving Items:
-
+To retrieve an item from a ***Hashmap*** we use: `map.get(key);`
+<br>
+<br>
+Lets say we wanted to access Trevor Forry's and Ada Lovelace's grades. To do so we would use:
+```Java
+int adaGrade = gradeBook.get("Ada Lovelace");
+int trevGrade = gradeBook.get("Trevor Forrey");
+```
 
