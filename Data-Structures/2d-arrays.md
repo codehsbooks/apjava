@@ -44,5 +44,12 @@ Here is what a 3x3 2D Array would look like:
 | 2 |(0, 2)|(1, 2)|(2, 2)|
 Where the top and far left rows represent our **X** and **Y** indexes. 
 
+### Utilizing 2D Arrays
+<hr>
+Now that we understand what 2D Arrays look like, and how to create them, we can focus on utilization. 
+
+##### Getting a Row:
+
+
 
 
