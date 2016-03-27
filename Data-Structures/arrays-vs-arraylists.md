@@ -14,3 +14,7 @@ When dealing with an ***Array*** we use ``arr.length`` to access its length.
 With ***ArrayLists*** we would use ``list.size()``.
 
 ##### Setting Values at Index:
+Settings values at a given index varies as well.
+<br>
+
+<br>
