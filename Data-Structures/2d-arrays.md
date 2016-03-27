@@ -48,7 +48,7 @@ Where the top and far left rows represent our **X** and **Y** indexes.
 <hr>
 Now that we understand what 2D Arrays look like, and how to create them, we can focus on utilization. 
 
-Now, lets say we have a 3x3 grid, named `gameBoard`, with the value of our Tic-Tac-Toe game. In this case, `0` represents a blank space, `1` represents a **X**, and `2` represents an **O**.
+Lets say we have a 3x3 grid, named `gameBoard`, with the value of our Tic-Tac-Toe game. In this case, `0` represents a blank space, `1` represents a **X**, and `2` represents an **O**.
 
 Here is what our grid looks like with **X** as the winner:
 
