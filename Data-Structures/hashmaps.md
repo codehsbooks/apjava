@@ -21,9 +21,12 @@ This would look like:
 | Sally Pants | 98 |
 | Sarah Abe | 86 |
 
-The ***Key*** is the element we use to loop up a specific ***Value*** in the map.
+The ***Key*** is the element we use to look up a specific ***Value*** in the map.
 <br>
-The ***Value*** is the result we get when we look up a specific entry with a ***Key***. 
+The ***Value*** is the result we get when we look up a specific value with a ***Key***. 
 <br>
 The ***Key-Value Pair*** is the combination of the ***Key*** and the ***Value*** associated.
 <br>
+
+### Creating Hashmaps
+<hr>
