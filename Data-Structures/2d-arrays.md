@@ -20,7 +20,7 @@ String[][] stringGrid = new String[5][6];
 char[][] charGrid = new char[6][10];
 
 // Create a 3x3 grid of integers
-int[][] intGrid = new int[3][3]
+int[][] intGrid = new int[3][3];
 
 // Initializing our Tic-Tac-Toe Grid with X's (1's) as the winner.
 int[][] gameBoard = {
@@ -42,4 +42,7 @@ Here is what a 3x3 2D Array would look like:
 | 0 |(0, 0)|(1, 0)|(2, 0)|
 | 1 |(0, 1)|(1, 1)|(2, 1)|
 | 2 |(0, 2)|(1, 2)|(2, 2)|
+Where the top and far left rows represent our **X** and **Y** indexes. 
+
+
 
