@@ -48,6 +48,23 @@ Where the top and far left rows represent our **X** and **Y** indexes.
 <hr>
 Now that we understand what 2D Arrays look like, and how to create them, we can focus on utilization. 
 
+Now, lets say we have a 3x3 grid, named `gameBoard`, with the value of our Tic-Tac-Toe game. In this case, `0` represents a blank space, `1` represents a **X**, and `2` represents an **O**.
+
+Here is what our grid looks like:
+
+|   | 0 | 1 | 2 |
+| -- | -- | -- | -- |
+| **0** | 1 | 0 | 2 |
+| **1** | 0 | 1 | 0 |
+| **2** | 2 | 2 | 1 |
+
+##### Getting an Element:
+Lets say we want to access a specific element of our grid. We want to get the element in the middle of the grid. So we would use: `int elem = gameBoard[1][1];`, which would give us a `1`.
+
+Now, lets say we want to get the element at the top right corner of the canvas. In this case, we use `int elem = gameBoard[2][0];` and we get `2`.
+
+##### Setting an Element:
+
 ##### Getting a Row:
 
 
