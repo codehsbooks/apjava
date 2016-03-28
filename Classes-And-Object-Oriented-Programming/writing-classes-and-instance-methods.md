@@ -22,6 +22,31 @@ The ***name*** is the name of our method.
 
 The ***parameters*** is the list of our parameters, or the information we give to the method.
 
+<br>
+
+In practice, this will look like:
+
+```Java
+public class Rectangle
+{
+    // Instance variables
+    private double width;
+    private double height;
+    
+    public Rectangle(double rWidth, double rHeight)
+    {
+        width = rWidth;
+        height = rHeight;
+    }
+    
+    // Our instance method
+    public double area()
+    {
+        return width * height;
+    }
+}
+```
+
 ### Using Instance Methods
 <hr>
 
