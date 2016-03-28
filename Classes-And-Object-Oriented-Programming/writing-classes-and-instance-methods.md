@@ -24,7 +24,7 @@ The ***parameters*** is the list of our parameters, or the information we give t
 
 <br>
 
-In practice, this will look like:
+Here is what our `Rectangle` class looks like:
 
 ```Java
 public class Rectangle
