@@ -13,3 +13,12 @@ The general form of an instance method is as follows:
   public       double    area(width, height)
   private       int      truncateArea(width, height)
 ```
+
+The ***visibility*** of your method determines if it can be used outside your object's class. This is usually *public* or *private*.
+
+The ***returnType*** is the type of our return value. If there is no return value for the method we use *void*.
+
+The ***name*** is the name of our method.
+
+The ***parameters*** is the list of our paramets, or the information we give to the method.
+
