@@ -4,14 +4,14 @@
 <br>
 Lets say you are wanting to get the area of a rectangle object you created using the `Rectangle` class. To do this, you would need to define an ***instance method*** that will return the area of our rectangle object. It is important to remember that ***instance methods*** belong to the specific instance of your object. 
 
-### Creating an Instance Method
+### Creating Instance Methods
 <hr>
 
 The general form of an instance method is as follows:
 ```Java
 [visability] [returnType] name(parameters)
-  public       double    area(width, height)
-  private       int      truncateArea(width, height)
+  public       double    area()
+  private       int      truncateArea()
 ```
 
 The ***visibility*** of your method determines if it can be used outside your object's class. This is usually *public* or *private*.
@@ -20,5 +20,18 @@ The ***returnType*** is the type of our return value. If there is no return valu
 
 The ***name*** is the name of our method.
 
-The ***parameters*** is the list of our paramets, or the information we give to the method.
+The ***parameters*** is the list of our parameters, or the information we give to the method.
 
+### Using Instance Methods
+<hr>
+
+To call instance methods we use the following format: `objectName.methodName(parameters);`
+<br>
+In practice, this looks like:
+
+```Java
+Rectangle rect = new Rectangle(7, 10);
+
+// Get the area of our rectangle by calling instance method `area();`
+double rectArea = rect.area();
+```
