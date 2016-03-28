@@ -27,6 +27,13 @@ The ***parameters*** is the list of our parameters, or the information we give t
 
 To call instance methods we use the following format: `objectName.methodName(parameters);`
 <br>
+<br>
+The ***objectName*** is the name of the object we are calling the method on.
+<br>
+The ***methodName*** is the name of the instance method we are calling.
+<br>
+The ***parameters*** are the inputs we give the method (if any).
+
 In practice, this looks like:
 
 ```Java
