@@ -6,3 +6,10 @@ Lets say you are wanting to get the area of a rectangle object you created using
 
 ### Creating an Instance Method
 <hr>
+
+The general form of an instance method is as follows:
+```Java
+[visability] [returnType] name(parameters)
+  public       double    area(width, height)
+  private       int      truncateArea(width, height)
+```
