@@ -1,18 +1,18 @@
 # Hashmaps
 <hr>
-***Hashmaps*** are helpful tools that allow us to store a key and a value. Unlike Arrays and Arraylists; ***Hashmaps*** allow us to easily look up a value if we know its key. 
+***Hashmaps*** are helpful tools that allow us to store a key and a value. Unlike Arrays and Arraylists, ***Hashmaps*** allow us to easily look up a value if we know its key. 
 <br>
 <br>
-With that said, lets say you are creating a piece of software that stores student grades for a class. We want to be able to look up a student's grade by their name, so we will need to use a ***Hashmap***.
+With that said, let's say you are creating a piece of software that stores student grades for a class. We want to be able to look up a student's grade by their name, so we will need to use a ***Hashmap***.
 
 ### What a Hashmap Looks Like
 <hr>
-With ***Hashmaps*** we assign a ***key*** and a ***value*** associated with that ***key***. If we are creating a piece of software to store student grades, our ***keys*** are the student's names and the ***value*** is the grade. 
+With ***Hashmaps*** we assign a ***key*** and a ***value*** associated with that ***key***. If we are creating a piece of software to store student grades, our ***keys*** are the students' names and the ***value*** is the grade. 
 
 This would look like:
 
 | Key | Value |
-| -- | -- |
+| --- | --- |
 | Wezley Sherman | 85 |
 | Wade Adams | 95 |
 | Julio Rodriguez | 84 |
@@ -63,7 +63,7 @@ gradeBook.put("Julio Rodriguez", 84);
 To retrieve an item from a ***Hashmap*** we use: `map.get(key);`
 <br>
 <br>
-Lets say we wanted to access Trevor Forry's and Ada Lovelace's grades. To do so we would use:
+Let's say we wanted to access Trevor Forry's and Ada Lovelace's grades. To do so we would use:
 ```Java
 // `adaGrade` would contain `96`
 int adaGrade = gradeBook.get("Ada Lovelace");
@@ -74,7 +74,7 @@ int trevGrade = gradeBook.get("Trevor Forrey");
 
 ##### Iterating Over a Hashmap:
 
-Now, lets say we want to print out every grade in our grade book. In order to do this, we would have to iterate over our ***Hashmap***. Here is an example of what that would look like:
+Now, let's say we want to print out every grade in our grade book. In order to do this, we would have to iterate over our ***Hashmap***. Here is an example of what that would look like:
 
 ```Java
 System.out.println("Class Grades: ");
