@@ -10,7 +10,7 @@ Lets say you are wanting to get the area of a specific rectangle object you crea
 The general form of an instance method is as follows:
 ```Java
 [visability] [returnType] name(parameters)
-  public       double    area()
+  public       double    getArea()
   private       int      truncateArea()
 ```
 
@@ -40,7 +40,7 @@ public class Rectangle
     }
     
     // Our instance method
-    public double area()
+    public double getArea()
     {
         return width * height;
     }
@@ -65,5 +65,5 @@ In practice, this looks like:
 Rectangle rect = new Rectangle(7, 10);
 
 // Get the area of our rectangle by calling instance method `area();`
-double rectArea = rect.area();
+double rectArea = rect.getArea();
 ```
