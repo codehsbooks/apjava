@@ -49,5 +49,7 @@ public class Square extends Rectangle
 ### Subclass Functionality
 <hr>
 
+There are many things we can do from our subclass since it inherits the private and public members of the parent class.
+
 ### Example of Inheritance
 <hr>
