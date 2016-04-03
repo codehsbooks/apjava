@@ -20,6 +20,9 @@ The ***Superclass*** is the class being utilized by the ***subclass***.
 
 It is important to know that the ***subclass*** inherits everything from the ***super class***. This includes: classes, methods, and fields. 
 
+<br>
+#### Important Key Words
+##### Extends
 In order to show that a class relates to another, we use the **extends** keyword. Here is an example of a class that extends the **ConsoleProgram** class:
 
 ```Java
@@ -27,6 +30,21 @@ public class Output extends ConsoleProgram {
 }
 ``` 
 In this example `Output` is our ***subclass***, and `ConsoleProgram` is the ***superclass***.
+
+##### Super
+We can call the constructor of our superclass from our subclass by using the key work **super**.
+
+Lets say we have a class, that creates a square, which extends our ***Rectangle*** class. 
+```Java
+public class Square extends Rectangle
+{
+    public Square(int sideLength)
+    {
+         super(sideLength, sideLength);
+    }
+}
+
+```
 
 ### Subclass Functionality
 <hr>
