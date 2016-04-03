@@ -54,10 +54,10 @@ There are many things we can do from our subclass since it inherits the private 
 
 It is important to remember:
 
-- Subclasses inherit all of the public instance methods of the parent class.
+- Subclasses inherit all of the public and protected instance methods of the parent class.
 - Subclasses inherit all of the public and protected instance and class variables.
-- Subclasses can add their own instance variables.
-- Subclasses can add their own methods.
+- Subclasses can have their own instance variables.
+- Subclasses can have their own static and instance methods.
 - Subclasses can override the parent class's methods.
 - Subclasses can contain constructors that directly invoke the parent class's constructor using the `super` keyword.
 
