@@ -101,6 +101,7 @@ public class Square extends Rectangle
 
 
 ***Test Class:***
+```Java
 public class SquareTest extends ConsoleProgram
 {
      public void run()
@@ -112,3 +113,4 @@ public class SquareTest extends ConsoleProgram
           int squareArea = ourSquare.getArea();
      }
 }
+```
