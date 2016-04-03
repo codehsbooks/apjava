@@ -2,6 +2,7 @@
 <hr>
 Getter and setter methods allow us to get and set instance variables from the client class. 
 
+We use getter and setter methods for validation, to hide internal representation, expandability, and security. 
 
 ### Getter Methods
 <hr>
