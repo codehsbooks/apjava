@@ -20,5 +20,6 @@ The documentation for a class tells us how to use the class constructor, and var
 
 Here is another example of documentation:
 ![Rect Class](../static/classesAndOOP/Using_A_Class_As_AClient_RectClass.png)
+(https://codehs.com/editor/slides/75977/97708/277/53)
 
 This documentation is for the Rectangle Class that we've worked with in previous exercises.
