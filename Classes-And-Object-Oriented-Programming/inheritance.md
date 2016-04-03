@@ -14,13 +14,19 @@ As you can see, we start off with our ***root class***, move to *Vehicle Class* 
 
 ### Subclass and Superclass
 <hr>
+The ***Subclass*** is the class the extends another class.
+
+<br>
+
+The ***Superclass*** is the class being utilized by the ***subclass***.
+
 In order to show that a class relates to another, we use the **extends** keyword. Here is an example of a class that extends the **ConsoleProgram** class:
 
 ```Java
 public class Output extends ConsoleProgram {
 }
 ```
-In this example `Output` is our subclass, and `ConsoleProgram` is the superclass.
+In this example `Output` is our ***subclass***, and `ConsoleProgram` is the ***superclass***.
 
 ### Example of Inheritance
 <hr>
