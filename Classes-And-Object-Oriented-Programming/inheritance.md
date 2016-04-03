@@ -15,7 +15,7 @@ As you can see, we start off with our ***root class***, move to *Vehicle Class* 
 ### Subclass and Superclass
 <hr>
 The ***Subclass*** is the class the extends another class, or inherits from another class.
-
+ 
 The ***Superclass*** is the class being utilized by the ***subclass***.
 
 It is important to know that the ***subclass*** inherits everything from the ***super class***. This includes: classes, methods, and fields. 
