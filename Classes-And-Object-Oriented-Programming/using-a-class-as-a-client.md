@@ -2,7 +2,7 @@
 <hr>
 In Java, we can think of everything as a class. If we want to write a program to act as a grade book, ***Grade Book*** is a class. The same can be thought of with any program you code in Java.
 
-Since we can think of everything as a class in Java, we can bundle these classes and use as many as we'd like. You don't necessarily need to know how the classes you use work, because you can use classes built by someone else.
+Since we can think of everything as a class in Java, we can bundle these classes and their functionality. You don't necessarily need to know how the classes you use work, because you can use classes built by someone else.
 
 Whenever we use a class it is a ***client of the class***.
 
