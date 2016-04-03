@@ -22,4 +22,4 @@ Here is another example of documentation:
 ![Rect Class](../static/classesAndOOP/Using_A_Class_As_AClient_RectClass.png)
 (https://codehs.com/editor/slides/75977/97708/277/53)
 
-This documentation is for the Rectangle Class that you have worked with in previous exercises.
+This documentation is for the Rectangle Class that you may have worked with in previous exercises.
