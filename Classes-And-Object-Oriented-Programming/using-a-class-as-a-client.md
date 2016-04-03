@@ -1,10 +1,10 @@
 # Using a Class as a Client
 <hr>
-In Java, we can think of everything as a class. If we want to write a program to act as a grade book, ***Grade Book*** is a class. The same can be thought of with any program you code in Java.
+In Java, you can think of everything as a class. If you want to write a program to act as a grade book, ***Grade Book*** is a class. The same can be thought of with any program you code in Java.
 
-Since we can think of everything as a class in Java, we can bundle these classes and their functionality. We can even use classes that are written by other people without knowing exactly how they work.
+Since you can think of everything as a class in Java, you can bundle these classes and their functionality. You can even use classes that are written by other people without knowing exactly how they work.
 
-Whenever we use a class it is a ***client of the class***.
+Whenever you use a class it is a ***client of the class***.
 
 ### Reading Documentation
 <hr>
