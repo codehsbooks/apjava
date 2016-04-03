@@ -35,3 +35,4 @@ public Color getColor()
 
 ### Setter Methods
 <hr>
+***Setter methods*** allow us to set the values of an object's instance variables.***Setter methods*** are also known as ***modifier methods***
