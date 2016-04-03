@@ -1,13 +1,14 @@
 # Using a Class as a Client
 <hr>
-So far we have seen how Java is an Object Oriented Programming Language, and how everything is a class. 
-
-We can use classes as a way to bundle up functionality in our programs. We can even use classes that other coders have written.
+In Java, we can think of everything as a class. If we want to write an application to model a grade book, a ***Grade Book*** is a class. The same can be thought of with any program you code in Java.
 
 Whenever we use a class it is called being a ***client of the class***.
 
 ### Using the Rectangle Class
+<hr>
 
 ### Using the Randomizer Class
+<hr>
 
 ### Using the GeoLocation Class
+<hr>
