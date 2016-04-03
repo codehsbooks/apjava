@@ -4,7 +4,7 @@ In Java, you can think of everything as a class. If you want to write a program 
 
 Since you can think of everything as a class in Java, you can bundle these classes and their functionality. You can even use classes that are written by other people without knowing exactly how they work.
 
-Whenever you use a class it is a ***client of the class***.
+Whenever you use a class, it is class a ***client of the class***.
 
 ### Reading Documentation
 <hr>
