@@ -107,6 +107,7 @@ public class SquareTest extends ConsoleProgram
      public void run()
      {
           Square ourSquare = new Square(10);
+          
           /* `.getArea()` only exists in `Rectangle`, but we can use it
            * Since it is the parent class of `Square`
            */ 
