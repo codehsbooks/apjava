@@ -34,7 +34,7 @@ In this example `Output` is our ***subclass***, and `ConsoleProgram` is the ***s
 ##### Super
 We can call the constructor of our superclass from our subclass by using the key work **super**.
 
-Lets say we have a class, that creates a square, which extends our ***Rectangle*** class. 
+Here we have a class, that creates a square, which extends our ***Rectangle*** class. We use ***super*** to call the constructor of ***Rectangle*** in order to create our square.
 ```Java
 public class Square extends Rectangle
 {
