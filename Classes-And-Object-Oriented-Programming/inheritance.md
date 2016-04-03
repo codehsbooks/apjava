@@ -79,7 +79,7 @@ public class Rectangle
           height = rheight;
      }
      
-     public getArea()
+     public int getArea()
      {
           return width * height;
      }
@@ -101,7 +101,14 @@ public class Square extends Rectangle
 
 
 ***Test Class:***
-public class SquareTest extends Rectangle
+public class SquareTest extends ConsoleProgram
 {
-
+     public void run()
+     {
+          Square ourSquare = new Square(10);
+          /* `.getArea()` only exists in `Rectangle`, but we can use it
+           * Since it is the parent class of `Square`
+           */ 
+          int squareArea = ourSquare.getArea();
+     }
 }
