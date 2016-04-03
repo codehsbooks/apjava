@@ -25,7 +25,7 @@ In order to show that a class relates to another, we use the **extends** keyword
 ```Java
 public class Output extends ConsoleProgram {
 }
-```
+``` 
 In this example `Output` is our ***subclass***, and `ConsoleProgram` is the ***superclass***.
 
 ### Subclass Functionality
