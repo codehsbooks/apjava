@@ -49,7 +49,17 @@ public class Square extends Rectangle
 ### Subclass Functionality
 <hr>
 
-There are many things we can do from our subclass since it inherits the private and public members of the parent class.
+There are many things we can do from our subclass since it inherits the private and public members of the parent class. 
+<br>
+
+It is important to remember:
+
+- Subclasses inherit all of the public instance methods of the parent class.
+- Subclasses inherit all of the public and protected instance and class variables.
+- Subclasses can add their own instance variables.
+- Subclasses can add their own methods.
+- Subclasses can override the parent class's methods.
+- Subclasses can contain constructors that directly invoke the parent class's constructor using the `super` keyword.
 
 ### Example of Inheritance
 <hr>
