@@ -32,9 +32,9 @@ public class Output extends ConsoleProgram {
 In this example `Output` is our ***subclass***, and `ConsoleProgram` is the ***superclass***.
 
 ##### Super
-We can call the constructor of our superclass from our subclass by using the key work **super**.
+We can call the constructor of our superclass directly from our subclass by using the key work **super**.
 
-Here we have a class, that creates a square, which extends our ***Rectangle*** class. We use ***super*** to call the constructor of ***Rectangle*** in order to create our square.
+Here we have a class which extends our ***Rectangle*** class. We use ***super*** to call the constructor of ***Rectangle*** to create a square.
 ```Java
 public class Square extends Rectangle
 {
