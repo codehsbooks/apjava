@@ -63,3 +63,45 @@ It is important to remember:
 
 ### Example of Inheritance
 <hr>
+
+Here is an example of inheritance utilizing our ***Rectangle*** and ***Sqaure*** classes.
+
+***Superclass:***
+```Java
+public class Rectangle
+{
+     int width;
+     int height;
+     
+     public Rectangle(int rwidth, int rheight)
+     {
+          width = rwidth;
+          height = rheight;
+     }
+     
+     public getArea()
+     {
+          return width * height;
+     }
+}
+```
+
+***Subclass:***
+```Java
+public class Square extends Rectangle
+{
+     // Class constructor
+     public Square(int sideLength)
+     {
+          // Call the class constructor for `Rectangle` using `super`
+          super(sideLength, sideLength);
+     }
+}
+```
+
+
+***Test Class:***
+public class SquareTest extends Rectangle
+{
+
+}
