@@ -40,3 +40,26 @@ public Color getColor()
 <br>
 
 ##### Creating Setter Methods:
+As with ***getter methods*** we use a common convention when creating ***setter methods***. When creating ***setter methods*** you should always use: `set[Variable Name]`. Some common examples include: `setWidth(int width)`, `setHeight(int height)`, `setColor(Color color)`. Here are some examples of how to create these setter methods:
+
+
+```Java
+private int width = 10;
+private int height = 3;
+private Color rectCol = Color.blue;
+
+public void setWidth(int newWidth)
+{
+    width = newWidth;
+}
+
+public void setHeight(int newHeight)
+{
+    height = newHeight;
+}
+
+public void setColor(Color color)
+{
+    rectCol = color;
+}
+```
