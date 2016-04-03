@@ -6,11 +6,19 @@ Since we can think of everything as a class in Java, we can bundle these classes
 
 Whenever we use a class it is a ***client of the class***.
 
-### Using the Rectangle Class
+### Reading Documentation
 <hr>
 
-### Using the Randomizer Class
-<hr>
+Documentation is a great resource to use to see how a class works. As long as you can read the documentation, you don't need to know how the class works.
 
-### Using the GeoLocation Class
-<hr>
+Here is an example of the documentation for the String Class:
+![String Class 1](../static/classesAndOOP/Using_Class_As_Client_JavaDoc.png)
+![String Class 2](../static/classesAndOOP/Using_Class_As_A_Client_JAvaDoc2.png)
+(http://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
+
+The documentation for a class tells us how to use the class constructor, and various methods that the class provides. 
+
+Here is another example of documentation:
+![Rect Class](../static/classesAndOOP/Using_A_Class_As_AClient_RectClass.png)
+
+This documentation is for the Rectangle Class that we've worked with in previous exercises.
