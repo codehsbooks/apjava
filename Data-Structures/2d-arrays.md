@@ -39,9 +39,9 @@ Here is what a 3x3, 2D Array would look like:
 
 |   | 0 | 1 | 2 |
 | --- | --- | --- | --- |
-| **0** |$$(0, 0)$$|$$(1, 0)$$|$$(2, 0)$$|
-| **1** |$$(0, 1)$$|$$(1, 1)$$|$$(2, 1)$$|
-| **2** |$$(0, 2)$$|$$(1, 2)$$|$$(2, 2)$$|
+| **0** |``(0, 0)``|``(1, 0)``|``(2, 0)``|
+| **1** |``(0, 1)``|``(1, 1)``|``(2, 1)``|
+| **2** |``(0, 2)``|``(1, 2)``|``(2, 2)``|
 Where the top and far left rows represent our **X** and **Y** indexes. 
 
 ### Utilizing 2D Arrays
@@ -72,7 +72,7 @@ Now, we want to get the element in the top right corner of the canvas. In this c
 In order to set an element of a grid we use: `grid[row][col] = elem;`.
 <br>
 <br>
-If we wanted to make **O** the winner of our game we would have to set the elements at $$(0, 0)$$ and $$(0, 1)$$ to `2`. In order to do this we would use:
+If we wanted to make **O** the winner of our game we would have to set the elements at `(0, 0)` and `(0, 1)` to `2`. In order to do this we would use:
 ```Java
 gameBoard[0][0] = 2; 
 gameBoard[0][1] = 2;
