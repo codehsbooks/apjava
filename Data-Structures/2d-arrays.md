@@ -1,6 +1,6 @@
 # 2D Arrays (Matrices or Grids)
 <hr>
-Lets say we are contracted by a video game company to build Tic-Tac-Toe game. We need to figure out a method of storing each player's turn. How would we achieve this? Luckily, Java allows us to utilize 2-Dimensional Arrays, otherwise known as Matrices or Grids. A 2D Array can best be described as an "array of arrays."
+Let's say we are contracted by a video game company to build Tic-Tac-Toe game. We need to figure out a method of storing each player's turn. How would we achieve this? Luckily, Java allows us to utilize 2-Dimensional Arrays, otherwise known as Matrices or Grids. A 2D Array can best be described as an "array of arrays."
 <br>
 
 ### Creating 2D Arrays
@@ -38,7 +38,7 @@ If you were to visualize a 2D Array, it would be easiest to think of it like a t
 Here is what a 3x3, 2D Array would look like:
 
 |   | 0 | 1 | 2 |
-| -- | -- | -- | -- |
+| --- | --- | --- | --- |
 | **0** |$$(0, 0)$$|$$(1, 0)$$|$$(2, 0)$$|
 | **1** |$$(0, 1)$$|$$(1, 1)$$|$$(2, 1)$$|
 | **2** |$$(0, 2)$$|$$(1, 2)$$|$$(2, 2)$$|
@@ -48,18 +48,18 @@ Where the top and far left rows represent our **X** and **Y** indexes.
 <hr>
 Now that we understand what 2D Arrays look like, and how to create them, we can focus on utilization. 
 
-Lets say we have a 3x3 grid, named `gameBoard`, with the value of our Tic-Tac-Toe game. In this case, `0` represents a blank space, `1` represents a **X**, and `2` represents an **O**.
+Let's say we have a 3x3 grid, named `gameBoard`, with the value of our Tic-Tac-Toe game. In this case, `0` represents a blank space, `1` represents a **X**, and `2` represents an **O**.
 
 Here is what our grid looks like with **X** as the winner:
 
 |   | 0 | 1 | 2 |
-| -- | -- | -- | -- |
+| --- | --- | --- | --- |
 | **0** | 1 | 0 | 2 |
 | **1** | 0 | 1 | 0 |
 | **2** | 2 | 2 | 1 |
 
 ##### Getting an Element:
-Lets say we want to access a specific element of our grid. For this, we use: `int elem = grid[row][col];`.
+Let's say we want to access a specific element of our grid. For this, we use: `int elem = grid[row][col];`.
 <br>
 <br>
 With that said, we want to grab the element in the middle of the grid. So we would use: `int elem = gameBoard[1][1];`, which would give us a `1`.
@@ -81,7 +81,7 @@ gameBoard[0][1] = 2;
 Now our Grid looks like:
 
 |   | 0 | 1 | 2 |
-| -- | -- | -- | -- |
+| --- | --- | --- | --- |
 | **0** | 2 | 0 | 2 |
 | **1** | 2 | 1 | 0 |
 | **2** | 2 | 2 | 1 |
