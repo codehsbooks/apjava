@@ -32,10 +32,9 @@ To create a new instance of an ***Array*** we use `int[] arr = new int[5];`.
 
 To create a new instance of an ***ArrayList*** we use
 
-```
-  ArrayList<Integer> list = new ArrayList<Integer>();
-```
-
+<pre>
+ArrayList&lt;Integer&gt; list = new ArrayList&lt;Integer&gt;();
+</pre>
 
 ##### Extra Helper Methods:
 Only ArrayLists have extra helper methods. These helper methods include: remove, add at index, clear, and isEmpty.
