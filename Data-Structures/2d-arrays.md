@@ -34,7 +34,7 @@ If you were to visualize a 2D Array, it would be easiest to think of it like a t
 Here is what a 3x3, 2D Array would look like:
 
 
-|X|0|1|2|
+|row/col|0|1|2|
 |:--:|:--:|:--:|:--:|
 | **0** |``(0, 0)``|``(1, 0)``|``(2, 0)``|
 | **1** |``(0, 1)``|``(1, 1)``|``(2, 1)``|
@@ -50,7 +50,7 @@ Let's say we have a 3x3 grid, named `gameBoard`, with the value of our Tic-Tac-T
 
 Here is what our grid looks like with **X** as the winner:
 
-|     | 0   | 1   | 2   |
+|   row/col  | 0   | 1   | 2   |
 | --- | --- | --- | --- |
 | **0** | 1 | 0 | 2 |
 | **1** | 0 | 1 | 0 |
@@ -71,7 +71,7 @@ gameBoard[0][1] = 2;
 
 Now our Grid looks like:
 
-|     | 0   | 1   | 2   |
+|   row/col  | 0   | 1   | 2   |
 | --- | --- | --- | --- |
 | **0** | 2 | 0 | 2 |
 | **1** | 2 | 1 | 0 |
