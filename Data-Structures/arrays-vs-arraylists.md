@@ -4,7 +4,7 @@ Both Arrays and ArrayLists are incredibly useful to programmers, but how do we k
 
 ### Differences Between Arrays and ArrayLists
 <hr>
-One the biggest differences between an Array and ArrayList is expandability. While the size of an ArrayList can change, an Array is a set size. Other differences include how both handle types, getting the size/length, and various helper methods.
+One the biggest differences between an Array and ArrayList is expandability. While the size of an ArrayList can change, an Array is a set size. Other differences include handling types and getting the size/length.
 
 ##### Getting the Size or Length:
 How we retrieve the size or length of an Array or ArrayList varies between the two.
