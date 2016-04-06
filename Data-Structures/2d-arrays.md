@@ -38,6 +38,7 @@ Here is what a 3x3, 2D Array would look like:
 | **0** |``(0, 0)``|``(1, 0)``|``(2, 0)``|
 | **1** |``(0, 1)``|``(1, 1)``|``(2, 1)``|
 | **2** |``(0, 2)``|``(1, 2)``|``(2, 2)``|
+
 Where the top and far left rows represent our **X** and **Y** indexes. 
 
 ### Utilizing 2D Arrays
@@ -47,7 +48,7 @@ Let's say we have a 3x3 grid, named `gameBoard`, with the value of our Tic-Tac-T
 
 Here is what our grid looks like with **X** as the winner:
 
-|   | 0 | 1 | 2 |
+|     | 0   | 1   | 2   |
 | --- | --- | --- | --- |
 | **0** | 1 | 0 | 2 |
 | **1** | 0 | 1 | 0 |
@@ -68,7 +69,7 @@ gameBoard[0][1] = 2;
 
 Now our Grid looks like:
 
-|   | 0 | 1 | 2 |
+|     | 0   | 1   | 2   |
 | --- | --- | --- | --- |
 | **0** | 2 | 0 | 2 |
 | **1** | 2 | 1 | 0 |
