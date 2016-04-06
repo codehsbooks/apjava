@@ -17,7 +17,6 @@ In Java our array will look like:
 ```Java 
 int[] orangeOrders = {10, 3, 6, 4, 5, 1};
 ```
-<br>
 ##### Accessing a Single Element:
 Our third order `index 2` is for 6 oranges, but what if the customer made a mistake and only wants 3 oranges? 
 
@@ -28,8 +27,6 @@ orangeOrders[2] = 3;
 ```
 
 The value at `index 2` in our array is set to 3.
-
-<br>
 
 Now, let's say orders at `index 4` and `index 5` paid for an express purchase. We need to push these two items into our order queue before the rest of our orders. To do this we would use `orangeOrders[4]` and `orangeOrders[5]`, and push them through our queue using `finalizeOrder(order);`.
 
