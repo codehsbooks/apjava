@@ -30,7 +30,10 @@ To create new instances of an Array or ArrayList you use:
 
 To create a new instance of an ***Array*** we use `int[] arr = new int[5];`.
 
-To create a new instance of an ***ArrayList*** we use ```ArrayList<Integer> list = new ArrayList<Integer>();```.
+To create a new instance of an ***ArrayList*** we use
+```
+ArrayList<Integer> list = new ArrayList<Integer>();
+```
 
 ##### Extra Helper Methods:
 Only ArrayLists have extra helper methods. These helper methods include: remove, add at index, clear, and isEmpty.
