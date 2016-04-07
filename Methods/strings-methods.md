@@ -9,7 +9,7 @@ String str = "Hello World"
 Here is a way to think about this String as a sequence of individual characters:
 
 | 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 |
-| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | H  | e  | l  | l  | o  |    | W  | o  | r  | l  | d  |
 
 Each character in this string has a position from 0 to 10. For example, the first character, *'H'*, is at position 0. The second character, *'e'*, is at position 1. The last character, *'d'*, is at position 10. You will note that the space between the two words, *' '*, is also a character and is located at position 5. 
@@ -65,7 +65,7 @@ public class IndexOfExample extends ConsoleProgram
 Let's take a quick look back at our chart above:
 
 | 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 |
-| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | H  | e  | l  | l  | o  |    | W  | o  | r  | l  | d  |
 
 Remember, a character's particular position in a string is formally known as its index. The top row gives us the index of each character on the corresponding bottom row.
@@ -111,7 +111,7 @@ Output: `The index is -1`
 The `charAt()` method returns the character at a specified index. Let's break apart another String into its individual indexes:
 
 | 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 |
-| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | S  | t  | r  | i  | n  | g  | s  |    | a  | r  | e  |    | f  | u  | n  | !  |
 
 Let's get the first, fourth, ninth, eleventh, and fifteenth character in this String using the `charAt()` method:
@@ -189,7 +189,7 @@ The `substring(int beginIndex, int endIndex)` method returns a String given a st
 Consider our example String from before:
 
 | 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 |
-| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | S  | t  | r  | i  | n  | g  | s  |    | a  | r  | e  |    | f  | u  | n  | !  |
 
 What if we wanted to get each individual word out of the sentence? How would we do this? We can use substrings!
