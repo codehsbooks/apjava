@@ -1,17 +1,17 @@
 # Strings
- As you have learned, a character is one of the primitive data types in Java. We use the `char` keyword to declare it. A character is a single letter. `'A'`, `'a'`, `'D'`, and `'Z'` are all examples of characters. 
+ As you have learned, a character is one of the primitive data types in Java. We use the `char` keyword to declare it. A character is a single letter. *'A'*, *'a'*, *'D'*, and *'Z'* are all examples of characters. 
 
 It is great that we have an easy way to represent a single character, but what if we wanted to represent words or sentences? How can we do this?
 
 ## Introducing Strings
 
-A String is a sequence of characters. We use Strings to represent full words and sentences. For example,  the famous `"Hello World"` is a String. Some more examples of Strings:
+A String is a sequence of characters. We use Strings to represent full words and sentences. For example,  the famous *"Hello World"* is a String. Some more examples of Strings:
 
-* `"I am a String. A sequence of characters strung together to form words and/or sentences."`
-* `"CodeHS is the best coding website ever! Everyone loves CodeHS!"`
-* `"She sells sea shells by the sea shore."`
-* `"Strings!"`
-* `"abcdefghijklmnopqrstuvwxyz"`
+* *"I am a String. A sequence of characters strung together to form words and/or sentences."*
+* *"CodeHS is the best coding website ever! Everyone loves CodeHS!"*
+* *"She sells sea shells by the sea shore."*
+* *"Strings!"*
+* *"abcdefghijklmnopqrstuvwxyz"*
 
 A String is **not** a primitive type like `int`, `char`, `boolean`, and `double` are. Primitive types always start with lowercase letters, but a **S**tring starts with a capital letter. This makes it an **object**. You will learn more about objects in future chapters, but for now, it is important to just remember that a String is **not** a primitive type.
 
