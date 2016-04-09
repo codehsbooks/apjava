@@ -30,6 +30,5 @@ public abstract class VehicleClass {
 public abstract class Shape {
 
 }
-
 ```
 #### Creating Abstract Methods
