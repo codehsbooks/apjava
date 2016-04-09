@@ -1,6 +1,6 @@
 # Class Design and Abstract Classes
 <hr>
-One of the biggest challenges in Java is taking the time to actually write out relations between classes using pen and paper. It is incredibly important to understand how each class relates to one another. It is also important to know the characteristics that define each class.
+One of the biggest challenges in Java is taking the time to actually write out relations between classes, outside of the editor. It is incredibly important to understand how each class relates to one another. It is also important to know the characteristics that define each class.
 
 
 ### Class Design
