@@ -82,10 +82,11 @@ public class ElectricCar extends VehicleClass
   private double milesPerCharge;
   private double maxEnergyUsage;
   
-  public ElectricCar(double charge, double maxEnergy)
+  public ElectricCar(double charge, double maxEnergy, double milesCharge)
   {
     maxCharge = charge;
     maxEnergyUsage = maxEnergy;
+    milesPerCharge = milesCharge;
   }
   
   public double getMileage()
