@@ -56,6 +56,9 @@ public abstract class VehicleClass
   public abstract double getMileage();
 }
 
+/* As you can see, in both classes, we have `getMileage` implemented
+ * with different formulas.
+ */ 
 public class Truck extends VehicleClass
 {
   public double getMileage()
