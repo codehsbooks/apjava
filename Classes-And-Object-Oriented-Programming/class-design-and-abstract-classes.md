@@ -32,3 +32,4 @@ public abstract class Shape {
 }
 ```
 #### Creating Abstract Methods
+***Abstract methods*** are methods that are declared within an abstract class, but the implementation is done by the subclass.
