@@ -90,7 +90,7 @@ public class ElectricCar extends VehicleClass
   
   public double getMileage()
   {
-  
+    return (maxCharge*milesPerCharge)/maxEnergyUsage;
   }
 }
 
