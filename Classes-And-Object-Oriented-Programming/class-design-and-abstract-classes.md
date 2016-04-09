@@ -47,6 +47,13 @@ public abstract class VehicleClass
     type = vType;
     vehicleName = vName;
   }
+  
+  /* This will need to be abstract, since 
+   * we will need to implement different formulas
+   * depending on if the vehicle is electric or 
+   * gas powered.
+   */ 
+  public abstract double getMileage();
 }
 
 ```
