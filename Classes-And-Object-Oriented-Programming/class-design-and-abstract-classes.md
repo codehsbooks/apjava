@@ -64,14 +64,15 @@ public class Truck extends VehicleClass
   private double gasTankCapacity;
   private double milesPerTank;
   
-  public Truck()
+  public Truck(double capacity, double miles)
   {
-  
+    gasTankCapacity = capacity;
+    milesPerTank = miles;
   }
   
   public double getMileage()
   {
-  
+    return milesPerTank/gasTankCapacity;
   }
 }
 
