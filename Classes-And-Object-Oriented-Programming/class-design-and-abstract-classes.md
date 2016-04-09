@@ -61,7 +61,14 @@ public abstract class VehicleClass
  */ 
 public class Truck extends VehicleClass
 {
-  public Truck
+  private double gasTankCapacity;
+  private double milesPerTank;
+  
+  public Truck()
+  {
+  
+  }
+  
   public double getMileage()
   {
   
@@ -70,6 +77,15 @@ public class Truck extends VehicleClass
 
 public class ElectricCar extends VehicleClass
 {
+  private double maxCharge;
+  private double milesPerCharge;
+  private double maxEnergyUsage;
+  
+  public ElectricCar()
+  {
+  
+  }
+  
   public double getMileage()
   {
   
