@@ -56,5 +56,21 @@ public abstract class VehicleClass
   public abstract double getMileage();
 }
 
+public class Truck extends VehicleClass
+{
+  public double getMileage()
+  {
+  
+  }
+}
+
+public class ElectricCar extends VehicleClass
+{
+  public double getMileage()
+  {
+  
+  }
+}
+
 ```
 
