@@ -16,5 +16,20 @@ In this diagram we can see that both ***Car Class*** and ***Motor Cycle Class***
 Unlike an ordinary class, ***abstract classes*** can't be instantiated. This means that you can not create new instances of an ***abstract class***, as you would an ordinary class. While you can't instantiate an ***abstract class***, it can still share properties or be related to the subclass. 
 
 #### Creating an Abstract Class
+In order to create an ***abstract class*** you must add the keyword: `abstract` to the class declaration.
 
+Here are a couple of examples of abstract classes in Java:
+
+```Java
+// Here is our Vehicle Class
+public abstract class VehicleClass {
+
+}
+
+// Here is an example of our Shape class
+public abstract class Shape {
+
+}
+
+```
 #### Creating Abstract Methods
