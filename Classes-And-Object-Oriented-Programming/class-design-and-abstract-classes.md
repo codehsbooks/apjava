@@ -37,7 +37,17 @@ public abstract class Shape {
 Here is an example of ***abstract methods*** using our ***Vehicle Class***
 
 ```Java
-
+public abstract class VehicleClass
+{
+  private String type;
+  private String vehicleName;
+  
+  public VehicleClass(String vType, String vName)
+  {
+    type = vType;
+    vehicleName = vName;
+  }
+}
 
 ```
 
