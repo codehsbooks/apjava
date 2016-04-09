@@ -61,6 +61,7 @@ public abstract class VehicleClass
  */ 
 public class Truck extends VehicleClass
 {
+  public Truck
   public double getMileage()
   {
   
