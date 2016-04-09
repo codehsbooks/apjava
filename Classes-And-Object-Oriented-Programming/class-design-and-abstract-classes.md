@@ -32,4 +32,4 @@ public abstract class Shape {
 }
 ```
 #### Creating Abstract Methods
-***Abstract methods*** are methods that are declared within an abstract class, but lack implementation. In most cases you would have to implement the method within the subclass so you have more flexibility in your code.
+***Abstract methods*** are methods that are declared within an abstract class, but lack implementation. In most cases you would have to implement the method within the subclass. This way you have more flexibility with methods that require differing logic.
