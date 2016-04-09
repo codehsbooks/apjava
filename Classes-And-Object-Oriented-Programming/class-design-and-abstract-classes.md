@@ -4,5 +4,7 @@ One of the biggest challenges in Java is taking the time to actually write out r
 
 
 ### Class Design
+<hr>
 
 ### Abstract Classes
+<hr>
