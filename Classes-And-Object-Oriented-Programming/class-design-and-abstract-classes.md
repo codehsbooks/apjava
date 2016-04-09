@@ -14,3 +14,7 @@ In this diagram we can see that both ***Car Class*** and ***Motor Cycle Class***
 ### Abstract Classes
 <hr>
 Unlike an ordinary class, ***abstract classes*** can't be instantiated. This means that you can not create new instances of an ***abstract class***, as you would an ordinary class. While you can't instantiate an ***abstract class***, it can still share properties or be related to the subclass. 
+
+#### Creating an Abstract Class
+
+#### Creating Abstract Methods
