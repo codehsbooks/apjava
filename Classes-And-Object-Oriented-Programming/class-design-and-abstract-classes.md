@@ -13,3 +13,4 @@ In this diagram we can see that both ***Car Class*** and ***Motor Cycle Class***
 
 ### Abstract Classes
 <hr>
+***Abstract classes*** are classes that can not be instantiated, but subclasses that inherit an ***abstract class*** can still share properties.
