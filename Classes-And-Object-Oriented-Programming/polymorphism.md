@@ -8,7 +8,7 @@ Method overriding allows us to call the correct implementation of a method acros
 
 ### Dynamic Binding
 <hr>
-
+Dynamic Binding is the concept where the proper method implementation is chosen at run-time, and not compile-time.
 
 ### Examples of Polymorphism
 <hr>
