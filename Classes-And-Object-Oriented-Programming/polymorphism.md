@@ -1,6 +1,6 @@
 # Polymorphism
 <hr>
-Polymorphism is the ability to call a single method to do differing actions depending on the object.
+Polymorphism 
 
 ### Method Overriding
 <hr>
@@ -10,8 +10,9 @@ Method overriding allows us to call the correct implementation of a method acros
 <hr>
 Dynamic Binding is the concept where the proper method implementation is chosen at run-time, and not compile-time.
 
+### Polymorphic Arrays
+<hr>
+
 ### Examples of Polymorphism
 <hr>
 
-### Polymorphism Questions
-<hr>
