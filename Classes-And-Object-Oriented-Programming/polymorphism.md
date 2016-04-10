@@ -1,6 +1,8 @@
 # Polymorphism
 <hr>
-Polymorphism is the capability of a single object to be able to take on multiple forms. Polymorphism can also be explained as the ability to perform a single actions in various ways across multiple objects.
+Polymorphism is the capability of a single object to be able to take on multiple forms. Polymorphism can also be explained as the ability to perform a single action in many ways, across multiple objects.
+
+
 
 ### Method Overriding
 <hr>
