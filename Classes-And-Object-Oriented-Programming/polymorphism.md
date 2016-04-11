@@ -58,7 +58,7 @@ public class UpcastingExample extends ConsoleProgram
 }
 ```
 ### Downcasting
-<
+<hr>
 
 ### Dynamic Binding
 <hr>
