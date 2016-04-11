@@ -34,6 +34,8 @@ Now that we know ***upcasting*** refers to taking an object of a lower level cla
 
 ### Static Binding
 <hr>
+***Static Binding*** is another important concept to ***polymorphism***. Unlike ***dynamic binding**, **static binding** choses the proper method implementation at compile-time, and not run-time.
+
 
 ### Method Overriding
 <hr>
