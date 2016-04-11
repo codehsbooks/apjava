@@ -32,7 +32,10 @@ class Animal
     name = aName;
   }
   
-  
+  public String speak()
+  {
+    return "Many animals speak";
+  }
 }
 
 class Dog
