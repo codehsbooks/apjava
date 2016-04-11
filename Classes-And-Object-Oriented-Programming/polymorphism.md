@@ -62,7 +62,43 @@ public class UpcastingExample extends ConsoleProgram
 ***Downcasting*** is very similar to ***upcasting***, but we are referencing our object of a higher level to a lower level class. One important difference in ***downcasting*** is that you must downcast manually. Lets look at an example of this:
 
 ```Java
+class Animal
+{
+  public String speak()
+  {
+    return "Many animals speak";
+  }
+}
 
+class Dog extends Animal
+{
+  public String speak()
+  {
+    return "The dog says woof!";
+  }
+}
+
+class Fox extends Animal
+{
+  public String speak()
+  {
+    return "What does the fox say?";
+  }
+}
+
+public class UpcastingExample extends ConsoleProgram
+{
+  // Upcasting is done automatically
+  Animal myDog = new Dog(); // Upcasting from `Animal` to `Dog`
+  Animal myFox = new Fox(); // Upcasting from `Animal` to `Fox`
+  
+  // Downcasting must be done manually
+  Dog yourDog = (Dog) myDog;
+  Fox yourFox = (Fox) myFox;
+  
+  System.out.println(yourDog.speak()); // Will print `Many animals speak`
+  System.out.println(yourFox.speak()); // Will print `Many animals speak`
+}
 ```
 
 ### Dynamic Binding
