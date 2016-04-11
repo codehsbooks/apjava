@@ -29,6 +29,8 @@ Now that we know ***upcasting*** refers to taking an object of a lower level cla
 
 ### Dynamic Binding
 <hr>
+***Dynamic Binding*** is a very important concept to ***runtime polymorphism***. Now that we understand that it is the concept of the proper method implementation being chosen at run-time, lets look at some examples:
+
 
 ### Static Binding
 <hr>
