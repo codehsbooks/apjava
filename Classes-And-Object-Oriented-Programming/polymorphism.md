@@ -32,7 +32,7 @@ class Animal
   }
 }
 
-class Dog
+class Dog extends Animal
 {
   public String speak()
   {
@@ -40,7 +40,7 @@ class Dog
   }
 }
 
-class Fox
+class Fox extends Animal
 {
   public String speak()
   {
@@ -50,7 +50,11 @@ class Fox
 
 public class UpcastingExample extends ConsoleProgram
 {
-
+  Animal myDog = new Dog(); // Upcasting from `Animal` to `Dog`
+  Animal myFox = new Fox(); // Upcasting from `Animal` to `Fox`
+  
+  System.out.println(myDog.speak()); // Will print `The dog says woof!`
+  System.out.println(myFox.speak()); // Will print `What does the fox say?`
 }
 ```
 
