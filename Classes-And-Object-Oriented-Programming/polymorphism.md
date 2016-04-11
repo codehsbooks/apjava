@@ -26,10 +26,7 @@ There are several concepts of ***polymorphism*** that are crucial to remember. T
 ```Java
 class Animal
 {
-  public String speak()
-  {
-    return "Many animals speak";
-  }
+  public abstract String speak();
 }
 
 class Dog extends Animal
@@ -67,10 +64,7 @@ public class UpcastingExample extends ConsoleProgram
 ```Java
 class Animal
 {
-  public String speak()
-  {
-    return "Many animals speak";
-  }
+  public abstract String speak();
 }
 
 class Dog extends Animal
@@ -132,16 +126,11 @@ public class UpcastingExample extends ConsoleProgram
 {
   public void run()
   {
-    // Upcasting is done automatically
-    Animal myDog = new Dog(); // Upcasting to `Animal`
-    Animal myFox = new Fox(); // Upcasting to `Animal`
-  
-    // Downcasting must be done manually
-    Dog yourDog = (Dog) myDog; // Downcasting from `Animal`
-    Fox yourFox = (Fox) myFox; // Downcasting from `Animal`
-  
-    System.out.println(yourDog.speak()); // Will print `The dog says woof!`
-    System.out.println(yourFox.speak()); // Will print `What does the fox say?`
+    Animal myAnimal = new Animal();
+    Animal myDog = new Dog();
+    
+    // The program chooses at runtime which method to call:
+    
   }
 }
 ```
