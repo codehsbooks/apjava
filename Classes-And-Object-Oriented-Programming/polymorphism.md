@@ -61,6 +61,10 @@ public class UpcastingExample extends ConsoleProgram
 <hr>
 ***Downcasting*** is very similar to ***upcasting***, but we are referencing our object of a higher level to a lower level class. Lets look at an example of this:
 
+```Java
+
+```
+
 ### Dynamic Binding
 <hr>
 ***Dynamic Binding*** is a very important concept to ***runtime polymorphism***. Now that we understand that it is the concept of the proper method implementation being chosen at run-time, lets look at some examples:
