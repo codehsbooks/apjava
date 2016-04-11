@@ -89,8 +89,8 @@ class Fox extends Animal
 public class UpcastingExample extends ConsoleProgram
 {
   // Upcasting is done automatically
-  Animal myDog = new Dog(); // Upcasting from `Animal` to `Dog`
-  Animal myFox = new Fox(); // Upcasting from `Animal` to `Fox`
+  Animal myDog = new Dog(); // Upcasting to `Animal`
+  Animal myFox = new Fox(); // Upcasting to `Animal`
   
   // Downcasting must be done manually
   Dog yourDog = (Dog) myDog; // Downcasting from `Animal`
