@@ -17,13 +17,19 @@ There are several concepts of ***polymorphism*** that are crucial to remember. T
 
 - **Method Overriding: **
 
-### Method Overriding
+### Upcasting:
 <hr>
-Method overriding allows us to call the correct implementation of a method across multiple objects that share the same superclass.
 
 ### Dynamic Binding
 <hr>
 Dynamic Binding is the concept where the proper method implementation is chosen at run-time, and not compile-time.
+
+### Static Binding
+<hr>
+
+### Method Overriding
+<hr>
+Method overriding allows us to call the correct implementation of a method across multiple objects that share the same superclass.
 
 ### Polymorphic Arrays
 <hr>
