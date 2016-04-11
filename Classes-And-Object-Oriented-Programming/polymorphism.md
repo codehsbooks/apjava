@@ -21,7 +21,7 @@ There are several concepts of ***polymorphism*** that are crucial to remember. T
 
 ### Upcasting:
 <hr>
-Now that we know ***upcasting*** refers to taking an object of a lower level class type and referencing it to a class of a higher level, lets look at an example:
+***Upcasting*** refers to taking an object of a lower level class type and referencing it to a class of a higher level. Lets look at an example of this:
 
 ```Java
 class Animal
@@ -59,7 +59,7 @@ public class UpcastingExample extends ConsoleProgram
 ```
 ### Downcasting
 <hr>
-***Downcasting*** is very similar to ***upcasting***, but we are referencing our object of a higher level to a lower level class. Here is an example:
+***Downcasting*** is very similar to ***upcasting***, but we are referencing our object of a higher level to a lower level class. Lets look at an example of this:
 
 ### Dynamic Binding
 <hr>
