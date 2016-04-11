@@ -111,7 +111,7 @@ public class UpcastingExample extends ConsoleProgram
 
 ### Static Binding
 <hr>
-***Static Binding*** is another important concept to ***polymorphism***. Unlike ***dynamic binding**, **static binding** chooses the proper method implementation at compile-time, and not run-time. Lets look at some examples of this concept:
+***Static Binding*** is another important concept to ***polymorphism***. Unlike ***dynamic binding***, **static binding** chooses the proper method implementation at compile-time, and not run-time. Lets look at some examples of this concept:
 
 ```Java
 
