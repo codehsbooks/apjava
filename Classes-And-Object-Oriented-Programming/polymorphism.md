@@ -142,7 +142,9 @@ public class UpcastingExample extends ConsoleProgram
     Animal myAnimal = new Animal();
     Animal myDog = new Dog();
     
-    // The program chooses at runtime which method to call:
+    /* Polymorphism here is seen as the correct implementaiton of `speak()`
+     * being chosen, regardless of the object type.
+     */
     System.out.println(myAnimal.speak());
     System.out.println(myDog.speak());
   }
