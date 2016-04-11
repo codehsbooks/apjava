@@ -105,7 +105,7 @@ public class UpcastingExample extends ConsoleProgram
 <hr>
 ***Dynamic Binding*** is a very important concept to ***runtime polymorphism***. Now that we understand that it is the concept of the proper method implementation being chosen at run-time, lets look at some examples:
 
-
+![Dynamic Binding Example](../static/classesAndOOP/Classes_and_OOP_Polymorphism_Dynamic_Binding.png)
 
 ### Static Binding
 <hr>
