@@ -121,10 +121,7 @@ public class UpcastingExample extends ConsoleProgram
 ```Java
 class Animal
 {
-  public String speak()
-  {
-    return "Many animals speak";
-  }
+  public abstract String speak();
 }
 
 class Dog extends Animal
@@ -135,18 +132,25 @@ class Dog extends Animal
   }
 }
 
+class Fox extends Animal
+{
+  public String speak()
+  {
+    return "What does the fox say?";
+  }
+}
 public class UpcastingExample extends ConsoleProgram
 {
   public void run()
   {
-    Animal myAnimal = new Animal();
+    Animal myFox = new Fox();
     Animal myDog = new Dog();
     
     /* Polymorphism here is seen as the correct implementaiton of `speak()`
      * being chosen, regardless of the object type.
      */
-    System.out.println(myAnimal.speak());
-    System.out.println(myDog.speak());
+    System.out.println(myFox.speak()); // Will print `What does the fox say?`
+    System.out.println(myDog.speak()); // Will print `The dog says woof!`
   }
 }
 ```
