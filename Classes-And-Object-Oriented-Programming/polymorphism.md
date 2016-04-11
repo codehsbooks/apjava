@@ -24,7 +24,26 @@ There are several concepts of ***polymorphism*** that are crucial to remember. T
 Now that we know ***upcasting*** refers to taking an object of a lower level class type and referencing it to a class of a higher level, lets look at some examples:
 
 ```Java
+class Animal
+{
+  String name;
+  public Animal(String aName)
+  {
+    name = aName;
+  }
+  
+  
+}
 
+class Dog
+{
+
+}
+
+public class UpcastingExample extends ConsoleProgram
+{
+
+}
 ```
 
 ### Dynamic Binding
