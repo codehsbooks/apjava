@@ -13,7 +13,7 @@ There are several concepts of ***polymorphism*** that are crucial to understand.
 
 - **Upcasting: ** Occurs when the reference variable of a super class refers to the object of the subclass. This allows us to go from a low level class type to a higher level one.
 <br>
-(ex: `Animal fox = new Fox();` `Animal dog = new Dog();`)
+(ex: `Animal fox = new Fox();`, `Animal dog = new Dog();`)
 
 - **Downcasting: ** Occurs when the reference variable of a subclass is being set to an object of the superclass type. This will manually convert the object type to that of the subclass.
 <br>
