@@ -25,7 +25,6 @@ There are several concepts of ***polymorphism*** that are crucial to remember. T
 ### Dynamic Binding
 <hr>
 
-
 ### Static Binding
 <hr>
 
