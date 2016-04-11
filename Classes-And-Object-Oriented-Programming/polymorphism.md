@@ -111,9 +111,36 @@ public class UpcastingExample extends ConsoleProgram
 <hr>
 ***Static Binding*** is another important concept to ***polymorphism***. Unlike ***dynamic binding***, ***static binding*** chooses the proper method implementation at compile-time, and not run-time. Since ***static binding*** chooses the proper implementation at compile-time, it only checks the type of the reference variable and not where it is pointing. Lets look at an example of this concept:
 
+
 ```Java
+class Animal
+{
+  public String speak()
+  {
+    return "Many animals speak";
+  }
+}
 
+class Dog extends Animal
+{
+  public String speak()
+  {
+    return "The dog says woof!";
+  }
+}
 
+public class UpcastingExample extends ConsoleProgram
+{
+  public void run()
+  {
+    Animal myAnimal = new Animal();
+    Animal myDog = new Dog();
+    
+    // The program chooses at runtime which method to call:
+    System.out.println(myAnimal.speak());
+    System.out.println(myDog.speak());
+  }
+}
 ```
 
 ### Method Overriding
