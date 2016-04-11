@@ -130,7 +130,8 @@ public class UpcastingExample extends ConsoleProgram
     Animal myDog = new Dog();
     
     // The program chooses at runtime which method to call:
-    
+    System.out.println(myAnimal.speak());
+    System.out.println(myDog.speak());
   }
 }
 ```
