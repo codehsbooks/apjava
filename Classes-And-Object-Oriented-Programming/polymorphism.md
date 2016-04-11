@@ -115,7 +115,6 @@ public class UpcastingExample extends ConsoleProgram
 ![Static Binding Example](../static/classesAndOOP/Classes_And_OOP_Polymorphism_Static_Binding.png)
 
 
-
 ### Polymorphic Arrays
 <hr>
 ***Polymorphic Arrays*** allow us to store an array of objects with differing types that share the same superclass. Lets see this in action:
