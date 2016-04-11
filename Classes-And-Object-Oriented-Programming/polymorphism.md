@@ -40,6 +40,14 @@ class Dog
   }
 }
 
+class Fox
+{
+  public String speak()
+  {
+    return "What does the fox say?";
+  }
+}
+
 public class UpcastingExample extends ConsoleProgram
 {
 
