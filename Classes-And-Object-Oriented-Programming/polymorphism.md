@@ -96,8 +96,8 @@ public class UpcastingExample extends ConsoleProgram
 {
   public void run()
   {
-    Animal myDog = new Dog(); // Upcasting to `Animal`
-    Animal myFox = new Fox(); // Upcasting to `Animal`
+    Animal myDog = new Dog(); // Upcasting
+    Animal myFox = new Fox(); // Upcasting
   
     System.out.println(myDog.speak()); // Will print `The dog says woof!`
     System.out.println(myFox.speak()); // Will print `What does the fox say?`
@@ -135,12 +135,12 @@ public class UpcastingExample extends ConsoleProgram
   public void run()
   {
     // Upcasting is done automatically
-    Animal myDog = new Dog(); // Upcasting to `Animal`
-    Animal myFox = new Fox(); // Upcasting to `Animal`
+    Animal myDog = new Dog(); // Upcasting
+    Animal myFox = new Fox(); // Upcasting
   
     // Downcasting must be done manually
-    Dog yourDog = (Dog) myDog; // Downcasting from `Animal`
-    Fox yourFox = (Fox) myFox; // Downcasting from `Animal`
+    Dog yourDog = (Dog) myDog; // Downcasting
+    Fox yourFox = (Fox) myFox; // Downcasting
   
     System.out.println(yourDog.speak()); // Will print `The dog says woof!`
     System.out.println(yourFox.speak()); // Will print `What does the fox say?`
