@@ -105,36 +105,7 @@ public class UpcastingExample extends ConsoleProgram
 <hr>
 ***Dynamic Binding*** is a very important concept to ***runtime polymorphism***. Now that we understand that it is the concept of the proper method implementation being chosen at run-time, lets look at some examples:
 
-```Java
-class Animal
-{
-  public String speak()
-  {
-    return "Many animals speak";
-  }
-}
 
-class Dog extends Animal
-{
-  public String speak()
-  {
-    return "The dog says woof!";
-  }
-}
-
-public class UpcastingExample extends ConsoleProgram
-{
-  public void run()
-  {
-    Animal myAnimal = new Animal();
-    Animal myDog = new Dog();
-    
-    // The program chooses at runtime which method to call:
-    System.out.println(myAnimal.speak());
-    System.out.println(myDog.speak());
-  }
-}
-```
 
 ### Static Binding
 <hr>
