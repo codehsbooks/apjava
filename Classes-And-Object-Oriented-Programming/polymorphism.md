@@ -48,10 +48,17 @@ Now that we know ***upcasting*** refers to taking an object of a lower level cla
 <hr>
 ***Method Overriding*** allows us to use the same method across multiple objects with differing implementations. Lets take a look at some examples of this concept:
 
+```Java
+
+```
 
 ### Polymorphic Arrays
 <hr>
+***Polymorphic Arrays*** allow us to store an array of objects with differeing types that share the same superclass. Lets see this in action:
 
-### Examples of Polymorphism
-<hr>
+```Java
+
+```
+
+
 
