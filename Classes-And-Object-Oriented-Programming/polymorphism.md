@@ -40,7 +40,7 @@ class Animal
 
 class Dog
 {
-
+  public Dog(
 }
 
 public class UpcastingExample extends ConsoleProgram
