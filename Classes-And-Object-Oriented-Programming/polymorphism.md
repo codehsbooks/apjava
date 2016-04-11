@@ -15,7 +15,7 @@ There are several concepts of ***polymorphism*** that are crucial to understand.
 <br>
 (ex: `Animal fox = new Fox();`, `Animal dog = new Dog();`)
 
-- **Downcasting: ** Occurs when the reference variable of a subclass is being set to an object of the superclass type. This will manually convert the object type to that of the subclass.
+- **Downcasting: ** Occurs when the reference variable of a subclass points to an object of the superclass type. This will manually convert the object type to that of the subclass.
 <br>
 (ex: `Animal animal = new Fox();` `Fox castedFox = (Fox) animal`)
 
