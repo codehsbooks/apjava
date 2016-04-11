@@ -3,7 +3,7 @@
 ***Polymorphism*** is one of the most important concepts in Object Oriented Programming.
 <br>
 <br>
-***Polymorphism*** is the capability of a single object to take on multiple forms. ***Polymorphism*** can also be explained as the ability to perform a single action, in many ways, across multiple objects. It also allows us to use the same method across different objects, using different implementations. 
+***Polymorphism*** is the capability of a single object to take on multiple forms. ***Polymorphism*** can also be explained as the ability to perform a single action, in many ways, across multiple objects. This means we can use the same method across different objects, using different implementations. 
 
 ### Concepts of Polymorphism
 <hr>
