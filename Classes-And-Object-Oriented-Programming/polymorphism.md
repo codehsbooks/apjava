@@ -147,8 +147,7 @@ public class UpcastingExample extends ConsoleProgram
     Animal myDog = new Dog();
     
     /* Polymorphism here is seen as the correct implementaiton of `speak()`
-     * being chosen, regardless of the object type.
-     */
+     * being chosen, regardless of the object type. */
     System.out.println(myFox.speak()); // Will print `What does the fox say?`
     System.out.println(myDog.speak()); // Will print `The dog says woof!`
   }
