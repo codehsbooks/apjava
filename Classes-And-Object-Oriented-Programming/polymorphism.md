@@ -27,12 +27,12 @@ There are several concepts of ***polymorphism*** that are crucial to remember. T
 ***Method Overriding*** allows us to use the same method across multiple objects with differing implementations. Lets take a look at some examples of this concept:
 
 ```Java
-class Animal
+public abstract class Animal
 {
   public abstract String speak();
 }
 
-class Dog extends Animal
+public class Dog extends Animal
 {
   public String speak()
   {
@@ -40,13 +40,14 @@ class Dog extends Animal
   }
 }
 
-class Fox extends Animal
+public class Fox extends Animal
 {
   public String speak()
   {
     return "What does the fox say?";
   }
 }
+
 public class UpcastingExample extends ConsoleProgram
 {
   public void run()
@@ -68,12 +69,12 @@ public class UpcastingExample extends ConsoleProgram
 ***Upcasting*** refers to taking an object of a lower level class type and referencing it to a class of a higher level. Lets look at an example of this:
 
 ```Java
-class Animal
+public abstract class Animal
 {
   public abstract String speak();
 }
 
-class Dog extends Animal
+public class Dog extends Animal
 {
   public String speak()
   {
@@ -81,7 +82,7 @@ class Dog extends Animal
   }
 }
 
-class Fox extends Animal
+public class Fox extends Animal
 {
   public String speak()
   {
@@ -106,7 +107,7 @@ public class UpcastingExample extends ConsoleProgram
 ***Downcasting*** is conversion of a reference variable's type to that of the subclass. One important difference in ***downcasting***, as compared to ***upcasting***, is that you must downcast manually. Lets look at an example of this:
 
 ```Java
-public abstract Animal
+public abstract class Animal
 {
   public abstract String speak();
 }
