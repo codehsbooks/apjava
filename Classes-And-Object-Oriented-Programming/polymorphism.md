@@ -9,6 +9,8 @@
 <hr>
 There are several concepts of ***polymorphism*** that are crucial to remember. These include:
 
+- **Method Overriding: ** Allows us to call the correct implementation of a method across multiple objects that share the same superclass.
+
 - **Upcasting: ** Occurs when the reference variable of a super class refers to the object of the subclass. This allows us to go from a low level class type to a higher level one.
 
 - **Downcasting: ** Occurs when the reference variable of a subclass is being set to an object of the superclass type. This will manually convert the object type to that of the subclass.
@@ -19,7 +21,6 @@ There are several concepts of ***polymorphism*** that are crucial to remember. T
 
 - **Static Binding: ** The concept where the proper method implementation is chosen at compilation, and not run-time.
 
-- **Method Overriding: ** Allows us to call the correct implementation of a method across multiple objects that share the same superclass.
 
 ### Method Overriding
 <hr>
