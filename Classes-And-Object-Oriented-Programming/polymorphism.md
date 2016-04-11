@@ -57,6 +57,7 @@ public class UpcastingExample extends ConsoleProgram
   System.out.println(myFox.speak()); // Will print `What does the fox say?`
 }
 ```
+### Downcasting
 
 ### Dynamic Binding
 <hr>
