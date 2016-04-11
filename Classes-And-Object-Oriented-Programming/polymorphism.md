@@ -7,7 +7,7 @@
 
 ### Concepts of Polymorphism
 <hr>
-There are several concepts of ***polymorphism*** that are crucial to remember. These include:
+There are several concepts of ***polymorphism*** that are crucial to remember. These include: 
 
 - **Method Overriding: ** Allows us to call the correct implementation of a method across multiple objects that share the same superclass.
 
@@ -106,12 +106,12 @@ public class UpcastingExample extends ConsoleProgram
 ***Downcasting*** is conversion of a reference variable's type to that of the subclass. One important difference in ***downcasting***, as compared to ***upcasting***, is that you must downcast manually. Lets look at an example of this:
 
 ```Java
-class Animal
+public abstract Animal
 {
   public abstract String speak();
 }
 
-class Dog extends Animal
+public class Dog extends Animal
 {
   public String speak()
   {
@@ -119,7 +119,7 @@ class Dog extends Animal
   }
 }
 
-class Fox extends Animal
+public class Fox extends Animal
 {
   public String speak()
   {
@@ -162,12 +162,12 @@ public class UpcastingExample extends ConsoleProgram
 ***Polymorphic Arrays*** allow us to store an array of objects with differing types that share the same superclass. Lets see this in action:
 
 ```Java
-class Animal
+public abstract class Animal
 {
   public abstract String speak();
 }
 
-class Dog extends Animal
+public class Dog extends Animal
 {
   public String speak()
   {
@@ -175,7 +175,7 @@ class Dog extends Animal
   }
 }
 
-class Fox extends Animal
+public class Fox extends Animal
 {
   public String speak()
   {
@@ -183,7 +183,7 @@ class Fox extends Animal
   }
 }
 
-class Cow extends Animal
+public class Cow extends Animal
 {
   public String speak()
   {
