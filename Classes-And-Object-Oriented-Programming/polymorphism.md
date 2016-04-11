@@ -196,7 +196,19 @@ public class AnimalArrays extends ConsoleProgram
 {
   public void run()
   {
-  
+    // Create the array and set its size to `3`
+    Animal[] animalArray = new Animal[3];
+    
+    // Set each object in the array
+    animalArray[0] = new Dog();
+    animalArray[1] = new Fox();
+    animalArray[2] = new Cow();
+    
+    // Print out the array
+    for(int i = 0; i < animalArray.length; i++)
+    {
+      System.out.println(animalArray[i].speak());
+    }
   }
 }
 ```
