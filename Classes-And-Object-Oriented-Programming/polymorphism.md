@@ -7,7 +7,7 @@
 
 ### Concepts of Polymorphism
 <hr>
-There are several concepts of ***polymorphism*** that are crucial to remember. These include: 
+There are several concepts of ***polymorphism*** that are crucial to understand. These include: 
 
 - **Method Overriding: ** Allows us to call the correct implementation of a method across multiple objects that share the same superclass.
 
