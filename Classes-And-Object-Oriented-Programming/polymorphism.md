@@ -59,7 +59,7 @@ public class UpcastingExample extends ConsoleProgram
 ```
 ### Downcasting
 <hr>
-***Downcasting*** is very similar to ***upcasting***, but we are referencing our object of a higher level to a lower level class. Lets look at an example of this:
+***Downcasting*** is very similar to ***upcasting***, but we are referencing our object of a higher level to a lower level class. One important difference in ***downcasting*** is that you must downcast manually. Lets look at an example of this:
 
 ```Java
 
