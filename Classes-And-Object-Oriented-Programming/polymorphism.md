@@ -19,9 +19,9 @@ There are several concepts of ***polymorphism*** that are crucial to understand.
 <br>
 (ex: `Animal animal = new Fox();` `Fox castedFox = (Fox) animal`)
 
-- **Dynamic Binding: ** The concept where the proper method implementation is chosen at run-time, and not compilation.
+- **Dynamic Binding: ** Is the concept where the proper method implementation is chosen at run-time, and not compilation.
 
-- **Static Binding: ** The concept where the proper method implementation is chosen at compilation, and not run-time.
+- **Static Binding: ** Is the concept where the proper method implementation is chosen at compilation, and not run-time.
 
 
 ### Method Overriding
