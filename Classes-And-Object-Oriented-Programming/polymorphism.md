@@ -162,7 +162,42 @@ public class UpcastingExample extends ConsoleProgram
 ***Polymorphic Arrays*** allow us to store an array of objects with differing types that share the same superclass. Lets see this in action:
 
 ```Java
+class Animal
+{
+  public abstract String speak();
+}
 
+class Dog extends Animal
+{
+  public String speak()
+  {
+    return "The dog says woof!";
+  }
+}
+
+class Fox extends Animal
+{
+  public String speak()
+  {
+    return "What does the fox say?";
+  }
+}
+
+class Cow extends Animal
+{
+  public String speak()
+  {
+    return "The cow goes moo!";
+  }
+}
+
+public class AnimalArrays extends ConsoleProgram
+{
+  public void run()
+  {
+  
+  }
+}
 ```
 
 
