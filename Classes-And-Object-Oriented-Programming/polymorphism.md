@@ -21,6 +21,47 @@ There are several concepts of ***polymorphism*** that are crucial to remember. T
 
 - **Method Overriding: ** Allows us to call the correct implementation of a method across multiple objects that share the same superclass.
 
+### Method Overriding
+<hr>
+***Method Overriding*** allows us to use the same method across multiple objects with differing implementations. Lets take a look at some examples of this concept:
+
+```Java
+class Animal
+{
+  public abstract String speak();
+}
+
+class Dog extends Animal
+{
+  public String speak()
+  {
+    return "The dog says woof!";
+  }
+}
+
+class Fox extends Animal
+{
+  public String speak()
+  {
+    return "What does the fox say?";
+  }
+}
+public class UpcastingExample extends ConsoleProgram
+{
+  public void run()
+  {
+    Animal myFox = new Fox();
+    Animal myDog = new Dog();
+    
+    /* Polymorphism here is seen as the correct implementaiton of `speak()`
+     * being chosen, regardless of the object type. */
+     
+    System.out.println(myFox.speak()); // Will print `What does the fox say?`
+    System.out.println(myDog.speak()); // Will print `The dog says woof!`
+  }
+}
+```
+
 ### Upcasting:
 <hr>
 ***Upcasting*** refers to taking an object of a lower level class type and referencing it to a class of a higher level. Lets look at an example of this:
