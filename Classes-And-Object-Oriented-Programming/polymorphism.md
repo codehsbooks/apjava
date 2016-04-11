@@ -50,11 +50,14 @@ class Fox extends Animal
 
 public class UpcastingExample extends ConsoleProgram
 {
-  Animal myDog = new Dog(); // Upcasting to `Animal`
-  Animal myFox = new Fox(); // Upcasting to `Animal`
+  public void run()
+  {
+    Animal myDog = new Dog(); // Upcasting to `Animal`
+    Animal myFox = new Fox(); // Upcasting to `Animal`
   
-  System.out.println(myDog.speak()); // Will print `The dog says woof!`
-  System.out.println(myFox.speak()); // Will print `What does the fox say?`
+    System.out.println(myDog.speak()); // Will print `The dog says woof!`
+    System.out.println(myFox.speak()); // Will print `What does the fox say?`
+  }
 }
 ```
 ### Downcasting
@@ -88,16 +91,19 @@ class Fox extends Animal
 
 public class UpcastingExample extends ConsoleProgram
 {
-  // Upcasting is done automatically
-  Animal myDog = new Dog(); // Upcasting to `Animal`
-  Animal myFox = new Fox(); // Upcasting to `Animal`
+  public void run()
+  {
+    // Upcasting is done automatically
+    Animal myDog = new Dog(); // Upcasting to `Animal`
+    Animal myFox = new Fox(); // Upcasting to `Animal`
   
-  // Downcasting must be done manually
-  Dog yourDog = (Dog) myDog; // Downcasting from `Animal`
-  Fox yourFox = (Fox) myFox; // Downcasting from `Animal`
+    // Downcasting must be done manually
+    Dog yourDog = (Dog) myDog; // Downcasting from `Animal`
+    Fox yourFox = (Fox) myFox; // Downcasting from `Animal`
   
-  System.out.println(yourDog.speak()); // Will print `The dog says woof!`
-  System.out.println(yourFox.speak()); // Will print `What does the fox say?`
+    System.out.println(yourDog.speak()); // Will print `The dog says woof!`
+    System.out.println(yourFox.speak()); // Will print `What does the fox say?`
+  }
 }
 ```
 
@@ -121,8 +127,6 @@ class Dog extends Animal
     return "The dog says woof!";
   }
 }
-
-
 
 public class UpcastingExample extends ConsoleProgram
 {
