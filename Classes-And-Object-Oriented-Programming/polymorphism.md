@@ -207,6 +207,7 @@ public class AnimalArrays extends ConsoleProgram
     // Print out the array
     for(int i = 0; i < animalArray.length; i++)
     {
+      // Will print out the various `speak()` methods for each animal.
       System.out.println(animalArray[i].speak());
     }
   }
