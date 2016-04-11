@@ -9,7 +9,9 @@
 <hr>
 There are several concepts of ***polymorphism*** that are crucial to remember. These include:
 
-- **Upcasting: ** Occurs when the reference variable of the super class refers to the object of the subclass. This allows us to go from a low level class type to a higher level one.
+- **Upcasting: ** Occurs when the reference variable of a super class refers to the object of the subclass. This allows us to go from a low level class type to a higher level one.
+
+- **Downcasting: ** Occurs when the reference variable of a subclass refers to the object of the superclass. This allows us to go from a high level class type to a lower level one.
 
 - **Dynamic Binding: ** The concept where the proper method implementation is chosen at run-time, and not compile-time.
 
