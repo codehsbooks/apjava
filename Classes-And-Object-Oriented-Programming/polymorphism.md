@@ -26,12 +26,6 @@ Now that we know ***upcasting*** refers to taking an object of a lower level cla
 ```Java
 class Animal
 {
-  String name;
-  public Animal(String aName)
-  {
-    name = aName;
-  }
-  
   public String speak()
   {
     return "Many animals speak";
@@ -40,7 +34,10 @@ class Animal
 
 class Dog
 {
-  public Dog(
+  public String speak()
+  {
+    return "The dog says woof!";
+  }
 }
 
 public class UpcastingExample extends ConsoleProgram
