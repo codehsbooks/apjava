@@ -31,11 +31,18 @@ Now that we know ***upcasting*** refers to taking an object of a lower level cla
 <hr>
 ***Dynamic Binding*** is a very important concept to ***runtime polymorphism***. Now that we understand that it is the concept of the proper method implementation being chosen at run-time, lets look at some examples:
 
+```Java
+
+```
 
 ### Static Binding
 <hr>
-***Static Binding*** is another important concept to ***polymorphism***. Unlike ***dynamic binding**, **static binding** choses the proper method implementation at compile-time, and not run-time.
+***Static Binding*** is another important concept to ***polymorphism***. Unlike ***dynamic binding**, **static binding** chooses the proper method implementation at compile-time, and not run-time. Lets look at some examples of this concept:
 
+```Java
+
+
+```
 
 ### Method Overriding
 <hr>
