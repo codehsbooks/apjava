@@ -119,7 +119,7 @@ public class UpcastingExample extends ConsoleProgram
 ***Method Overriding*** allows us to use the same method across multiple objects with differing implementations. Lets take a look at some examples of this concept:
 
 ```Java
-
+ 
 ```
 
 ### Polymorphic Arrays
