@@ -12,6 +12,8 @@ There are several concepts of ***polymorphism*** that are crucial to understand.
 - **Method Overriding: ** Allows us to call the correct implementation of a method across multiple objects that share the same superclass.
 
 - **Upcasting: ** Occurs when the reference variable of a super class refers to the object of the subclass. This allows us to go from a low level class type to a higher level one.
+<br>
+(ex: `Animal fox = new Fox();` `Animal dog = new Dog();`)
 
 - **Downcasting: ** Occurs when the reference variable of a subclass is being set to an object of the superclass type. This will manually convert the object type to that of the subclass.
 <br>
