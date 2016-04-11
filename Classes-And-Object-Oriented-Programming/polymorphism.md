@@ -93,7 +93,7 @@ public class UpcastingExample extends ConsoleProgram
   Animal myFox = new Fox(); // Upcasting from `Animal` to `Fox`
   
   // Downcasting must be done manually
-  Dog yourDog = (Dog) myDog;
+  Dog yourDog = (Dog) myDog; // Downcasting from `Animal`
   Fox yourFox = (Fox) myFox;
   
   System.out.println(yourDog.speak()); // Will print `Many animals speak`
