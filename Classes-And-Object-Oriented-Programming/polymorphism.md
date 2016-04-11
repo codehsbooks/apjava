@@ -128,7 +128,7 @@ public class UpcastingExample extends ConsoleProgram
 
 ### Polymorphic Arrays
 <hr>
-***Polymorphic Arrays*** allow us to store an array of objects with differeing types that share the same superclass. Lets see this in action:
+***Polymorphic Arrays*** allow us to store an array of objects with differing types that share the same superclass. Lets see this in action:
 
 ```Java
 
