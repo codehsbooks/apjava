@@ -119,7 +119,34 @@ public class UpcastingExample extends ConsoleProgram
 ***Method Overriding*** allows us to use the same method across multiple objects with differing implementations. Lets take a look at some examples of this concept:
 
 ```Java
- 
+class Animal
+{
+  public String speak()
+  {
+    return "Many animals speak";
+  }
+}
+
+class Dog extends Animal
+{
+  public String speak()
+  {
+    return "The dog says woof!";
+  }
+}
+
+public class UpcastingExample extends ConsoleProgram
+{
+  public void run()
+  {
+    Animal myAnimal = new Animal();
+    Animal myDog = new Dog();
+    
+    // The program chooses at runtime which method to call:
+    System.out.println(myAnimal.speak());
+    System.out.println(myDog.speak());
+  }
+}
 ```
 
 ### Polymorphic Arrays
