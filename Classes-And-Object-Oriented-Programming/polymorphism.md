@@ -46,6 +46,7 @@ Now that we know ***upcasting*** refers to taking an object of a lower level cla
 
 ### Method Overriding
 <hr>
+***Method Overriding*** allows us to use the same method across multiple objects with differing implementations. Lets take a look at some examples of this concept:
 
 
 ### Polymorphic Arrays
