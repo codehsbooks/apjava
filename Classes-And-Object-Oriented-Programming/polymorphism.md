@@ -13,9 +13,9 @@ There are several concepts of ***polymorphism*** that are crucial to remember. T
 
 - **Downcasting: ** Occurs when the reference variable of a subclass is being set to an object of the superclass type. This will manually convert the object type to that of the subclass. <br>(ex: `Animal animal = new Fox();` `Fox castedFox = (Fox) animal`)
 
-- **Dynamic Binding: ** The concept where the proper method implementation is chosen at run-time, and not compile-time.
+- **Dynamic Binding: ** The concept where the proper method implementation is chosen at run-time, and not compilation.
 
-- **Static Binding: ** The concept where the proper method implementation is chosen at compile-time, and not run-time.
+- **Static Binding: ** The concept where the proper method implementation is chosen at compilation, and not run-time.
 
 - **Method Overriding: ** Allows us to call the correct implementation of a method across multiple objects that share the same superclass.
 
@@ -109,7 +109,7 @@ public class UpcastingExample extends ConsoleProgram
 
 ### Static Binding
 <hr>
-***Static Binding*** is another important concept to ***polymorphism***. Unlike ***dynamic binding***, ***static binding*** chooses the proper method implementation at compile-time, and not run-time. Since ***static binding*** chooses the proper implementation at compile-time, it only checks the type of the reference variable and not where it is pointing. Lets look at an example of this concept:
+***Static Binding*** is another important concept to ***polymorphism***. Unlike ***dynamic binding***, ***static binding*** chooses the proper method implementation at compilation, and not run-time. Since ***static binding*** chooses the proper implementation at compile-time, it only checks the type of the reference variable and not where it is pointing. Lets look at an example of this concept:
 ![Static Binding Example](../static/classesAndOOP/Classes_And_OOP_Polymorphism_Static_Binding.png)
 
 ### Method Overriding
