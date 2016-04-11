@@ -26,7 +26,7 @@ There are several concepts of ***polymorphism*** that are crucial to understand.
 
 ### Method Overriding
 <hr>
-***Method Overriding*** allows us to use the same method across multiple objects with differing implementations. Lets take a look at some examples of this concept:
+***Method Overriding*** allows us to use the same method across multiple objects, with differing implementations. Lets take a look at an example of this concept:
 
 ```Java
 public abstract class Animal
