@@ -156,7 +156,7 @@ public class UpcastingExample extends ConsoleProgram
 
 ### Static Binding
 <hr>
-***Static Binding*** is another important concept to ***polymorphism***. ***Static binding*** chooses the proper method implementation at compilation, and not run-time.***Static binding*** only checks the type of the reference variable and not where it is pointing. Lets look at an example of this concept:
+***Static Binding*** is another important concept to ***polymorphism***. ***Static binding*** chooses the proper method implementation at compilation, and not run-time. ***Static binding*** only checks the type of the reference variable and not where it is pointing. Lets look at an example of this concept:
 ![Static Binding Example](../static/classesAndOOP/Classes_And_OOP_Polymorphism_Static_Binding.png)
 
 
