@@ -5,7 +5,7 @@
 <br>
 ***Polymorphism*** is the capability of a single object to take on multiple forms. ***Polymorphism*** can also be explained as the ability to perform a single action in many ways across multiple objects. It also allows us to use the same method across different objects, using different implementations. 
 
-### Polymorphism Concepts
+### Concepts of Polymorphism
 <hr>
 There are several concepts of ***polymorphism*** that are crucial to remember. These include:
 
