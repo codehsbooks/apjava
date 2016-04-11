@@ -96,8 +96,8 @@ public class UpcastingExample extends ConsoleProgram
   Dog yourDog = (Dog) myDog; // Downcasting from `Animal`
   Fox yourFox = (Fox) myFox; // Downcasting from `Animal`
   
-  System.out.println(myDog.speak()); // Will print `The dog says woof!`
-  System.out.println(myFox.speak()); // Will print `What does the fox say?`
+  System.out.println(yourDog.speak()); // Will print `The dog says woof!`
+  System.out.println(yourFox.speak()); // Will print `What does the fox say?`
 }
 ```
 
