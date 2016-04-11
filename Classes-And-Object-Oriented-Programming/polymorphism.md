@@ -9,7 +9,7 @@
 <hr>
 There are several concepts of ***polymorphism*** that are crucial to remember. These include:
 
-- **Upcasting: **
+- **Upcasting: ** occurs when the reference variable of the super class refers to the object of the subclass.
 
 - **Dynamic Binding: **
 
