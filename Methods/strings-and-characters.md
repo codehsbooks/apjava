@@ -351,7 +351,11 @@ public class CharacterMethods extends ConsoleProgram
 }
 ```
 
-We declare a character `ch` with a value of a lowercase `f`. We call the `isUpperCase()` method on our character. If the character is uppercase, we print that out informing the user. Otherwise, we inform the user that it is not uppercase. When we run this program, our program prints out: `It is not uppercase`. If we were to change that lowercase `f` to an uppercase `F`, our program prints out: `It is uppercase!` instead.
+We declare a character `ch` with a value of a lowercase `f`. We call the `isUpperCase()` method on the Character class and pass in our primitive `char` as an argument. **Remember, we can not call this method on our `ch` variable since it is a static method!** 
+
+If the character is uppercase, we print that out informing the user. Otherwise, we inform the user that it is not uppercase. When we run this program, our program prints out: `It is not uppercase`. If we were to change that lowercase `f` to an uppercase `F`, our program prints out: `It is uppercase!` instead.
+
+
 
 
 
