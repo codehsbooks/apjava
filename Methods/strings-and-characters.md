@@ -302,7 +302,9 @@ Just like how there is a String class that lets us use a variety of different me
 
 There are many useful methods you will want to know about in the Character class. Some of the most useful methods are given in the table below:
 
-![](character-class-methods.png)
+![](../static/methods/character-class-methods.png)
+
+For a full list of all the methods in the Character class, you can visit the relevant page in the Java documentation [here](https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html). But for now, we will just be focusing on the methods in the table above.
 
 These methods are **static methods**. This means you call these methods on the Character class rather than an instance of the Character class. Take this as an example:
 
