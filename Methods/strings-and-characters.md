@@ -258,12 +258,67 @@ It works! The String we inputted was successfully converted to all uppercase. No
 So what is the reason for having these escape sequences? Their purpose is illustrated in the example program below:
 
 ```
+public class EscapeSequences extends ConsoleProgram
+{
+    public void run()
+    {
+        // We can quote what someone has said
+        String quote = "John says, \"Hello!\"";
+        System.out.println(quote);
+        
+        // We can use the \n to add a new line!
+        String manyLines = "First Line\nSecond Line\nThird Line";
+        System.out.println(manyLines);
+        
+        // Two backslashes (\\) let's us actually use the backslash itself in a String
+        String backslashInString = "\\n is an escape sequence that adds a newline.";
+        System.out.println(backslashInString);
+    }
+}
+```
+When we run this program, we get the following output:
 
 ```
+John says, "Hello!"
+First Line
+Second Line
+Third Line
+\n is an escape sequence that adds a newline.
+```
+
+If we didn't have these escape sequences, our program would not work properly! The double quotes in our first String will confuse Java if they are not escaped properly. Without the backlash in front of the double quotes, the String would get broken apart right in the middle and cause an error when we run the program!
+
+In our second String, it is much simpler to use `\n` to create new lines. Otherwise, we would have to write a series of empty println statements to get the same effect.
+
+In our third String, we want to print out a backslash, so we need to use the two backslashes. If we only had a single backslash, we would accidentally create a new line instead.
 
 ## The Character Class
 
+Just like how there is a String class that lets us use a variety of different methods on Strings, there is also a Character class. The Character class lets us use a variety of different methods on characters. 
+
+**Important: `Character` is different than `char`.** `Character` is an object while `char` is a primitive. You can not use methods on the primitive type, `char`. You will learn more about these differences and why they exist in future chapters.
+
 ### Useful Methods in the Character Class
+
+There are many useful methods you will want to know about in the Character class. These methods are **static methods**. This means you call these methods on the Character class rather than an instance of the Character class. Take this as an example:
+
+```
+public class CharacterMethods extends ConsoleProgram
+{
+    public void run()
+    {
+        String str = "abc4";
+        char lastChar = str.charAt(3);
+        if (Character.isDigit(lastChar))
+        {
+            System.out.println("Yep! The last character in str is a digit.");
+        }
+    }
+}
+```
+Notice how we call the String `charAt()` method on our variable name `str`. This means we are calling this method on an **instance** of the String class. However, we call the Character `isDigit()` method on the Character class itself rather than an instance of the Character class. This is the major difference between the two.
+
+This may still be a little confusing to you right now, but you will learn more about static methods in future chapters. For now, just remember that you call Character methods on the Character class itself.
 
 #### Character Methods Program
 
