@@ -124,7 +124,7 @@ Looks good!
 
 #### Adding and Subtracting Characters
 
-Yes! You heard that right. Because characters are numbers, we can add and subtract them. So how does this work? Take a look at the example program below:
+Yes! You heard that right. Because characters are numbers, we can add and subtract them. How does this work? Take a look at the example program below:
 
 ```
 public class CharsAreNumbers extends ConsoleProgram
@@ -228,7 +228,7 @@ public class ConvertCharsToUppercase extends ConsoleProgram
 }
 ```
 
-First, we read a String from the user. Then, we loop over the String as was taught in the previous Strings Methods chapter. Within the loop, we get each individual character in the String. From the ASCII table, we can see that all lowercase letters fall within the range between 97 and 122, inclusive. Thus, we have an if statement to ensure that **only** lowercase letters are converted to uppercase. If the current character is not within the acceptable lowercase letter range, our else statement ensures that we simply print back whatever character that was without changing it at all. 
+First, we read a String from the user. Then, we loop over the String as was taught in the previous Strings Methods chapter. Within the loop, we get each individual character in the String. From the ASCII table, we can see that all lowercase letters fall within the range between 97 and 122, inclusive. Thus, we have an if statement to ensure that **only** lowercase letters are converted to uppercase. If the current character is not within the acceptable lowercase letter range, our else statement ensures that we simply print back the character without changing it at all.
 
 For example, the letter 'a' is the number 97 and the letter 'x' is the number 120. Both fall in this acceptable range, so they will be properly converted to uppercase. Punctuation marks, uppercase letters, and everything else does not get converted as none of those characters fall in the acceptable lowercase letter range.
 
@@ -286,7 +286,7 @@ Third Line
 \n is an escape sequence that adds a newline.
 ```
 
-If we didn't have these escape sequences, our program would not work properly! The double quotes in our first String will confuse Java if they are not escaped properly. Without the backlash in front of the double quotes, the String would get broken apart right in the middle and cause an error when we run the program!
+If we didn't have these escape sequences, our program would not work properly! The double quotes in our first String will confuse Java if they are not escaped properly. Without the backlash in front of the double quotes, the String would get broken apart right in the middle. This would cause an error when we run the program!
 
 In our second String, it is much simpler to use `\n` to create new lines. Otherwise, we would have to write a series of empty println statements to get the same effect.
 
@@ -296,7 +296,7 @@ In our third String, we want to print out a backslash, so we need to use the two
 
 Just like how there is a String class that lets us use a variety of different methods on Strings, there is also a Character class. The Character class lets us use a variety of different methods on characters. 
 
-**Important: `Character` is different than `char`.** `Character` is an object while `char` is a primitive. You can not use methods on the primitive type, `char`. You will learn more about these differences and why they exist in future chapters.
+**Important: `Character` is different than `char`.** `Character` is a class while `char` is a primitive type. You can not use methods on the primitive type, `char`. You will learn more about these differences and why they exist in future chapters.
 
 ### Useful Methods in the Character Class
 
@@ -306,7 +306,7 @@ There are many useful methods you will want to know about in the Character class
 
 For a full list of all the methods in the Character class, you can visit the relevant page in the Java documentation [here](https://docs.oracle.com/javase/7/docs/api/java/lang/Character.html). But for now, we will just be focusing on the methods in the table above.
 
-These methods are **static methods**. This means you call these methods on the Character class rather than an instance of the Character class. Take this as an example:
+These methods are all **static methods**. This means you call these methods on the Character class rather than an instance of the Character class. Take this as an example:
 
 ```
 public class CharacterMethods extends ConsoleProgram
@@ -326,7 +326,32 @@ Notice how we call the String `charAt()` method on our variable name `str`. This
 
 This may still be a little confusing to you right now, but you will learn more about static methods in future chapters. For now, just remember that you call Character methods on the Character class itself.
 
-#### Character Methods Program
+#### Character Methods in a Program
+
+Let's look at an example of using a Character class method in the example program below:
+
+```
+public class CharacterMethods extends ConsoleProgram
+{
+    public void run()
+    {
+        char ch = 'f';
+        
+        if(Character.isUpperCase(ch))
+        {
+            System.out.println("It is uppercase!");
+        }
+        else
+        {
+            System.out.println("It is not uppercase");
+        }
+        
+        
+    }
+}
+```
+
+We declare a character `ch` with a value of a lowercase `f`. We call the `isUpperCase()` method on our character. If the character is uppercase, we print that out informing the user. Otherwise, we inform the user that it is not uppercase. When we run this program, our program prints out: `It is not uppercase`. If we were to change that lowercase `f` to an uppercase `F`, our program prints out: `It is uppercase!` instead.
 
 
 
