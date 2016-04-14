@@ -170,11 +170,96 @@ public class CharsAreNumbers extends ConsoleProgram
     }
 }
 ```
+After we run the program, we get a better idea of what is happening:
+
+```
+SUBTRACTING EXAMPLE:
+'C' as a number: 67
+'A' as a number: 65
+Thus, 'C' is 2 characters after 'A'
+'C' - 'A' = 2
+
+ADDING EXAMPLE:
+'K' is 10 characters after 'A'
+'A' + 10 = K
+How does that work?
+A
+.... has the int value ...
+65
+.... add 10 and you get ...
+75
+... cast that back to a char and you get...
+K
+```
+First, we print out 'C' and 'A' as numbers. 'C' is the number 67 and 'A' is the number 65, so we know that 'C' must be 2 characters after 'A'. When we subtract the two characters, 'C' - 'A', we confirm that  their difference is 2.
+
+Then, we add the number 10 to the character 'A'. We can do this because 'A' is a number! We get a character result of 'K'. But why? Well, 'A' is the number 65, so when we add 10 to it we get a number of 75. What character corresponds to the number 75? 'K' does! 'K' is also the number 75.
+
+#### Converting Cases
+
+If you look at the ASCII table, you might notice that capital letters and their equivalent lowercase letters are exactly 32 numbers away. We can use this to manually convert between lowercase and capital letters!
+
+```
+public class ConvertCharsToUppercase extends ConsoleProgram
+{
+    // This program manually converts each character in a String to uppercase
+    public void run()
+    {
+        // Read a string
+        System.out.println("Manually convert each character in a String to uppercase:");
+        String str = readLine("Enter any String: ");
+        
+        // Loop over the String
+        for(int i = 0; i < str.length(); i++)
+        {
+            // Get each individual character from the String
+            char cur = str.charAt(i);
+            // Convert that character to uppercase
+            if (cur >= 97 && cur <= 122)
+            {
+                System.out.print((char)(cur - 32));
+            }
+            else
+            {
+                System.out.print(cur);
+            }
+        }
+    }
+}
+```
+
+First, we read a String from the user. Then, we loop over the String as was taught in the previous Strings Methods chapter. Within the loop, we get each individual character in the String. From the ASCII table, we can see that all lowercase letters fall within the range between 97 and 122, inclusive. Thus, we have an if statement to ensure that **only** lowercase letters are converted to uppercase. If the current character is not within the acceptable lowercase letter range, our else statement ensures that we simply print back whatever character that was without changing it at all. 
+
+For example, the letter 'a' is the number 97 and the letter 'x' is the number 120. Both fall in this acceptable range, so they will be properly converted to uppercase. Punctuation marks, uppercase letters, and everything else does not get converted as none of those characters fall in the acceptable lowercase letter range.
+
+Here is an example of running this program. Many other possiblilties exist as the user is free to enter any String they want:
+
+```
+Manually convert each character in a String to uppercase:
+Enter any String: This String will be converted to all uppercase letters!!!
+THIS STRING WILL BE CONVERTED TO ALL UPPERCASE LETTERS!!!
+```
+
+It works! The String we inputted was successfully converted to all uppercase. Notice how the exclamation points still show up properly in our converted String. This is because '!' has the number 33, so it didn't fall within our acceptable lowercase letter range. We didn't need to subtract anything from it.
 
 
 ## Escape Sequences
 
-### Escape Sequences in a Program
+**Escape sequences** are characters with special meaning. While it might look like they consist of multiple characters, they are actually treated as if they are a single character. They always start with a backslash (`\`). The table below gives some examples of common escape sequences:
+
+| Escape Sequence | Description |
+| -- | -- |
+| \t | tab |
+| \n | new line |
+| \' | single quote |
+| \" | double quote |
+| \\\ | backslash |
+
+So what is the reason for having these escape sequences? Their purpose is illustrated in the example program below:
+
+```
+
+```
 
 ## The Character Class
 
