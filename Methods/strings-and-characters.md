@@ -300,7 +300,11 @@ Just like how there is a String class that lets us use a variety of different me
 
 ### Useful Methods in the Character Class
 
-There are many useful methods you will want to know about in the Character class. These methods are **static methods**. This means you call these methods on the Character class rather than an instance of the Character class. Take this as an example:
+There are many useful methods you will want to know about in the Character class. Some of the most useful methods are given in the table below:
+
+![](character-class-methods.png)
+
+These methods are **static methods**. This means you call these methods on the Character class rather than an instance of the Character class. Take this as an example:
 
 ```
 public class CharacterMethods extends ConsoleProgram
