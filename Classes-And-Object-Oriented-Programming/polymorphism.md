@@ -9,24 +9,24 @@
 <hr>
 There are several concepts of ***polymorphism*** that are crucial to understand. These include: 
 
-- **Method Overriding: ** Allows us to call the correct implementation of a method across multiple objects that share the same superclass.
+- **Method Overriding:** Allows us to call the correct implementation of a method across multiple objects that share the same superclass.
 
-- **Upcasting: ** Occurs when the reference variable of a superclass points to the object of the subclass. This allows us to go from a low level class type to a higher level one.
+- **Upcasting:** Occurs when the reference variable of a superclass points to the object of the subclass. This allows us to go from a low level class type to a higher level one.
 <br>
-(ex: `Animal fox = new Fox();`, `Animal dog = new Dog();`)
+  - ex: `Animal fox = new Fox();`, `Animal dog = new Dog();`
 
-- **Downcasting: ** Occurs when the reference variable of a subclass points to an object of the superclass type. This will manually convert the object type to that of the subclass.
+- **Downcasting:** Occurs when the reference variable of a subclass points to an object of the superclass type. This will manually convert the object type to that of the subclass.
 <br>
-(ex: `Animal animal = new Fox();` `Fox castedFox = (Fox) animal`)
+  - ex: `Animal animal = new Fox();` `Fox castedFox = (Fox) animal`
 
-- **Dynamic Binding: ** Is the concept where the proper method implementation is chosen at run-time, and not compilation.
+- **Dynamic Binding:** Is the concept where the proper method implementation is chosen at run-time, and not compilation.
 
-- **Static Binding: ** Is the concept where the proper method implementation is chosen at compilation, and not run-time.
+- **Static Binding:** Is the concept where the proper method implementation is chosen at compilation, and not run-time.
 
 
 ### Method Overriding
 <hr>
-***Method Overriding*** allows us to use the same method across multiple objects, with differing implementations. Lets take a look at an example of this concept:
+***Method Overriding*** allows us to use the same method across multiple objects, with differing implementations. Let's take a look at an example of this concept:
 
 ```Java
 public abstract class Animal
