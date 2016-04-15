@@ -2,7 +2,7 @@
 Let's review some key differences between Strings and characters:
 
 | Strings | characters |
-| -- | -- |
+| --- | --- |
 | Type: String | Type: char |
 | Object | primitive |
 | Compare using the `.equals()` method| Compare using `==` |
@@ -248,7 +248,7 @@ It works! The String we inputted was successfully converted to all uppercase. No
 **Escape sequences** are characters with special meaning. While it might look like they consist of multiple characters, they are actually treated as if they are a single character. They always start with a backslash (`\`). The table below gives some examples of common escape sequences:
 
 | Escape Sequence | Description |
-| -- | -- |
+| --- | --- |
 | \t | tab |
 | \n | new line |
 | \' | single quote |
