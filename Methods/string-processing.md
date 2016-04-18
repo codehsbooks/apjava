@@ -2,11 +2,11 @@
 
 In this chapter, we will combine everything we have learned about Strings and characters so far. You will become more familiar with the underlying patterns involved in processing Strings. By using these patterns, you will learn how to do more advanced forms of **String processing**.
 
-## String Processing Psuedocode
+## String Processing Pseudocode
 
-**Psuedocode** is a step-by-step description of what you want a program to do in plain English. Before writing any actual code, it is always recommended you write psuedocode first. This helps us figure out how to structure more complex programs without getting bogged down in specifics. 
+**Pseudocode** is a step-by-step description of what you want a program to do in plain English. Before writing any actual code, it is always recommended you write pseudocode first. This helps us figure out how to structure more complex programs without getting bogged down in specifics. 
 
-By now, you should be familiar with how to loop over Strings. Looping over Strings is the most common form of **String processing**. You will consistently find yourself having to write methods which do something to each of the characters in a String. This follows a pattern, and that pattern can be expressed in the psuedocode given below:
+By now, you should be familiar with how to loop over Strings. Looping over Strings is the most common form of **String processing**. You will consistently find yourself having to write methods which do something to each of the characters in a String. This follows a pattern, and that pattern can be expressed in the pseudocode given below:
 
 ```
 Create a result String
@@ -28,7 +28,7 @@ private String processAStringExample(String str){
 }
 ```
 
-The relevant psuedocode for each line of actual code is given on the right. Let's test our method to make sure it works:
+The relevant pseudocode for each line of actual code is given on the right. Let's test our method to make sure it works:
 
 ```
 public class Palindromes extends ConsoleProgram
@@ -75,12 +75,12 @@ A man, a plan, a canal - Panama!
 
 ### Writing an `isPalindrome` Method
 
-Let's use **top-down design** and **psuedocode** to help us solve this problem. In order for a String to be a palindrome, we know that it must:
+Let's use **top-down design** and **pseudocode** to help us solve this problem. In order for a String to be a palindrome, we know that it must:
 
 * Be the same forwards and backwards.
 * Be equal to the reversed version of the String.
 
-Let's write a method in psuedocode which checks for this:
+Let's write a method in pseudocode which checks for this:
 
 ```
 isPalindrome(String text)
@@ -94,7 +94,7 @@ First, we want to reverse the String, so we will have to write another method to
 
 ### Writing a `reverse` Method
 
-Now that we know we need a reverse method, we can write the psuedocode for that:
+Now that we know we need a reverse method, we can write the pseudocode for that:
 
 ```
 reverse(String text)
@@ -110,7 +110,7 @@ First, we need to create a result String. We then take a look at each character 
 
 ### Putting It All Together
 
-With both methods written in psuedocode, we have a good outline for our program:
+With both methods written in pseudocode, we have a good outline for our program:
 
 ```
 public class Palindromes extends ConsoleProgram
@@ -196,7 +196,7 @@ public class Palindromes extends ConsoleProgram
 }
 ```
 
-In our run method, we get a String from the user. We then check to see if it is a palindrome by calling the `isPalindrome` method. Since we have the psuedocode already written for this method, we just need to convert it into actual code. Once we have that method finished, we can do the same for the `reverse` method.
+In our run method, we get a String from the user. We then check to see if it is a palindrome by calling the `isPalindrome` method. Since we have the pseudocode already written for this method, we just need to convert it into actual code. Once we have that method finished, we can do the same for the `reverse` method.
 
 Let's test it with a palindrome!:
 
@@ -212,10 +212,4 @@ Type in your text: CodeHS
 Not a palindrome :(
 ```
 
-By using good top-down design principles and writing out psuedocode for each of our methods, we have created a very advanced String processing program.
-
-
-
-
-
-
+By using good top-down design principles and writing out pseudocode for each of our methods, we have created a very advanced String processing program.
