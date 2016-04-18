@@ -9,15 +9,20 @@ Interfaces are commonly used to help achieve polymorphism.
 
 To implement an interface we use the `implements` keyword after our class name, like: `public class Dog implements Animal`. In this case `Dog` is our class name, where `Animal` is our interface.
 
-Lets look at the interface for `Animal`:
-
-Our `Animal` interface will contain method signatures for various things an animal will do.
+Lets look at an interface for 
 
 ```Java
-public interface Animal
+public interface 
 {
-  public double maxRunningSpeed();
-  
+}
+```
+
+Now, lets take a look at an example class which implements our interface:
+
+```Java
+public class implements 
+{
+
 }
 ```
 
