@@ -23,7 +23,12 @@ import java.util.Arrays;
 
 public class MergeSortExample extends ConsoleProgram 
 {
-
+  void run()
+  {
+  
+  }
+  
+  
 }
 
 ```
