@@ -15,6 +15,8 @@ Here is another example:
 
 ### Mergesort in Java
 <hr>
+Here is what mergesort looks like in Java:
+
 
 ```Java
 
