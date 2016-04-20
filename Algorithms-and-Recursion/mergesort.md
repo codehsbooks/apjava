@@ -54,6 +54,20 @@ public class MergeSortExample extends ConsoleProgram
     int indexTwo = 0;
     
     int resultPos = 0;
+    
+    while(indexOne < listOne.length && indexTwo < listTwo.length)
+    {
+      if(listOne[indexOne] < listTwo[indexTwo])
+      {
+        list[resultPos] = listOne[indexOne];
+        indexOne++;
+      }
+      else
+      {
+        list[resultPos] = listTwo[indexTwo];
+        indexTwo++;
+      }
+    }
   }
 }
 
