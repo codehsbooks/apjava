@@ -30,7 +30,10 @@ public class MergeSortExample extends ConsoleProgram
   
   void mergeSort(int[] list)
   {
-  
+    if(list.length > 1)
+    {
+    
+    }
   }
   
   void merge()
