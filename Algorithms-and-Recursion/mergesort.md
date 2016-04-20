@@ -12,6 +12,10 @@ Lets see this in action:
 ### How it looks
 <hr>
 
+```Java
+
+```
+
 ### Extra Notes
 <hr>
 
