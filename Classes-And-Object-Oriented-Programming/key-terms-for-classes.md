@@ -40,6 +40,22 @@ You import classes from a package like:
 You import a single class like
 `import packageName.ClassName;`
 
+## Visibility
+
+Some of the code you write should be accessible to everyone, but you may often want to limit who or what can access certain parts of your code. You can help ensure that an object's state and behavior can only be modified properly by setting the **visibility** of classes, methods, and variables.
+
+**Public** visibility means that the object, method, or variable is open for use by everyone. Most of the classes we write in this course are public. Something is decalred public by using the `public` keyword: `public class RoadBike`
+
+**Private** visibility limits access. Most of the instance variables we write are private, which prevents them from being changed by others. The `private` keyword is used to declare something as private: `private int costOfBike;`
+
+The levels of access each type of visibility provides can be summarized in a table:
+
+visibility | Class | Package | World (everyone) |
+--- | --- | --- | --- |
+**public** | yes | yes | yes |
+**private** | yes| no | no |
+
+
 
 
 
