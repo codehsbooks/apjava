@@ -67,6 +67,7 @@ public class MergeSortExample extends ConsoleProgram
         list[resultPos] = listTwo[indexTwo];
         indexTwo++;
       }
+      resultPos++;
     }
   }
 }
