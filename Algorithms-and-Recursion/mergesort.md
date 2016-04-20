@@ -52,6 +52,8 @@ public class MergeSortExample extends ConsoleProgram
   {
     int indexOne = 0;
     int indexTwo = 0;
+    
+    int resultPos = 0;
   }
 }
 
