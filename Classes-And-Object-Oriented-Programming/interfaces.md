@@ -105,6 +105,19 @@ public class Marbles implements Comparable<Marbles>
     return getQuantity() - comQuantity;
   }
 }
+
+public class MyProgram extends ConsoleProgram 
+{
+    public void run()
+    {
+        Marbles marbles1 = new Marbles("Wezley", 10);
+        Marbles marbles2 = new Marbles("James", 20);
+        Marbles marbles3 = new Marbles("Kurt", 10);
+        
+        System.out.println(marbles1.compareTo(marbles2));
+        System.out.println(marbles1.compareTo(marbles3));
+    }
+}
 ```
 
 
