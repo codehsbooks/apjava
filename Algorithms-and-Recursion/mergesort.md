@@ -92,7 +92,7 @@ public class MyProgram extends ConsoleProgram
 ```
 
 Here is what this looks like in the editor:
-
+![Mergesort Example In Editor](../static/algorithms/Algorithms_Mergesort_Example.png)
 
 
 ### Extra Notes
