@@ -9,6 +9,10 @@ Mergesort utilizes what is known as a "Divide and Conquer" strategy. This means 
 
 Lets see this in action:
 ![Mergesort Example](../static/algorithms/Algorithms_and_Recursion_Mergesort_Example.gif)
+Here is another example:
+
+
+
 ### How it looks
 <hr>
 
