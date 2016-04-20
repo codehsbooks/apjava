@@ -58,10 +58,53 @@ public class GeneralUser implements UseComputer
 
 As you can see, we store the method signatures in our `UseComputer` interface, and implement them within our `GeneralUser` class.
 
-<br>
-<br>
 
-Here is another example of an interface. This interface will be used to
-
-### Interface Examples
+### Comparable Interface
 <hr>
+
+Java is full of interfaces that you are free to utilize within your code. One interface you should become familiar with is the Comparable interface. The Comparable interface can be incredibly useful with sorting algorithms.
+
+Here is what an implementation of the Comparable interface looks like:
+
+```Java
+public class Marbles implements Comparable<Marbles>
+{
+  private String owner;
+  private int quantity;
+  
+  public Marbles(String ownerName, int mQuantity)
+  {
+    owner = ownerName;
+    quantity = mQuantity;
+  }
+  
+  public String getOwner()
+  {
+    return owner;
+  }
+  
+  public int getQuantity()
+  {
+    return quantity;
+  }
+  
+  public void setOwner(String newOwner)
+  {
+    owner = newOwner;
+  }
+  
+  public void setQuantity(int newQuantity)
+  {
+    quantity = newQuantity;
+  }
+  
+  public int compareTo(Marbles comMarbles)
+  {
+    int comQuantity = comMarbles.getQuantity();
+    
+    return getQuantity() - comQuantity;
+  }
+}
+```
+
+
