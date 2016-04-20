@@ -27,6 +27,16 @@ public class MergeSortExample extends ConsoleProgram
   {
   
   }
+  
+  void mergeSort()
+  {
+  
+  }
+  
+  void merge()
+  {
+  
+  }
 }
 
 ```
