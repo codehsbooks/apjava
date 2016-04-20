@@ -27,8 +27,6 @@ public class MergeSortExample extends ConsoleProgram
   {
   
   }
-  
-  
 }
 
 ```
