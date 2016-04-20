@@ -11,9 +11,9 @@ Lets see this in action:
 ![Mergesort Example](../static/algorithms/Algorithms_and_Recursion_Mergesort_Example.gif)
 Here is another example:
 
+![Mergesort Example](../static/algorithms/Algorithms_Mergesort_Example2.gif)
 
-
-### How it looks
+### Mergesort in Java
 <hr>
 
 ```Java
