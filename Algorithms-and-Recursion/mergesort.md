@@ -36,7 +36,7 @@ public class MergeSortExample extends ConsoleProgram
     }
   }
   
-  void merge()
+  void merge(int[] listOne, int[] listTwo, int[]finalList)
   {
   
   }
