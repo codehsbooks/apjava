@@ -62,7 +62,7 @@ As you can see, we store the method signatures in our `UseComputer` interface, a
 ### Comparable Interface
 <hr>
 
-Java is full of interfaces that you are free to utilize within your code. One interface you should become familiar with is the Comparable interface. The Comparable interface can be incredibly useful with sorting algorithms.
+Java is full of interfaces, that you are free to utilize within your code. One interface you should become familiar with is the Comparable interface. The Comparable interface can be incredibly useful with sorting algorithms.
 
 Here is what an implementation of the Comparable interface looks like:
 
