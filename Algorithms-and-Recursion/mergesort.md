@@ -38,7 +38,7 @@ public class MergeSortExample extends ConsoleProgram
       int[] listTwo = new int[secondHalf];
       
       System.arraycopy(list, 0, listOne, firstHalf);
-      System.arraycopy(list, firstHalf, listTwo, listTwo.length);
+      System.arraycopy(list, firstHalf, listTwo, secondHalf);
       
       
     }
