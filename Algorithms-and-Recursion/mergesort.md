@@ -32,7 +32,10 @@ public class MergeSortExample extends ConsoleProgram
   {
     if(list.length > 1)
     {
-    
+      int halfIndex = list.length/2;
+      int[] listOne = new int[halfIndex];
+      
+      
     }
   }
   
