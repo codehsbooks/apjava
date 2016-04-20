@@ -9,5 +9,17 @@ Mergesort utilizes what is known as a "Divide and Conquer" strategy. This means 
 
 Lets see this in action:
 
+### How it looks
+<hr>
+
+### Extra Notes
+<hr>
+
+It is important to know that if you utilize mergesort you will need to have extra space for temporary storage.
+
+Mergesort is also recursive, meaning it calls upon itself.
+
+
+
 
 
