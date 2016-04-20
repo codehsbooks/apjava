@@ -19,8 +19,12 @@ Here is what mergesort looks like in Java:
 
 
 ```Java
+import java.util.Arrays;
 
+public class MergeSortExample extends ConsoleProgram 
+{
 
+}
 
 ```
 
