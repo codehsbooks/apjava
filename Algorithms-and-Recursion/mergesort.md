@@ -32,8 +32,12 @@ public class MergeSortExample extends ConsoleProgram
   {
     if(list.length > 1)
     {
-      int halfIndex = list.length/2;
-      int[] listOne = new int[halfIndex];
+      int firstHalf = list.length/2;
+      int secondHalf = list.length - firstHalf;
+      int[] listOne = new int[firstHalf];
+      int[] listTwo = new int[secondHalf];
+      
+      System.arraycopy(list, 0, listOne
       
       
     }
