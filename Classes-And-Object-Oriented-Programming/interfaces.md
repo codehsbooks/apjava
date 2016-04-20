@@ -67,6 +67,7 @@ Java is full of interfaces that you are free to utilize within your code. One in
 Here is what an implementation of the Comparable interface looks like:
 
 ```Java
+// Marbles class, implements Comparable
 public class Marbles implements Comparable<Marbles>
 {
   private String owner;
