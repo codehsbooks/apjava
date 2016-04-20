@@ -102,6 +102,7 @@ It is important to know that if you utilize mergesort you will need to have extr
 
 Mergesort is also recursive, meaning it calls upon itself.
 
+In a more advanced setting we can observe that the runtime complexity of mergesort is `O(nlogn)`. This means that mergesort is a linear (n), and the operation occurs in `log(n)` steps.
 
 
 
