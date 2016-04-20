@@ -50,7 +50,8 @@ public class MergeSortExample extends ConsoleProgram
   
   void merge(int[] listOne, int[] listTwo, int[]finalList)
   {
-  
+    int indexOne = 0;
+    int indexTwo = 0;
   }
 }
 
