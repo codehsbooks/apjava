@@ -57,11 +57,12 @@ Here's what we want the ending world to look like:
 How can we build a for loop to do this? Let's build the loop from the inside out.  What do we want Karel to do each iteration?  Karel should 1) move, 2) put down a ball, and 3) move again. The body of the for loop would look like this:
 
 ``` 
-for(){
+for(   ){
     move();
     putBall();
     move();
-}```
+}
+```
 
 Now, let's look at the world.  It has 9 avenues.  However, since we're telling Karel to move twice, we can't use `i < 9` because we'd make Karel crash into the wall!  If we were only moving once, then we would iterate 9 times.  Since we're moving twice, we can only iterate 9/2 times.  We'll round down and say that 9/2 = 4.5 and rounded is 4.  We need the loop to iterate four times! Why didn't we round up to five? Look at the picture of the ending world.  There is only room for four balls.  If we had looped five times, Karel would have still crashed into the wall.
 
@@ -77,21 +78,4 @@ for(int i = 0; i < 4; i++){
 
 ### Summary
 For loops are a convenient way to repeat chunks of code.  We can use for loops when we have a fixed number of iterations.  A for loop is made of three parts: the header, the body, and the curly braces.  The header has the initialization, condition, and update information.  THe opening curly brace comes before the body. The body is made up of the statements that should be repeated. The closing curly brace finishes up the for loop and tells the program that we're done with the code we want repeated.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
