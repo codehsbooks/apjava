@@ -1,6 +1,6 @@
 # Mergesort
 <hr>
-Mergesort is one of the most efficient sorting algorithms you will learn about. Mergesort utilizes recursion to achieve efficient sorting of lists.
+Mergesort is an extremely efficient sorting algorithm, compared to selection and insertion. Mergesort utilizes recursion to achieve efficient sorting of lists.
 
 ### How it works
 <hr>
