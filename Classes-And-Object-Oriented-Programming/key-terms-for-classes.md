@@ -55,7 +55,40 @@ visibility | Class | Package | World (everyone) |
 **public** | yes | yes | yes |
 **private** | yes| no | no |
 
+## What is This?
 
+It can often be confusing to know whether a variable in a constructor is referring to an instance variable or a variable that was passed in as an argument to the constructor. One way around this is to use different variable names for the instance variables and parameters.
 
+```
+public class BMX
+{
+	private String frameSize;
+	private int numPegs;
 
+	public BMX(String theFrameSize, int theNumPegs)
+	{
+		frameSize = theFrameSize;
+		numPegs = theNumPegs;
+	}
+}
+```
 
+Notice that the constructor's parameters are `theFrameSize` and `theNumPegs` instead of `frameSize` and `numPegs`.
+
+Using different names can get a little confusing. Fortunately, Java has a way of specificying when you are referring to the object itself: **this**.
+
+`this` refers to the current object. The `this` keyword allows us to be very clear whether we are referring to the object's instance variable or a parameter:
+
+```
+public class BMX
+{
+	private String frameSize;
+	private int numPegs;
+
+	public BMX(String frameSize, int numPegs)
+	{
+		this.frameSize = frameSize;
+		this.numPegs = numPegs;
+	}
+}
+```
