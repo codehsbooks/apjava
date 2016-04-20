@@ -40,8 +40,12 @@ public class MergeSortExample extends ConsoleProgram
       System.arraycopy(list, 0, listOne, 0, firstHalf);
       System.arraycopy(list, firstHalf, listTwo, 0, secondHalf);
       
+      mergeSort(listOne);
+      mergeSort(listTwo);
       
+      merge(listOne, listTwo, list);
     }
+    return list;
   }
   
   void merge(int[] listOne, int[] listTwo, int[]finalList)
