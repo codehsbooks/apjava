@@ -106,6 +106,7 @@ public class Marbles implements Comparable<Marbles>
   }
 }
 
+// Our main class
 public class MyProgram extends ConsoleProgram 
 {
     public void run()
