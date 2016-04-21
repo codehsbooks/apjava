@@ -58,8 +58,6 @@
    * [Arrays vs ArrayLists](Data-Structures/arrays-vs-arraylists.md)
    * [2D Arrays (Matrices or Grids)](Data-Structures/2d-arrays.md)
    * [Hashmaps](Data-Structures/hashmaps.md)
-   * [Writing Blackjack](Data-Structures/writing-blackjack.md)
-   * [Battleship](Data-Structures/battleship.md)
 * [Algorithms and Recursion](Algorithms-and-Recursion/README.md)
    * [What is an Algorithm?](Algorithms-and-Recursion/what-is-an-algorithm.md)
    * [Pseudocode](Algorithms-and-Recursion/pseudocode.md)
