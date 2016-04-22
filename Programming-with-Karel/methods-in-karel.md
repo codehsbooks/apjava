@@ -29,29 +29,29 @@ From the name of our method, ```buildPyramid()```, it is very clear what the met
 * The name should describe *what* this function does.
 * The name should start with an action verb, and sound like a command. 
 
----
+<!------->
 
-<p>Which of the following are good method names?</p>
-- [x] buildTower()
-- [ ] tower()
-- [ ] build tower()
-- [ ] 5moves()
-- [x] spinTwice()
-- [ ] blahblah()
+<!--<p>Which of the following are good method names?</p>-->
+<!--- [x] buildTower()-->
+<!--- [ ] tower()-->
+<!--- [ ] build tower()-->
+<!--- [ ] 5moves()-->
+<!--- [x] spinTwice()-->
+<!--- [ ] blahblah()-->
 
-> Good! The method name describes what it does, is in Camel Case, and does not have any illegal characters.
+<!--> Good! The method name describes what it does, is in Camel Case, and does not have any illegal characters.-->
 
-> Bad! The method name is not an action/command.
+<!--> Bad! The method name is not an action/command.-->
 
-> Bad! The method name should not have spaces between words. 
+<!--> Bad! The method name should not have spaces between words. -->
 
-> Bad! The method name should not start with a number. 
+<!--> Bad! The method name should not start with a number. -->
 
-> Good! The method name describes what it does, is in Camel Case, and does not have any illegal characters.
+<!--> Good! The method name describes what it does, is in Camel Case, and does not have any illegal characters.-->
 
-> Bad! The method name is not descriptive.
+<!--> Bad! The method name is not descriptive.-->
 
----
+<!------->
 
 ## Defining a method vs. calling a method
 
