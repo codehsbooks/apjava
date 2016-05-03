@@ -19,12 +19,14 @@ Here are a couple of examples of abstract classes in Java:
 
 ```Java
 // Here is our Vehicle Class
-public abstract class VehicleClass {
+public abstract class VehicleClass
+{
 
 }
 
 // Here is an example of our Shape class
-public abstract class Shape {
+public abstract class Shape
+{
 
 }
 ```
