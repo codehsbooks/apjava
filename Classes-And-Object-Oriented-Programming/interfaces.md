@@ -1,12 +1,9 @@
 # Interfaces
-<hr>
 Interfaces in Java allow us to create a collection of methods to guarantee a class's interaction. An interface does not contain method implementation, constructors, or instance variables.
 
 Interfaces are commonly used to help achieve polymorphism.
 
 ### Implementing Interfaces
-<hr>
-
 To implement an interface we use the `implements` keyword after our class name, like: `public class Dog implements Animal`. In this case `Dog` is our class name, where `Animal` is our interface.
 
 Let's look at an interface for using a computer. We will call it `UseComputer`.
@@ -60,8 +57,6 @@ As you can see, we store the method signatures in our `UseComputer` interface, a
 
 
 ### Comparable Interface
-<hr>
-
 Java is full of interfaces that you are free to utilize within your code. One interface you should become familiar with is the Comparable interface. The Comparable interface can be incredibly useful with sorting algorithms.
 
 Here is what an implementation of the Comparable interface looks like:
@@ -121,5 +116,3 @@ public class MarblesProgram extends ConsoleProgram
     }
 }
 ```
-
-
