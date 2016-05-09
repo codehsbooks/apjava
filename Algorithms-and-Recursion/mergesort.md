@@ -8,7 +8,9 @@ Mergesort is an extremely efficient sorting algorithm, compared to selection and
 Mergesort uses what is known as a "Divide and Conquer" strategy. This means mergesort divides the problem into smaller parts until the array length is equal to one. Then it merges together adjacent arrays and sorts them until the whole list is sorted.
 
 Lets see this in action:
+
 ![Mergesort Example](../static/algorithms/Algorithms_and_Recursion_Mergesort_Example.gif)
+
 Here is another example:
 
 ![Mergesort Example](../static/algorithms/Algorithms_Mergesort_Example2.gif)
@@ -92,6 +94,7 @@ public class MyProgram extends ConsoleProgram
 ```
 
 Here is what this looks like in the editor:
+
 ![Mergesort Example In Editor](../static/algorithms/Algorithms_Mergesort_Example.png)
 
 
