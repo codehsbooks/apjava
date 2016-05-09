@@ -9,7 +9,7 @@ Interfaces are commonly used to help achieve polymorphism.
 
 To implement an interface we use the `implements` keyword after our class name, like: `public class Dog implements Animal`. In this case `Dog` is our class name, where `Animal` is our interface.
 
-Lets look at an interface for using a computer. We will call it `UseComputer`.
+Let's look at an interface for using a computer. We will call it `UseComputer`.
 
 ```Java
 public interface UseComputer
@@ -24,7 +24,7 @@ public interface UseComputer
 }
 ```
 
-Now, lets take a look at an example class which implements our interface:
+Now, let's take a look at an example class which implements our interface:
 
 ```Java
 public class GeneralUser implements UseComputer 
@@ -62,7 +62,7 @@ As you can see, we store the method signatures in our `UseComputer` interface, a
 ### Comparable Interface
 <hr>
 
-Java is full of interfaces, that you are free to utilize within your code. One interface you should become familiar with is the Comparable interface. The Comparable interface can be incredibly useful with sorting algorithms.
+Java is full of interfaces that you are free to utilize within your code. One interface you should become familiar with is the Comparable interface. The Comparable interface can be incredibly useful with sorting algorithms.
 
 Here is what an implementation of the Comparable interface looks like:
 
