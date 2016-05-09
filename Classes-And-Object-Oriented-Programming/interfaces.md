@@ -14,13 +14,13 @@ Let's look at an interface for using a computer. We will call it `UseComputer`.
 ```Java
 public interface UseComputer
 {
-  /* Notice how we end our method signatures with semi-colons `;`
-   * and not curly brackets
-   */ 
-  public void pressKey(Key keyPressed);
-  public void clickMouse(MouseEvent mouse);
-  public void shutDown();
-  public void startUp();
+    /* Notice how we end our method signatures with semi-colons `;`
+     * and not curly brackets
+     */ 
+    public void pressKey(Key keyPressed);
+    public void clickMouse(MouseEvent mouse);
+    public void shutDown();
+    public void startUp();
 }
 ```
 
@@ -29,30 +29,30 @@ Now, let's take a look at an example class which implements our interface:
 ```Java
 public class GeneralUser implements UseComputer 
 {
-  private boolean isShuttingDown = false;
-  private boolean isStartingUp = false;
-  
-  public void pressKey(Key keyPressed)
-  {
-    return keyPressed;
-  }
-  
-  public void clickMouse(MouseEvent mouse)
-  {
-    return mouse;
-  }
-  
-  public void shutDown()
-  {
-    isShuttingDown = true;
-    isStartingUp = false;
-  }
-  
-  public void startUp()
-  {
-    isShuttingDown = false;
-    isStartingUp = true;
-  }
+    private boolean isShuttingDown = false;
+    private boolean isStartingUp = false;
+    
+    public void pressKey(Key keyPressed)
+    {
+        return keyPressed;
+    }
+    
+    public void clickMouse(MouseEvent mouse)
+    {
+        return mouse;
+    }
+    
+    public void shutDown()
+    {
+        isShuttingDown = true;
+        isStartingUp = false;
+    }
+    
+    public void startUp()
+    {
+        isShuttingDown = false;
+        isStartingUp = true;
+    }
 }
 ```
 
