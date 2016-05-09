@@ -65,41 +65,41 @@ Here is what an implementation of the Comparable interface looks like:
 // Marbles class, implements Comparable
 public class Marbles implements Comparable<Marbles>
 {
-  private String owner;
-  private int quantity;
-  
-  public Marbles(String ownerName, int mQuantity)
-  {
-    owner = ownerName;
-    quantity = mQuantity;
-  }
-  
-  public String getOwner()
-  {
-    return owner;
-  }
-  
-  public int getQuantity()
-  {
-    return quantity;
-  }
-  
-  public void setOwner(String newOwner)
-  {
-    owner = newOwner;
-  }
-  
-  public void setQuantity(int newQuantity)
-  {
-    quantity = newQuantity;
-  }
-  
-  public int compareTo(Marbles comMarbles)
-  {
-    int comQuantity = comMarbles.getQuantity();
+    private String owner;
+    private int quantity;
     
-    return getQuantity() - comQuantity;
-  }
+    public Marbles(String ownerName, int mQuantity)
+    {
+        owner = ownerName;
+        quantity = mQuantity;
+    }
+    
+    public String getOwner()
+    {
+        return owner;
+    }
+    
+    public int getQuantity()
+    {
+        return quantity;
+    }
+    
+    public void setOwner(String newOwner)
+    {
+        owner = newOwner;
+    }
+    
+    public void setQuantity(int newQuantity)
+    {
+        quantity = newQuantity;
+    }
+    
+    public int compareTo(Marbles comMarbles)
+    {
+        int comQuantity = comMarbles.getQuantity();
+    
+        return getQuantity() - comQuantity;
+    }
 }
 
 // Our main class
