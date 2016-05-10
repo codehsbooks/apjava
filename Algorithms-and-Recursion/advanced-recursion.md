@@ -1,7 +1,7 @@
 # Advanced: Recursion
 Recursion is when you break down a given problem into smaller problems of the same instance. The goal is to break down the problems into smaller forms so that they become easier to solve. 
 
-In Computer Science, recursion is when a method calls itself to solve a given problem.
+In computer science, recursion is when a method calls itself to solve a given problem.
 
 ## What Recursion Looks Like
 ![Recursion Example](../static/algorithms/Algorithms_Recursion_Example.jpg)
@@ -43,8 +43,14 @@ private int factorial(int n)
 }
 ```
 While this solution definitely works, we can simply it using recursion.
-Looking at the formula for factorials: $$n*(n-1)*(n-2)*(n-3)...$$
-we can see a recurrence relation of: $$n! =\begin{cases}1 & n = 0,\\(n-1)!*n & n > 0\end{cases}$$
+Looking at the formula for factorials:
+`n * (n-1) * (n-2) * (n-3)...`
+
+we can see a recurrence relation of:
+```
+n!:   1 for n = 0,
+      (n-1)! * n for n > 0
+```
 
 Looking at this from a programming point of view, this means:
 ``factorial(0); = 1``, and ``factorial(n); = factorial(n-1) * n;``
@@ -73,12 +79,17 @@ private int factorial(int n)
 
 
 ### Fibonacci Sequence and Recursion:
-The Fibonacci Sequence is achieved by adding up the two previous numbers to get the next number. The sequence looks like: $$1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...$$
+The Fibonacci Sequence is achieved by adding up the two previous numbers to get the next number. The sequence looks like:
+`1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...`
 
-The recurrence relation for the Fibonacci Sequence is: $$F_{n} = F_{n-1} + F_{n-2}$$
-Given this formula, and looking at the sequence we can conclude that $$F_{0} = 1$$ and $$F_{1} = 1$$
+The recurrence relation for the Fibonacci Sequence is:
+```
+F(n) = F(n - 1) + F(n - 2)
+```
 
-From a programming point of view, this means ``fibonacci(0) = 1``, ``fibonacci(1) = 1``, and ``fibonacci(n) = fibonacci(n-1) + fibonacci(n-2)``
+Given this formula, and looking at the sequence we can conclude that `F(0) = 1` and `F(1) = 1`
+
+From a programming point of view, this means ``fibonacci(0) = 1``, ``fibonacci(1) = 1``, and ``fibonacci(n) = fibonacci(n - 1) + fibonacci(n - 2)``
 
 
 ##### Base Case:
