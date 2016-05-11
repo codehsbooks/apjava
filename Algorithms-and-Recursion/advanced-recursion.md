@@ -5,7 +5,9 @@ In computer science, recursion is when a method calls itself to solve a given pr
 
 ## What Recursion Looks Like
 ![Recursion Example](../static/algorithms/Algorithms_Recursion_Example.jpg)
+
 (Source: https://prateekvjoshi.com/2013/10/05/understanding-recursion-part-i/)
+
 
 ![Recursion Tower](../static/algorithms/Algorithms_Recursion_Tower_Example 2.gif)
 
@@ -34,12 +36,12 @@ Here is one example:
 ```Java
 private int factorial(int n)
 {
-  int res = 1;
-  for(int i = n; i > 0; i--)
-  {
-    res *= i;
-  }
-  return res;
+    int res = 1;
+    for(int i = n; i > 0; i--)
+    {
+        res *= i;
+    }
+    return res;
 }
 ```
 While this solution definitely works, we can simply it using recursion.
@@ -69,7 +71,7 @@ private int factorial(int n)
     // Our Base Case
     if(n == 0)
     {
-      return 1;
+        return 1;
     }
     
     // Our Recursive Case
@@ -103,14 +105,14 @@ Now that we have our ***Base Cases*** and ***Recursive Case*** we can construct 
 ```Java
 private int fibonacci(int num)
 {
-  // Our Base Cases
-  if(num == 0 || num == 1)
-  {
-    return 1;
-  }
-  
-  // Our Recursive Case
-  return fibonacci(num-1) + fibonacci(num-2);
+    // Our Base Cases
+    if(num == 0 || num == 1)
+    {
+        return 1;
+    }
+    
+    // Our Recursive Case
+    return fibonacci(num-1) + fibonacci(num-2);
 }
 ```
 
