@@ -27,6 +27,7 @@
    * [Comparison Operators](Basic-Java/comparison-operators.md)
    * [For Loops](Basic-Java/for-loops.md)
    * [While Loops](Basic-Java/while-loops.md)
+   * [Loop and a Half](Basic-Java/loop-and-a-half.md)
    * [If Statements](Basic-Java/if-statements.md)
    * [Strings](Basic-Java/strings.md)
 * [Methods](Methods/README.md)
