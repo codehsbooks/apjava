@@ -30,6 +30,7 @@
    * [If Statements](Basic-Java/if-statements.md)
    * [Loop and a Half](Basic-Java/loop-and-a-half.md)
    * [Short Circuit Evaluation](Basic-Java/short-circuit-evaluation.md)
+   * [De Morgan's Laws](Basic-Java/de-morgans-laws.md)
    * [Strings](Basic-Java/strings.md)
 * [Methods](Methods/README.md)
    * [Java Methods](Methods/java-methods.md)
