@@ -39,6 +39,7 @@
    * [Javadoc and More Methods](Methods/javadocs-and-more-methods.md)
    * [Strings Methods](Methods/strings-methods.md)
    * [Strings and Characters](Methods/strings-and-characters.md)
+   * [Exceptions](Methods/exceptions.md)
    * [String Processing](Methods/string-processing.md)
 * [Classes and Object-Oriented Programming](Classes-And-Object-Oriented-Programming/README.md)
    * [Introduction To Classes and Objects](Classes-And-Object-Oriented-Programming/introduction-to-classes-and-objects.md)
