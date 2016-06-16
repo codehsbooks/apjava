@@ -1,4 +1,4 @@
-# Loop and a Half
+# Loop-and-a-Half
 
 Recall that while loops execute as long as their condition is true. Repeating code while a condition is true can be very useful; for example, the `frontIsClear()` condition can be used to have Karel repeatedly move until the front is no longer clear. But what happens if the condition is always true?
 
