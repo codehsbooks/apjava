@@ -13,6 +13,8 @@ Here's how to set up a basic infinite loop:
         // code to execute
     }
     
+### Breaking out of a Loop
+    
 Repeating code is nice, but it's just as important to be able to stop the loop so that the rest of the program can continue executing. Loops can be stopped using the `break` statement. When the loop encounters a `break` statement, it quits running the loop and program flow continues.
 
     while(true)
@@ -25,4 +27,37 @@ Repeating code is nice, but it's just as important to be able to stop the loop s
             break;
         }
     }
+
+### Stopping with Sentinels
+
+Notice how in the previous example, the `break` statement occurs when a certain condition is true. Checking for a condition like this is a useful way to have the while loop repeat as many times as needed. This is especially true when getting input from the user. For example, you may want to print out numbers from the user until the program encounters the value `-1`. Such a program may look like this:
+
+    while(true)
+    {
+        int num = readInt("Enter an integer: ");
+        if(num == -1)
+        {
+            break;
+        }
+        System.out.println(num);
+    }
+
+We can clean up this code by using a variable instead of writing `-1` in the body of the program. This variable acts as a sentinel value that signals the end of the loop. As such, we'll name the variable `SENTINEL`:
+
+    int SENTINEL = -1;
     
+    while(true)
+    {
+        int num = readInt("Enter an integer: ");
+        if(num == SENTINEL)
+        {
+            break;
+        }
+        System.out.println(num);
+    }
+
+Using a sentinel value allows us to change the condition quickly and easily; for example, you can change the sentinel from `-1` to `0` and the loop will stop when the user enters `0`.
+
+## Why Use a Loop-and-a-Half?
+
+
