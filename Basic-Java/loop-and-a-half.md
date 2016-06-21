@@ -63,42 +63,43 @@ Using a sentinel value allows us to change the condition quickly and easily; for
 It may seem dangerous or time-consuming to use an infinite loop, but when used appropriately, the loop-and-a-half structure is efficient and effective. The loop-and-a-half structure is preferred because it avoids repeating code outside and inside the loop. Furthermore, it is often easier to reason through the logic behind a loop-and-a-half. For example, with a simple program that prints numbers to the screen:
 
 - Loop-and-a-Half:
-
-public class PrintNumbersA extends ConsoleProgram
-{
-    public void run()
+    ```
+    public class PrintNumbersA extends ConsoleProgram
     {
-        double SENTINEL = -1;
-
-        while(true)
+        public void run()
         {
-            int num = readInt("Enter an integer: ");
-            if(num == -1)
+            double SENTINEL = -1;
+    
+            while(true)
             {
-                break;
+                int num = readInt("Enter an integer: ");
+                if(num == SENTINEL)
+                {
+                    break;
+                }
+                System.out.println(num);
             }
-            System.out.println(num);
+            System.out.println("Done!");
         }
-        System.out.println("Done!");
     }
-}
-
+    ```
 - Repeated code:
-
-public class PrintNumbersB extends ConsoleProgram
-{
-    public void run()
+    ```
+    public class PrintNumbersB extends ConsoleProgram
     {
-        int num = readInt("Enter an integer: ");
-
-        while(num != -1)
+        public void run()
         {
-            System.out.println(num);
-            num = readInt("Enter an integer: ");
+            double SENTINEL = -1;
+            int num = readInt("Enter an integer: ");
+    
+            while(num != SENTINEL)
+            {
+                System.out.println(num);
+                num = readInt("Enter an integer: ");
+            }
+            System.out.println("Done!");
         }
-        System.out.println("Done!");
     }
-}
-
+    ```
 The second example `PrintNumberB` reads in user input both outside and inside the loop. By using `while(true)`, the loop-and-a-half structure only reads in the variable inside the loop. This cuts down on repeated code and avoids confusion.
 
