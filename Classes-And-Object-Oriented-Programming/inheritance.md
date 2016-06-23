@@ -23,7 +23,9 @@ It is important to know that the ***subclass*** inherits everything from the ***
 In order to show that a class relates to another, we use the **extends** keyword. Here is an example of a class that extends the **ConsoleProgram** class:
 
 ```Java
-public class Output extends ConsoleProgram {
+public class Output extends ConsoleProgram
+{
+    // code here
 }
 ``` 
 In this example `Output` is our ***subclass***, and `ConsoleProgram` is the ***superclass***.
