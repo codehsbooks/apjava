@@ -27,9 +27,10 @@ public class ExampleClass extends ConsoleProgram
     Animal myCat = new Animal("Kerby", true, 2);
   }
 }
+```
 
--------------------------------------------------
 
+```
 public class ExampleClass extends ConsoleProgram
 {
   public void run()
