@@ -68,7 +68,7 @@ It may seem dangerous or time-consuming to use an infinite loop, but when used a
     {
         public void run()
         {
-            double SENTINEL = -1;
+            int SENTINEL = -1;
     
             while(true)
             {
@@ -89,7 +89,7 @@ It may seem dangerous or time-consuming to use an infinite loop, but when used a
     {
         public void run()
         {
-            double SENTINEL = -1;
+            int SENTINEL = -1;
             int num = readInt("Enter an integer: ");
     
             while(num != SENTINEL)
