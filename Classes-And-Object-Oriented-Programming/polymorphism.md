@@ -1,22 +1,16 @@
 # Polymorphism
-<hr>
 ***Polymorphism*** is one of the most important concepts in Object Oriented Programming.
-<br>
-<br>
 ***Polymorphism*** is the capability of a single object to take on multiple forms. ***Polymorphism*** can also be explained as the ability to perform a single action, in many ways, across multiple objects. This means we can use the same method across different objects, using different implementations. 
 
 ### Concepts of Polymorphism
-<hr>
 There are several concepts of ***polymorphism*** that are crucial to understand. These include: 
 
 - **Method Overriding:** Allows us to call the correct implementation of a method across multiple objects that share the same superclass.
 
 - **Upcasting:** Occurs when the reference variable of a superclass points to the object of the subclass. This allows us to go from a low level class type to a higher level one.
-<br>
   - ex: `Animal fox = new Fox();`, `Animal dog = new Dog();`
 
 - **Downcasting:** Occurs when the reference variable of a subclass points to an object of the superclass type. This will manually convert the object type to that of the subclass.
-<br>
   - ex: `Animal animal = new Fox();` `Fox castedFox = (Fox) animal`
 
 - **Dynamic Binding:** Is the concept where the proper method implementation is chosen at run-time, and not compilation.
@@ -25,7 +19,6 @@ There are several concepts of ***polymorphism*** that are crucial to understand.
 
 
 ### Method Overriding
-<hr>
 ***Method Overriding*** allows us to use the same method across multiple objects, with differing implementations. Let's take a look at an example of this concept:
 
 ```Java
@@ -67,7 +60,6 @@ public class UpcastingExample extends ConsoleProgram
 ```
 
 ### Upcasting:
-<hr>
 ***Upcasting*** refers to taking an object of a lower level class type and referencing it to a class of a higher level. Lets look at an example of this:
 
 ```Java
@@ -105,7 +97,6 @@ public class UpcastingExample extends ConsoleProgram
 }
 ```
 ### Downcasting
-<hr>
 ***Downcasting*** is conversion of a reference variable's type to that of the subclass. A difference in ***downcasting***, as compared to ***upcasting***, is that you must manually downcast. Lets look at an example of this:
 
 ```Java
@@ -149,19 +140,16 @@ public class UpcastingExample extends ConsoleProgram
 ```
 
 ### Dynamic Binding
-<hr>
 ***Dynamic Binding*** is an important concept to ***runtime polymorphism***. It is the concept of the proper method implementation being chosen at run-time. Lets look at an example: 
 
 ![Dynamic Binding Example](../static/classesAndOOP/Classes_and_OOP_Polymorphism_Dynamic_Binding.png)
 
 ### Static Binding
-<hr>
 ***Static Binding*** is another important concept to ***polymorphism***. ***Static binding*** chooses the proper method implementation at compilation, and not run-time. ***Static binding*** only checks the type of the reference variable and not where it is pointing. Lets look at an example of this concept:
 ![Static Binding Example](../static/classesAndOOP/Classes_And_OOP_Polymorphism_Static_Binding.png)
 
 
 ### Polymorphic Arrays
-<hr>
 ***Polymorphic Arrays*** allow us to store an array of objects with differing types that share the same superclass. Lets see this in action:
 
 ```Java
