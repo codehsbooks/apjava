@@ -24,38 +24,38 @@ There are several concepts of ***polymorphism*** that are crucial to understand.
 ```Java
 public abstract class Animal
 {
-  public abstract String speak();
+	public abstract String speak();
 }
 
 public class Dog extends Animal
 {
-  public String speak()
-  {
-    return "The dog says woof!";
-  }
+	public String speak()
+	{
+		return "The dog says woof!";
+	}
 }
 
 public class Fox extends Animal
 {
-  public String speak()
-  {
-    return "What does the fox say?";
-  }
+	public String speak()
+	{
+		return "What does the fox say?";
+	}
 }
 
 public class UpcastingExample extends ConsoleProgram
 {
-  public void run()
-  {
-    Animal myFox = new Fox();
-    Animal myDog = new Dog();
-    
-    /* Polymorphism here is seen as the correct implementaiton of `speak()`
-     * being chosen, regardless of the object type. */
-     
-    System.out.println(myFox.speak()); // Will print `What does the fox say?`
-    System.out.println(myDog.speak()); // Will print `The dog says woof!`
-  }
+	public void run()
+	{
+		Animal myFox = new Fox();
+		Animal myDog = new Dog();
+	
+		/* Polymorphism here is seen as the correct implementaiton of `speak()`
+		 * being chosen, regardless of the object type. */
+	
+		System.out.println(myFox.speak()); // Will print `What does the fox say?`
+		System.out.println(myDog.speak()); // Will print `The dog says woof!`
+	}
 }
 ```
 
@@ -65,35 +65,35 @@ public class UpcastingExample extends ConsoleProgram
 ```Java
 public abstract class Animal
 {
-  public abstract String speak();
+	public abstract String speak();
 }
 
 public class Dog extends Animal
 {
-  public String speak()
-  {
-    return "The dog says woof!";
-  }
+	public String speak()
+	{
+		return "The dog says woof!";
+	}
 }
 
 public class Fox extends Animal
 {
-  public String speak()
-  {
-    return "What does the fox say?";
-  }
+	public String speak()
+	{
+		return "What does the fox say?";
+	}
 }
 
 public class UpcastingExample extends ConsoleProgram
 {
-  public void run()
-  {
-    Animal myDog = new Dog(); // Upcasting
-    Animal myFox = new Fox(); // Upcasting
-  
-    System.out.println(myDog.speak()); // Will print `The dog says woof!`
-    System.out.println(myFox.speak()); // Will print `What does the fox say?`
-  }
+	public void run()
+	{
+		Animal myDog = new Dog(); // Upcasting
+		Animal myFox = new Fox(); // Upcasting
+		
+		System.out.println(myDog.speak()); // Will print `The dog says woof!`
+		System.out.println(myFox.speak()); // Will print `What does the fox say?`
+	}
 }
 ```
 ### Downcasting
@@ -102,40 +102,40 @@ public class UpcastingExample extends ConsoleProgram
 ```Java
 public abstract class Animal
 {
-  public abstract String speak();
+	public abstract String speak();
 }
 
 public class Dog extends Animal
 {
-  public String speak()
-  {
-    return "The dog says woof!";
-  }
+	public String speak()
+	{
+		return "The dog says woof!";
+	}
 }
 
 public class Fox extends Animal
 {
-  public String speak()
-  {
-    return "What does the fox say?";
-  }
+	public String speak()
+	{
+		return "What does the fox say?";
+	}
 }
 
 public class UpcastingExample extends ConsoleProgram
 {
-  public void run()
-  {
-    // Upcasting is done automatically
-    Animal myDog = new Dog(); // Upcasting
-    Animal myFox = new Fox(); // Upcasting
-  
-    // Downcasting must be done manually
-    Dog yourDog = (Dog) myDog; // Downcasting
-    Fox yourFox = (Fox) myFox; // Downcasting
-  
-    System.out.println(yourDog.speak()); // Will print `The dog says woof!`
-    System.out.println(yourFox.speak()); // Will print `What does the fox say?`
-  }
+	public void run()
+	{
+		// Upcasting is done automatically
+		Animal myDog = new Dog(); // Upcasting
+		Animal myFox = new Fox(); // Upcasting
+		
+		// Downcasting must be done manually
+		Dog yourDog = (Dog) myDog; // Downcasting
+		Fox yourFox = (Fox) myFox; // Downcasting
+		
+		System.out.println(yourDog.speak()); // Will print `The dog says woof!`
+		System.out.println(yourFox.speak()); // Will print `What does the fox say?`
+	}
 }
 ```
 
@@ -155,52 +155,52 @@ public class UpcastingExample extends ConsoleProgram
 ```Java
 public abstract class Animal
 {
-  public abstract String speak();
+	public abstract String speak();
 }
 
 public class Dog extends Animal
 {
-  public String speak()
-  {
-    return "The dog says woof!";
-  }
+	public String speak()
+	{
+		return "The dog says woof!";
+	}
 }
 
 public class Fox extends Animal
 {
-  public String speak()
-  {
-    return "What does the fox say?";
-  }
+	public String speak()
+	{
+		return "What does the fox say?";
+	}
 }
 
 public class Cow extends Animal
 {
-  public String speak()
-  {
-    return "The cow goes moo!";
-  }
+	public String speak()
+	{
+		return "The cow goes moo!";
+	}
 }
 
 public class AnimalArrays extends ConsoleProgram
 {
-  public void run()
-  {
-    // Create the array and set its size to `3`
-    Animal[] animalArray = new Animal[3];
-    
-    // Set each object in the array
-    animalArray[0] = new Dog();
-    animalArray[1] = new Fox();
-    animalArray[2] = new Cow();
-    
-    // Print out the array
-    for(int i = 0; i < animalArray.length; i++)
-    {
-      // Will print out the various `speak()` methods for each animal.
-      System.out.println(animalArray[i].speak());
-    }
-  }
+	public void run()
+	{
+		// Create the array and set its size to `3`
+		Animal[] animalArray = new Animal[3];
+		
+		// Set each object in the array
+		animalArray[0] = new Dog();
+		animalArray[1] = new Fox();
+		animalArray[2] = new Cow();
+		
+		// Print out the array
+		for(int i = 0; i < animalArray.length; i++)
+		{
+			// Will print out the various `speak()` methods for each animal.
+			System.out.println(animalArray[i].speak());
+		}
+	}
 }
 ```
 
