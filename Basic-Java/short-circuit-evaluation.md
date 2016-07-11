@@ -1,1 +1,1 @@
-# Short Circuit Evaluation
+# Short-Circuit Evaluation
