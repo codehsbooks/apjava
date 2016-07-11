@@ -65,7 +65,7 @@ You are not limited to simply storing each character into a new resulting String
 
 ## Finding Palindromes
 
-Let's look at a more advanced example of String processing. In this example, we will write a program which checks to see if a given String is a palindrome. **A palindrome** is a word or sentence that is the same forwards and backwards. Here are a some examples of palindromes:
+Let's look at a more advanced example of String processing. In this example, we will write a program which checks to see if a given String is a palindrome. A **palindrome** is a word or sentence that is the same forwards and backwards. Here are a some examples of palindromes:
 
 ```
 racecar
