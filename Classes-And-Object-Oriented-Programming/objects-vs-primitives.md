@@ -17,7 +17,7 @@ These primitive types can be combined and used to build more complex objects. Pr
 
 ### Primitives and Objects
 
-Objects are made up of primitive data types. For example, a Movie object may have a title, director, whether it is a sequel, number of tickets sold, and runtime of the movie in minutes:
+Primitive data types are used to make objects. For example, a Movie object may have a title, director, whether it is a sequel, number of tickets sold, and runtime of the movie in minutes:
 
 ```
 public class Movie
@@ -30,16 +30,24 @@ public class Movie
 }
 ```
 
-
-
-
 #### Strings are not Primitives
+Note that Strings are **not** a primitive data type. Strings are sequences of characters. As such, when creating a new string of text, be sure to capitalize the S in String: ```private String nyName```
 
+### Making Comparisons
+Comparing primitive data types like integers is straightforward using `==`. For example, to check if a user-entered number is 0:
 
-### Comparing Data
+```
+int userNumber = readInt("Enter a number: ");
+System.out.println(userNumber == 0);
+```
 
+The values of objects, however, cannot be compared with the `==`. Instead, objects are compared with a `.equals` method. For example:
 
-### Passing Data
+```
+String textOne = new String("Hello world!");
+String textTwo = new String("Hello world!");
+System.out.println(textOne.equals(textTwo));
+```
 
 
 
