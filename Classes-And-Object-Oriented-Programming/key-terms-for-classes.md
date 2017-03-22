@@ -1,6 +1,6 @@
 # Key Terms for Classes
 
-You've likely noticed that learning a programming language involves learning a lot of new vocabulary terms. LLet's review some of the key concepts and terms that we've learned so far.
+You've likely noticed that learning a programming language involves learning a lot of new vocabulary terms. Let's review some of the key concepts and terms that we've learned so far.
 
 ## Objects and Classes
 
