@@ -67,7 +67,7 @@ Let's say we wanted to access Trevor Forry's and Ada Lovelace's grades. To do so
 ```Java
 // `adaGrade` would contain `96`
 int adaGrade = gradeBook.get("Ada Lovelace");
-// `trevGrade` would tonain `100`
+// `trevGrade` would contain `100`
 int trevGrade = gradeBook.get("Trevor Forrey");
 ```
 <br>
